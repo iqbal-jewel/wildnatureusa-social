@@ -1,0 +1,5 @@
+openpyxl>=3.1
+Pillow>=10.0
+requests>=2.31
+# Windows ships no system tz database; zoneinfo needs this for America/New_York.
+tzdata>=2024.1; sys_platform == "win32"
