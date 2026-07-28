@@ -125,6 +125,13 @@
       "status": "scheduled",
       "at": "2026-07-28T21:14:58+00:00",
       "publish_at": "2026-08-04T16:00:00-04:00"
+    },
+    "FB-IMG-0026": {
+      "platform": "Facebook",
+      "remote_id": "122119951161282988",
+      "status": "scheduled",
+      "at": "2026-07-28T23:07:58+00:00",
+      "publish_at": "2026-08-04T18:00:00-04:00"
     }
   },
   "comments": {
@@ -143,6 +150,12 @@
     "FB-IMG-0019": {
       "due_at": "2026-08-03T23:00:00+00:00",
       "message": "🎉 Answer: the Atlantic Salmon! It returns to spawn in the very same river where it hatched.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "FB-IMG-0026": {
+      "due_at": "2026-08-04T23:00:00+00:00",
+      "message": "🎉 Answer: the Mute Swan! It mates for life and both parents raise the cygnets.",
       "platform": "Facebook",
       "status": "pending"
     }
