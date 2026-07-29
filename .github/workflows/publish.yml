@@ -1,8 +1,16 @@
 name: publish
 
 # Runs hourly. Each run is a no-op unless something is actually due, so the
-# schedule needs no DST handling and a missed or delayed run self-heals on
-# the next tick. Post_ID idempotency stops anything being sent twice.
+# schedule needs no DST handling. Post_ID idempotency stops anything being
+# sent twice.
+#
+# GitHub throttles scheduled workflows heavily -- gaps of 91 to 254 minutes
+# were measured on this repo against this hourly cron -- so neither path
+# assumes it runs on time. Facebook posts are handed to Meta's own scheduler
+# up to 7 days ahead and fire even if this workflow is down for a week.
+# Instagram cannot be scheduled server-side, so it tolerates a post being up
+# to 6 hours late (--max-late) and records anything beyond that as a visible
+# skip rather than dropping it silently.
 on:
   schedule:
     - cron: "0 * * * *"
