@@ -160,6 +160,13 @@
       "status": "scheduled",
       "at": "2026-07-29T21:04:24+00:00",
       "publish_at": "2026-08-05T16:00:00-04:00"
+    },
+    "FB-IMG-0033": {
+      "platform": "Facebook",
+      "remote_id": "122120027823282988",
+      "status": "scheduled",
+      "at": "2026-07-29T23:04:14+00:00",
+      "publish_at": "2026-08-05T18:00:00-04:00"
     }
   },
   "comments": {
@@ -184,6 +191,12 @@
     "FB-IMG-0026": {
       "due_at": "2026-08-04T23:00:00+00:00",
       "message": "🎉 Answer: the Mute Swan! It mates for life and both parents raise the cygnets.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "FB-IMG-0033": {
+      "due_at": "2026-08-05T23:00:00+00:00",
+      "message": "🎉 Answer: the Tarsier! It can rotate its head nearly 180 degrees in each direction.",
       "platform": "Facebook",
       "status": "pending"
     }
