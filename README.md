@@ -1,9 +1,7 @@
 # WildNatureUSA social automation
 
 Publishes the 6-month content plan to a Facebook Page and an Instagram
-Business account: 1,288 posts across 184 days, Aug 1 2026 – Jan 31 2027.
-
-Publishes 1,656 posts across 184 days:
+Business account: **1,656 posts across 184 days**, Aug 1 2026 – Jan 31 2027.
 
 | Platform  | Daily cadence                                      |
 |-----------|----------------------------------------------------|
@@ -86,7 +84,8 @@ photos/  197 species photographs + credits.json (licence + attribution)
 images/  552 quiz PNGs (committed -- Instagram fetches these)
          fact cards render here on demand and are gitignored
 fonts/   Poppins-Bold.ttf (OFL) so local and CI renders match
-docs/    token-setup.md  how to get a token that outlives the plan
+docs/    playbook.md     what was learned here; read before reusing this
+         token-setup.md  how to get a token that outlives the plan
 state/   state.json  run-time status, committed after each run
 ```
 
