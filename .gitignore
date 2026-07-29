@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Fact cards are rendered on demand at scheduling time from photos/ + the
+# plan, so they are never committed. Facebook takes the image bytes directly,
+# so unlike the quiz cards these need no public URL -- committing all 736
+# would add ~177 MB to a repo that gets checked out every hour by Actions.
+images/FB-TXT-*.jpg

@@ -50,6 +50,46 @@ def log(msg):
     print(f"[{dt.datetime.now(plan.ET):%Y-%m-%d %H:%M %Z}] {msg}", flush=True)
 
 
+_credits = None
+
+
+def credits():
+    global _credits
+    if _credits is None:
+        _credits = render.load_credits()
+    return _credits
+
+
+def image_for(post) -> Path:
+    """The image to publish, rendering it first if it is not on disk.
+
+    Quiz cards are committed because Instagram fetches them over HTTP. Fact
+    cards are Facebook-only -- the bytes go up in the request -- so they are
+    gitignored and rendered here on demand.
+    """
+    img = IMAGES / post.image_name
+    if img.exists():
+        return img
+    if post.is_quiz:
+        # These are committed; a missing one means the render step was skipped.
+        raise FileNotFoundError(f"{img} not rendered -- run python -m src.render")
+    return render.render_fact(post, credits())
+
+
+def caption_for(post) -> str:
+    """Caption as published. Fact cards carry the photo credit.
+
+    The credit is burned into the image too, but a caption line is what makes
+    the attribution survive Facebook's own re-encoding and any crop.
+    """
+    if post.is_quiz:
+        return post.caption
+    entry = credits().get(post.animal)
+    if not entry:
+        return post.caption
+    return f"{post.caption}\n\n📷 {render.credit_line(entry)}"
+
+
 # --- commands -------------------------------------------------------------
 def cmd_schedule_fb(args, posts, st):
     now = now_et()
@@ -67,19 +107,14 @@ def cmd_schedule_fb(args, posts, st):
     failures = 0
     for p in todo:
         if not args.live:
+            have = "img" if (IMAGES / p.image_name).exists() else "render"
             log(f"  DRY  {p.post_id} {p.publish_at:%m-%d %H:%M} {p.kind:4} "
-                f"{p.caption.splitlines()[0][:60]}")
+                f"[{have:6}] {p.caption.splitlines()[0][:52]}")
             continue
         try:
-            if p.is_quiz:
-                img = IMAGES / p.image_name
-                if not img.exists():
-                    raise FileNotFoundError(f"{img} not rendered")
-                rid = meta.fb_photo(creds["page_id"], creds["token"], img,
-                                    p.caption, scheduled_at=p.publish_at)
-            else:
-                rid = meta.fb_text(creds["page_id"], creds["token"],
-                                   p.caption, scheduled_at=p.publish_at)
+            img = image_for(p)
+            rid = meta.fb_photo(creds["page_id"], creds["token"], img,
+                                caption_for(p), scheduled_at=p.publish_at)
             st.record_post(p.post_id, "Facebook", rid, status="scheduled",
                            publish_at=p.publish_at.isoformat())
             if p.is_quiz and p.answer:
@@ -97,8 +132,24 @@ def cmd_schedule_fb(args, posts, st):
 
 def cmd_run(args, posts, st):
     now = now_et()
-    todo = [p for p in plan.due(posts, now, args.window)
-            if p.platform == "Instagram" and not st.is_done(p.post_id)]
+    ig = [p for p in posts if p.platform == "Instagram"]
+    todo = [p for p in plan.due(ig, now, args.max_late) if not st.is_done(p.post_id)]
+
+    # Slots that passed beyond the tolerance are booked as deliberate skips.
+    # Without this they would simply stop appearing and the loss would be
+    # invisible -- which is exactly how the old 90-minute window failed.
+    stale = [p for p in plan.overdue(ig, now, args.max_late)
+             if not st.is_done(p.post_id)]
+    for p in stale:
+        late = int((now - p.publish_at).total_seconds() // 60)
+        log(f"  {'SKIP' if args.live else 'DRY  SKIP'} {p.post_id} "
+            f"{p.publish_at:%m-%d %H:%M} missed by {late} min")
+        if args.live:  # a dry run must never touch state
+            st.record_skipped(p.post_id, "Instagram", p.publish_at.isoformat(),
+                              f"slot missed by {late} min "
+                              f"(tolerance {args.max_late})")
+    if stale and args.live:
+        st.save()
 
     log(f"{len(todo)} Instagram posts due")
     creds = meta.credentials() if args.live else None
@@ -175,6 +226,23 @@ def cmd_status(args, posts, st):
         log(f"  missing: {', '.join(p.post_id for p in missing[:5])}"
             f"{' ...' if len(missing) > 5 else ''}")
 
+    # Fact cards are rendered on demand, so what matters is that every species
+    # has a photo to render *from* -- a gap here only surfaces at publish time.
+    facts = [p for p in posts if not p.is_quiz]
+    try:
+        cr = render.load_credits()
+        no_photo = sorted({p.animal for p in facts
+                           if p.animal not in cr
+                           or not (render.PHOTOS / cr[p.animal]["file"]).exists()})
+        log(f"fact-card photos: {len({p.animal for p in facts}) - len(no_photo)}"
+            f"/{len({p.animal for p in facts})} species covered")
+        if no_photo:
+            log(f"  MISSING photos for: {', '.join(no_photo[:8])}"
+                f"{' ...' if len(no_photo) > 8 else ''}")
+            log("  run: python tools/fetch_photos.py")
+    except FileNotFoundError as e:
+        log(f"fact-card photos: {e}")
+
     for key in ("WILDNATUREUSA_PAGE_ID", "WILDNATUREUSA_PAGE_TOKEN",
                 "WILDNATUREUSA_IG_USER_ID", "IMAGE_BASE_URL"):
         log(f"env {key}: {'set' if os.environ.get(key) else 'MISSING'}")
@@ -223,8 +291,10 @@ def main(argv=None):
                     help="actually publish; without it nothing is sent")
     ap.add_argument("--days", type=int, default=7,
                     help="scheduling horizon for schedule-fb")
-    ap.add_argument("--window", type=int, default=90,
-                    help="minutes back from now still counted as due")
+    ap.add_argument("--max-late", type=int, default=360, dest="max_late",
+                    help="how many minutes past its slot a post may still be "
+                         "published; beyond this the slot is recorded as "
+                         "skipped (default 360)")
     ap.add_argument("--plan", default=str(PLAN_PATH))
     ap.add_argument("--now", help="simulate a moment in ET, e.g. 2026-08-01T11:05 "
                                   "(dry-run testing only)")

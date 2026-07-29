@@ -22,9 +22,25 @@ class State:
         self.data.setdefault("posts", {})
         self.data.setdefault("comments", {})
 
+    # A post in any of these states is never sent again. "skipped" is included
+    # deliberately: it means we consciously let the slot go, and retrying it
+    # later would publish content hours or days out of place.
+    TERMINAL = ("posted", "scheduled", "skipped")
+
     # --- posts ---
     def is_done(self, post_id) -> bool:
-        return self.data["posts"].get(post_id, {}).get("status") in ("posted", "scheduled")
+        return self.data["posts"].get(post_id, {}).get("status") in self.TERMINAL
+
+    def record_skipped(self, post_id, platform, publish_at, reason):
+        """Record a slot we chose not to fill, so it is visible in state."""
+        self.data["posts"][post_id] = {
+            "platform": platform,
+            "remote_id": None,
+            "status": "skipped",
+            "reason": reason,
+            "publish_at": publish_at,
+            "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        }
 
     def record_post(self, post_id, platform, remote_id, status="posted", **extra):
         self.data["posts"][post_id] = {

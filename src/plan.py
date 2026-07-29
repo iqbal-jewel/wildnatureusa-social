@@ -42,7 +42,9 @@ class Post:
 
     @property
     def image_name(self) -> str:
-        return f"{self.post_id}.png"
+        # Quiz cards are flat colour and stay lossless; fact cards are
+        # photographs, where PNG costs ~2 MB against ~200 KB for JPEG.
+        return f"{self.post_id}.png" if self.is_quiz else f"{self.post_id}.jpg"
 
 
 def _parse_when(date_str, time_str) -> dt.datetime:
@@ -82,8 +84,27 @@ def load(path: str | Path) -> list[Post]:
     return posts
 
 
-def due(posts, now=None, window_minutes=90):
-    """Posts whose slot has arrived within the trailing window."""
+def due(posts, now=None, max_late_minutes=360):
+    """Posts whose slot has passed and which are still worth publishing.
+
+    This is a lateness tolerance, not a narrow window around `now`. GitHub's
+    scheduled runners are throttled and routinely skip hours at a time -- gaps
+    of 91 to 254 minutes were observed on this repo against an hourly cron --
+    so a tight window silently drops any post whose slot fell inside a gap,
+    with no error and no retry. The tolerance has to comfortably exceed the
+    worst expected gap.
+
+    It is still bounded: publishing yesterday's post today is worse than not
+    publishing it. Anything past the bound is reported by `overdue` so it can
+    be recorded as a deliberate skip rather than vanishing.
+    """
     now = now or dt.datetime.now(ET)
-    lo = now - dt.timedelta(minutes=window_minutes)
+    lo = now - dt.timedelta(minutes=max_late_minutes)
     return [p for p in posts if lo <= p.publish_at <= now]
+
+
+def overdue(posts, now=None, max_late_minutes=360):
+    """Posts whose slot passed too long ago to publish now."""
+    now = now or dt.datetime.now(ET)
+    lo = now - dt.timedelta(minutes=max_late_minutes)
+    return [p for p in posts if p.publish_at < lo]
