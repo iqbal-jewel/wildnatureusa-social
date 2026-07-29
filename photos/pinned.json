@@ -1,0 +1,11 @@
+{
+  "_comment": "Hand-picked Commons files. fetch_photos.py uses these verbatim and skips the automated studio/size heuristics, which cannot tell whether a photo is editorially right for a wildlife page. Each entry here replaced something the automation chose badly.",
+  "_why": {
+    "Atlantic Bluefin Tuna": "automation returned a dead fish on a boat deck",
+    "Channel Catfish": "automation returned a juvenile dwarfed by a human hand",
+    "Flying Fish": "common-name collision: automation returned a Thorpe Park rollercoaster"
+  },
+  "Atlantic Bluefin Tuna": "Group of tuna.jpg",
+  "Channel Catfish": "Ictalurus punctatus 1.jpg",
+  "Flying Fish": "Flying fish from the family Exocoetidae.png"
+}

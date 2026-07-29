@@ -51,6 +51,12 @@ card crops and draws over the image on a Page that can carry ads, so
 NonCommercial and NoDerivs are both out. Attribution is burned into the card
 and repeated in the caption, so a reshare keeps it either way.
 
+`--habitat` skips specimen-on-white shots and anything too small for a 1080px
+card. It cannot judge editorial fitness, though — asked for a better Atlantic
+Bluefin Tuna it returned a dead one on a boat deck. Species needing a human
+eye are pinned to a specific Commons file in `photos/pinned.json`, which is
+used verbatim and bypasses every heuristic.
+
 ### Timing
 
 Times in the plan are US Eastern and the run crosses the Nov 1 2026 DST
@@ -76,6 +82,7 @@ tools/   grammar.py, rewrite_plan.py, validate_plan.py
          test_catchup.py   proves a missed slot is not silently dropped
 src/     plan.py, render.py, meta.py, state.py, publish.py
 photos/  197 species photographs + credits.json (licence + attribution)
+         pinned.json  hand-picked Commons files that override the heuristics
 images/  552 quiz PNGs (committed -- Instagram fetches these)
          fact cards render here on demand and are gitignored
 fonts/   Poppins-Bold.ttf (OFL) so local and CI renders match

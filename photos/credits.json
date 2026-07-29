@@ -122,10 +122,10 @@
   "Atlantic Bluefin Tuna": {
     "file": "atlantic-bluefin-tuna.jpg",
     "licence": "Public domain",
-    "author": "Unknown author Unknown author",
+    "author": "Danilo Cedrone (United Nations Food and Agriculture Organization)",
     "licence_url": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Bluefin-big.jpg",
-    "commons_file": "Bluefin-big.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Group_of_tuna.jpg",
+    "commons_file": "Group of tuna.jpg"
   },
   "Atlantic Puffin": {
     "file": "atlantic-puffin.jpg",
@@ -306,10 +306,10 @@
   "Channel Catfish": {
     "file": "channel-catfish.jpg",
     "licence": "Public domain",
-    "author": "USFWS Mountain Prairie",
+    "author": "Engbretson, Eric / U.S. Fish and Wildlife Service",
     "licence_url": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Channel_Catfish_(Ictalurus_punctatus)_white_background.jpg",
-    "commons_file": "Channel_Catfish_(Ictalurus_punctatus)_white_background.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Ictalurus_punctatus_1.jpg",
+    "commons_file": "Ictalurus punctatus 1.jpg"
   },
   "Cheetah": {
     "file": "cheetah.jpg",
@@ -521,11 +521,11 @@
   },
   "Flying Fish": {
     "file": "flying-fish.jpg",
-    "licence": "Public domain",
-    "author": "David Starr Jordan and Barton Warren Evermann",
-    "licence_url": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Sailfin_flyingfish.jpg",
-    "commons_file": "Sailfin_flyingfish.jpg"
+    "licence": "CC BY-SA 4.0",
+    "author": "Rebecca R. Helm. Image by Songda Cai.",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flying_fish_from_the_family_Exocoetidae.png",
+    "commons_file": "Flying fish from the family Exocoetidae.png"
   },
   "Fruit Bat": {
     "file": "fruit-bat.jpg",
@@ -761,11 +761,11 @@
   },
   "Hellbender": {
     "file": "hellbender.jpg",
-    "licence": "CC BY 2.0",
-    "author": "Brian Gratwicke",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hellbender.jpg",
-    "commons_file": "Hellbender.jpg"
+    "licence": "CC BY 4.0",
+    "author": "evangrimes",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cryptobranchus_alleganiensis_156635149.jpg",
+    "commons_file": "Cryptobranchus alleganiensis 156635149.jpg"
   },
   "Hippopotamus": {
     "file": "hippopotamus.jpg",
@@ -881,11 +881,11 @@
   },
   "Leopard Gecko": {
     "file": "leopard-gecko.jpg",
-    "licence": "CC BY-SA 2.0",
-    "author": "Matt Reinbold",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Eublepharis_macularius1.jpg",
-    "commons_file": "Eublepharis_macularius1.jpg"
+    "licence": "Public domain",
+    "author": "George Chernilevsky",
+    "licence_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eublepharis_macularius_2009_G6.jpg",
+    "commons_file": "Eublepharis macularius 2009 G6.jpg"
   },
   "Llama": {
     "file": "llama.jpg",
@@ -1137,11 +1137,11 @@
   },
   "Pufferfish": {
     "file": "pufferfish.jpg",
-    "licence": "Public domain",
-    "author": "National Oceanic and Atmospheric Administration",
-    "licence_url": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Tetraodon-hispidus.jpg",
-    "commons_file": "Tetraodon-hispidus.jpg"
+    "licence": "CC BY-SA 4.0",
+    "author": "George Berninger Jr.",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Finepatterned_Pufferfish_(Takifugu_poecilonotus)_-_GRB.jpg",
+    "commons_file": "Finepatterned Pufferfish (Takifugu poecilonotus) - GRB.jpg"
   },
   "Purple Sea Urchin": {
     "file": "purple-sea-urchin.jpg",

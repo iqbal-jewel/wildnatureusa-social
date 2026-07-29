@@ -9,7 +9,15 @@ licence breaches waiting to happen.
 
     python tools/fetch_photos.py               # fetch whatever is missing
     python tools/fetch_photos.py --force       # re-fetch even if cached
+    python tools/fetch_photos.py --habitat     # skip specimen-on-white shots
     python tools/fetch_photos.py "King Cobra"  # just these species
+
+`--habitat` rejects candidates that look like a cut-out on a blank backdrop,
+or that are too small to fill a 1080px card without upscaling, and keeps
+searching. It cannot judge whether a photo is *editorially* right: asked for a
+better Atlantic Bluefin Tuna it happily returned a dead one on a boat deck.
+For those, list the Commons file by hand in photos/pinned.json, which is used
+verbatim and bypasses every heuristic.
 
 Writes photos/<slug>.jpg plus photos/credits.json. Species that cannot be
 satisfied land in photos/unresolved.json so the render step fails loudly
@@ -33,6 +41,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PHOTOS = ROOT / "photos"
 CREDITS = PHOTOS / "credits.json"
 UNRESOLVED = PHOTOS / "unresolved.json"
+PINNED = PHOTOS / "pinned.json"
 PLAN_PATH = ROOT / "plan" / "content_plan_fixed.xlsx"
 
 WP_API = "https://en.wikipedia.org/w/api.php"
@@ -44,6 +53,7 @@ UA = ("WildNatureUSA-social/1.0 "
       "iqbalhossenjewel@gmail.com)")
 
 THUMB_PX = 1600   # what we ask Commons for
+MIN_PX = 640      # short edge below this upscales badly at 1080 square
 SAVE_PX = 1400    # what we keep on disk; the render target is 1080 square
 PAUSE = 0.3
 
@@ -175,6 +185,46 @@ def is_free(meta):
     return lic.startswith(ALLOWED_PREFIX)
 
 
+def studio_score(raw):
+    """How much a photo looks like a specimen shot on a blank backdrop.
+
+    Returns the mean brightness of the border ring and its spread. A cut-out
+    on white gives a very bright, very flat border; an animal photographed in
+    its habitat gives a darker, noisier one. Used to prefer in-habitat shots,
+    which make a far better full-bleed card than a floating specimen.
+    """
+    img = Image.open(io.BytesIO(raw)).convert("L").resize((64, 64))
+    px = img.load()
+    n = 64
+    ring = ([px[x, 0] for x in range(n)] + [px[x, n - 1] for x in range(n)]
+            + [px[0, y] for y in range(n)] + [px[n - 1, y] for y in range(n)])
+    mean = sum(ring) / len(ring)
+    var = sum((v - mean) ** 2 for v in ring) / len(ring)
+    return mean, var ** 0.5
+
+
+def looks_studio(raw):
+    mean, sd = studio_score(raw)
+    return mean > 225 and sd < 22
+
+
+def too_small(raw, minimum=MIN_PX):
+    """Reject anything that would have to be upscaled into the card.
+
+    Commons serves the original when it is smaller than the thumbnail width
+    asked for, so a candidate can come back at 230px and still look like a
+    successful fetch. Rendered at 1080 square that is visible mush.
+    """
+    w, h = Image.open(io.BytesIO(raw)).size
+    return min(w, h) < minimum
+
+
+def fetch_bytes(session, url):
+    r = session.get(url, timeout=60)
+    r.raise_for_status()
+    return r.content
+
+
 def download(session, url, dest):
     """Fetch and normalise to a repo-friendly JPEG.
 
@@ -199,10 +249,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("species", nargs="*", help="limit to these species")
     ap.add_argument("--force", action="store_true", help="re-fetch cached entries")
+    ap.add_argument("--habitat", action="store_true",
+                    help="prefer in-habitat shots over specimen-on-white ones")
     args = ap.parse_args()
 
     PHOTOS.mkdir(exist_ok=True)
     credits = json.loads(CREDITS.read_text("utf-8")) if CREDITS.exists() else {}
+    pinned = json.loads(PINNED.read_text("utf-8")) if PINNED.exists() else {}
 
     wanted = sorted({p.animal for p in plan.load(PLAN_PATH)})
     if args.species:
@@ -221,14 +274,23 @@ def main():
 
         time.sleep(PAUSE)
         try:
-            # Candidates: the article's lead image first, then a Commons search.
-            candidates = []
-            fname, thumb = lead_image(session, sp)
-            if fname:
-                candidates.append((fname, thumb))
-            for name in commons_search(session, sp):
-                if name != fname:
-                    candidates.append((name, None))
+            # A pinned species is a hand-picked choice: no automated heuristic
+            # gets to overrule it. Editorial fitness is not something the
+            # studio/size checks can see -- for Atlantic Bluefin Tuna they
+            # happily returned a dead fish on a boat deck, which is worse for a
+            # wildlife page than the studio shot it replaced.
+            if sp in pinned:
+                candidates = [(pinned[sp], None)]
+            else:
+                # The article's lead image first, then a Commons search.
+                candidates = []
+                fname, thumb = lead_image(session, sp)
+                if fname:
+                    candidates.append((fname, thumb))
+                for name in commons_search(session, sp,
+                                           limit=16 if args.habitat else 8):
+                    if name != fname:
+                        candidates.append((name, None))
 
             if not candidates:
                 unresolved.append({"species": sp, "reason": "no candidate images"})
@@ -237,6 +299,7 @@ def main():
 
             meta = thumb_url = None
             rejected = []
+            fallback = None
             for name, url in candidates:
                 m = commons_meta(session, name)
                 if m is None:
@@ -247,8 +310,31 @@ def main():
                 url = url or thumb_for(session, name)
                 if not url:
                     continue
+
+                if sp in pinned or not args.habitat:
+                    meta, thumb_url, fname = m, url, name
+                    break
+
+                # Habitat mode: keep looking past specimen-on-white shots,
+                # but remember the first free one so we never end up worse off.
+                raw = fetch_bytes(session, url)
+                if too_small(raw):
+                    w, h = Image.open(io.BytesIO(raw)).size
+                    print(f"      skip {name[:48]} (only {w}x{h})")
+                    continue
+                if fallback is None:
+                    fallback = (m, url, name, raw)
+                if looks_studio(raw):
+                    mean, sd = studio_score(raw)
+                    print(f"      skip {name[:48]} (studio: mean {mean:.0f}, "
+                          f"sd {sd:.0f})")
+                    continue
                 meta, thumb_url, fname = m, url, name
                 break
+
+            if meta is None and fallback is not None:
+                print("      no in-habitat candidate found; keeping best free one")
+                meta, thumb_url, fname, _ = fallback
 
             if meta is None:
                 reason = (f"no freely-licensed candidate "
