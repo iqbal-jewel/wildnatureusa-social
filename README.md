@@ -128,6 +128,38 @@ Fact cards render from these. `status` reports coverage as
 (Settings → Secrets and variables → Actions → Variables). Until then the
 hourly workflow runs as a dry run, so merging it does not start posting.
 
+## Working from more than one machine
+
+**Only GitHub Actions should ever run `--live`.** On a developer machine, use
+the dry-run commands.
+
+`state/state.json` is the idempotency ledger, and Actions rewrites it after
+every run. A second machine with a checkout even a few hours old has a *stale*
+ledger: posts it has no record of look unscheduled, so `schedule-fb --live`
+would queue them a second time and you would get **duplicate posts on the
+Page**, each one publishing on the same date. Nothing in Meta's API prevents
+this — the guard is entirely `state.json`, and it only works if it is current.
+
+Setting up another machine:
+
+```bash
+git clone https://github.com/iqbal-jewel/wildnatureusa-social.git
+cd wildnatureusa-social && pip install -r requirements.txt
+```
+
+Then copy `.env` across **by hand** — it is gitignored and must stay that way.
+Actions reads its own credentials from repo secrets, so CI is unaffected by
+which machine you work from.
+
+Always `git pull` before running anything that touches Meta, and confirm the
+ledger looks right:
+
+```bash
+python -m src.publish status
+```
+
+`recorded:` should match what the Page actually has queued.
+
 ## Commands
 
 Nothing publishes without `--live`.
