@@ -1049,11 +1049,11 @@
   },
   "Ostrich": {
     "file": "ostrich.jpg",
-    "licence": "CC BY 2.0",
-    "author": "PaleoNeolitic (montage creator) Diego Delso ninara",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Struthio_Diversity.jpg",
-    "commons_file": "Struthio_Diversity.jpg"
+    "licence": "CC BY-SA 4.0",
+    "author": "Garst, Warren, 1922-2016, photographer",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_ostriches_walking_in_grass_-_DPLA_-_d15692c9a34315978febd6ee01d4ff10.jpg",
+    "commons_file": "Three ostriches walking in grass - DPLA - d15692c9a34315978febd6ee01d4ff10.jpg"
   },
   "Pangolin": {
     "file": "pangolin.jpg",

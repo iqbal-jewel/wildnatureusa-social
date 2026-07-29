@@ -3,9 +3,11 @@
   "_why": {
     "Atlantic Bluefin Tuna": "automation returned a dead fish on a boat deck",
     "Channel Catfish": "automation returned a juvenile dwarfed by a human hand",
-    "Flying Fish": "common-name collision: automation returned a Thorpe Park rollercoaster"
+    "Flying Fish": "common-name collision: automation returned a Thorpe Park rollercoaster",
+    "Ostrich": "automation returned a two-panel montage; a centred crop landed on the seam between panels"
   },
   "Atlantic Bluefin Tuna": "Group of tuna.jpg",
   "Channel Catfish": "Ictalurus punctatus 1.jpg",
-  "Flying Fish": "Flying fish from the family Exocoetidae.png"
+  "Flying Fish": "Flying fish from the family Exocoetidae.png",
+  "Ostrich": "Three ostriches walking in grass - DPLA - d15692c9a34315978febd6ee01d4ff10.jpg"
 }
