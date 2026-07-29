@@ -3,13 +3,19 @@
 Publishes the 6-month content plan to a Facebook Page and an Instagram
 Business account: 1,288 posts across 184 days, Aug 1 2026 – Jan 31 2027.
 
+Publishes 1,656 posts across 184 days:
+
 | Platform  | Daily cadence                                      |
 |-----------|----------------------------------------------------|
 | Facebook  | 4 photo facts (8am, 12pm, 4pm, 8pm ET) + 1 quiz image (6pm ET) |
-| Instagram | 2 quiz images (11am, 7pm ET)                       |
+| Instagram | 2 photo facts (8am, 3pm ET) + 2 quiz images (11am, 7pm ET) |
 
 Every post carries an image. Every quiz post gets its answer as the first
 comment 60 minutes later.
+
+Instagram fact posts reuse a fact already in the plan, taken from the Facebook
+day 92 days away, so the same sentence never appears on both platforms near the
+same date. Facts are never invented to fill a slot — see `tools/add_ig_facts.py`.
 
 ## How it works
 
@@ -28,10 +34,16 @@ hourly workflow makes the call at the right slot.
 over HTTP, so they are committed.
 
 *Fact cards* are a species photograph under a scrim with the fact text over it.
-They are Facebook-only — the bytes go up in the request — so they are
-**rendered on demand at scheduling time and never committed**. Storing all 736
-would add ~177 MB to a repo that Actions checks out every hour; the 197 source
-photos in `photos/` are 47 MB and regenerate any card in about a second.
+Whether they are committed depends entirely on which platform reads them:
+
+- **Facebook** fact cards (`FB-TXT-*.jpg`, 736) are **rendered on demand at
+  scheduling time and gitignored**. Facebook takes the image bytes in the
+  request, so no URL is needed. Committing all 736 would add ~177 MB to a repo
+  Actions checks out every hour; the 197 source photos are 47 MB and
+  regenerate any card in about a second.
+- **Instagram** fact cards (`IG-FCT-*.jpg`, 368, ~90 MB) **must be committed**.
+  Instagram fetches by public URL, so rendering one at publish time would still
+  serve a 404. `publish status` reports this as `Instagram images on disk`.
 
 Those photos come from Wikimedia Commons via `tools/fetch_photos.py`, which
 accepts only licences permitting commercial use *and* derivative works — the

@@ -214,8 +214,13 @@ def cmd_status(args, posts, st):
     now = now_et()
     counts, pending = st.summary()
     upcoming = [p for p in posts if p.publish_at > now]
+
+    # Everything Instagram publishes must exist as a committed file: it fetches
+    # over HTTP, so rendering on demand at publish time would still 404.
+    ig_needs_file = [p for p in posts if p.platform == "Instagram"]
     quizzes = [p for p in posts if p.is_quiz]
     missing = [p for p in quizzes if not (IMAGES / p.image_name).exists()]
+    ig_missing = [p for p in ig_needs_file if not (IMAGES / p.image_name).exists()]
 
     log(f"plan: {len(posts)} posts, {posts[0].publish_at:%Y-%m-%d} "
         f"to {posts[-1].publish_at:%Y-%m-%d}")
@@ -225,6 +230,14 @@ def cmd_status(args, posts, st):
     if missing:
         log(f"  missing: {', '.join(p.post_id for p in missing[:5])}"
             f"{' ...' if len(missing) > 5 else ''}")
+
+    log(f"Instagram images on disk: "
+        f"{len(ig_needs_file) - len(ig_missing)}/{len(ig_needs_file)}")
+    if ig_missing:
+        log(f"  MISSING: {', '.join(p.post_id for p in ig_missing[:5])}"
+            f"{' ...' if len(ig_missing) > 5 else ''}")
+        log("  run python -m src.render, then commit -- Instagram fetches "
+            "these by URL, so an uncommitted file publishes nothing")
 
     # Fact cards are rendered on demand, so what matters is that every species
     # has a photo to render *from* -- a gap here only surfaces at publish time.
