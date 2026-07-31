@@ -223,6 +223,13 @@
       "status": "scheduled",
       "at": "2026-07-31T16:05:08+00:00",
       "publish_at": "2026-08-07T12:00:00-04:00"
+    },
+    "FB-TXT-0045": {
+      "platform": "Facebook",
+      "remote_id": "122120176827282988",
+      "status": "scheduled",
+      "at": "2026-07-31T20:24:27+00:00",
+      "publish_at": "2026-08-07T16:00:00-04:00"
     }
   },
   "comments": {
