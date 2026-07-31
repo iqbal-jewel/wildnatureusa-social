@@ -230,6 +230,13 @@
       "status": "scheduled",
       "at": "2026-07-31T20:24:27+00:00",
       "publish_at": "2026-08-07T16:00:00-04:00"
+    },
+    "FB-IMG-0047": {
+      "platform": "Facebook",
+      "remote_id": "122120180847282988",
+      "status": "scheduled",
+      "at": "2026-07-31T22:11:39+00:00",
+      "publish_at": "2026-08-07T18:00:00-04:00"
     }
   },
   "comments": {
@@ -266,6 +273,12 @@
     "FB-IMG-0040": {
       "due_at": "2026-08-06T23:00:00+00:00",
       "message": "🎉 Answer: the Seahorse! In this species, males, not females, carry and give birth to the young.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "FB-IMG-0047": {
+      "due_at": "2026-08-07T23:00:00+00:00",
+      "message": "🎉 Answer: the Eastern Subterranean Termite! It relies on microorganisms in its gut to digest tough wood fibers.",
       "platform": "Facebook",
       "status": "pending"
     }
