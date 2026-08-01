@@ -283,6 +283,13 @@
       "remote_id": "17979599313071186",
       "status": "posted",
       "at": "2026-08-01T20:13:06+00:00"
+    },
+    "FB-IMG-0054": {
+      "platform": "Facebook",
+      "remote_id": "122120261367282988",
+      "status": "scheduled",
+      "at": "2026-08-01T22:01:52+00:00",
+      "publish_at": "2026-08-08T18:00:00-04:00"
     }
   },
   "comments": {
@@ -334,6 +341,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17995458632806825"
+    },
+    "FB-IMG-0054": {
+      "due_at": "2026-08-08T23:00:00+00:00",
+      "message": "🎉 Answer: the Desert Locust! In this species, a single large swarm can consume as much food in a day as tens of thousands of people.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
