@@ -381,6 +381,13 @@
       "remote_id": "17955852993196239",
       "status": "posted",
       "at": "2026-08-03T15:48:47+00:00"
+    },
+    "FB-TXT-0065": {
+      "platform": "Facebook",
+      "remote_id": "122120421921282988",
+      "status": "scheduled",
+      "at": "2026-08-03T17:58:23+00:00",
+      "publish_at": "2026-08-10T12:00:00-04:00"
     }
   },
   "comments": {
@@ -472,7 +479,8 @@
       "due_at": "2026-08-03T16:00:00+00:00",
       "message": "🎉 Answer: the Sidewinder Rattlesnake! Its sideways movement minimizes contact with scorching desert sand.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18137106016607100"
     }
   }
 }
