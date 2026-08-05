@@ -519,6 +519,19 @@
       "status": "scheduled",
       "at": "2026-08-05T21:19:36+00:00",
       "publish_at": "2026-08-12T16:00:00-04:00"
+    },
+    "FB-IMG-0082": {
+      "platform": "Facebook",
+      "remote_id": "122120595789282988",
+      "status": "scheduled",
+      "at": "2026-08-05T23:08:50+00:00",
+      "publish_at": "2026-08-12T18:00:00-04:00"
+    },
+    "IG-IMG-0035": {
+      "platform": "Instagram",
+      "remote_id": "18196359745332058",
+      "status": "posted",
+      "at": "2026-08-05T23:09:00+00:00"
     }
   },
   "comments": {
@@ -554,7 +567,8 @@
       "due_at": "2026-08-05T23:00:00+00:00",
       "message": "🎉 Answer: the Tarsier! It can rotate its head nearly 180 degrees in each direction.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120027823282988_1521766579162600"
     },
     "FB-IMG-0040": {
       "due_at": "2026-08-06T23:00:00+00:00",
@@ -654,6 +668,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18214448269343690"
+    },
+    "FB-IMG-0082": {
+      "due_at": "2026-08-12T23:00:00+00:00",
+      "message": "🎉 Answer: the White Stork! It often returns to the exact same nest year after year.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0035": {
+      "due_at": "2026-08-06T00:00:00+00:00",
+      "message": "🎉 Answer: the Channel Catfish! It has more taste buds on its skin and whiskers than almost any other animal.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
