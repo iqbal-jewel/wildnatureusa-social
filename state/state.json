@@ -532,6 +532,13 @@
       "remote_id": "18196359745332058",
       "status": "posted",
       "at": "2026-08-05T23:09:00+00:00"
+    },
+    "FB-TXT-0081": {
+      "platform": "Facebook",
+      "remote_id": "122120608203282988",
+      "status": "scheduled",
+      "at": "2026-08-06T03:22:11+00:00",
+      "publish_at": "2026-08-12T20:00:00-04:00"
     }
   },
   "comments": {
@@ -679,7 +686,8 @@
       "due_at": "2026-08-06T00:00:00+00:00",
       "message": "🎉 Answer: the Channel Catfish! It has more taste buds on its skin and whiskers than almost any other animal.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17978700384097516"
     }
   }
 }
