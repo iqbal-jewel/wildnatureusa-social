@@ -637,6 +637,13 @@
       "status": "scheduled",
       "at": "2026-08-07T20:50:21+00:00",
       "publish_at": "2026-08-14T16:00:00-04:00"
+    },
+    "FB-IMG-0096": {
+      "platform": "Facebook",
+      "remote_id": "122120820543282988",
+      "status": "scheduled",
+      "at": "2026-08-07T22:45:40+00:00",
+      "publish_at": "2026-08-14T18:00:00-04:00"
     }
   },
   "comments": {
@@ -814,6 +821,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18089762555535547"
+    },
+    "FB-IMG-0096": {
+      "due_at": "2026-08-14T23:00:00+00:00",
+      "message": "🎉 Answer: the Green Sea Turtle! In this species, females return to the exact beach where they hatched to lay their own eggs.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
