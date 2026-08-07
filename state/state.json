@@ -624,6 +624,12 @@
       "status": "scheduled",
       "at": "2026-08-07T16:59:33+00:00",
       "publish_at": "2026-08-14T12:00:00-04:00"
+    },
+    "IG-FCT-0014": {
+      "platform": "Instagram",
+      "remote_id": "18127720927707456",
+      "status": "posted",
+      "at": "2026-08-07T19:08:22+00:00"
     }
   },
   "comments": {
