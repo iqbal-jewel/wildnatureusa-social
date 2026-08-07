@@ -558,6 +558,46 @@
       "remote_id": "18097201847022666",
       "status": "posted",
       "at": "2026-08-06T15:21:07+00:00"
+    },
+    "FB-TXT-0086": {
+      "platform": "Facebook",
+      "remote_id": "122120738403282988",
+      "status": "scheduled",
+      "at": "2026-08-07T00:09:35+00:00",
+      "publish_at": "2026-08-13T12:00:00-04:00"
+    },
+    "FB-TXT-0087": {
+      "platform": "Facebook",
+      "remote_id": "122120738445282988",
+      "status": "scheduled",
+      "at": "2026-08-07T00:09:37+00:00",
+      "publish_at": "2026-08-13T16:00:00-04:00"
+    },
+    "FB-IMG-0089": {
+      "platform": "Facebook",
+      "remote_id": "122120738499282988",
+      "status": "scheduled",
+      "at": "2026-08-07T00:09:40+00:00",
+      "publish_at": "2026-08-13T18:00:00-04:00"
+    },
+    "FB-TXT-0088": {
+      "platform": "Facebook",
+      "remote_id": "122120738535282988",
+      "status": "scheduled",
+      "at": "2026-08-07T00:09:42+00:00",
+      "publish_at": "2026-08-13T20:00:00-04:00"
+    },
+    "IG-FCT-0012": {
+      "platform": "Instagram",
+      "remote_id": "18452900950191632",
+      "status": "posted",
+      "at": "2026-08-07T00:09:51+00:00"
+    },
+    "IG-IMG-0042": {
+      "platform": "Instagram",
+      "remote_id": "17997999396004224",
+      "status": "posted",
+      "at": "2026-08-07T00:09:59+00:00"
     }
   },
   "comments": {
@@ -600,7 +640,8 @@
       "due_at": "2026-08-06T23:00:00+00:00",
       "message": "🎉 Answer: the Seahorse! In this species, males, not females, carry and give birth to the young.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120105001282988_1519699712729855"
     },
     "FB-IMG-0047": {
       "due_at": "2026-08-07T23:00:00+00:00",
@@ -712,7 +753,21 @@
       "due_at": "2026-08-06T16:00:00+00:00",
       "message": "🎉 Answer: the Clownfish! It's immune to the sting of the anemone that shelters it.",
       "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17874335475628827"
+    },
+    "FB-IMG-0089": {
+      "due_at": "2026-08-13T23:00:00+00:00",
+      "message": "🎉 Answer: the Meerkat! It posts sentries to watch for predators while the group forages.",
+      "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0042": {
+      "due_at": "2026-08-07T00:00:00+00:00",
+      "message": "🎉 Answer: the Tuatara! It has a third eye-like structure on top of its head visible in hatchlings.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17955391356196105"
     }
   }
 }
