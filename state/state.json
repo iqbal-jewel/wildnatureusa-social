@@ -696,6 +696,13 @@
       "status": "scheduled",
       "at": "2026-08-08T20:38:29+00:00",
       "publish_at": "2026-08-15T16:00:00-04:00"
+    },
+    "FB-IMG-0103": {
+      "platform": "Facebook",
+      "remote_id": "122120891079282988",
+      "status": "scheduled",
+      "at": "2026-08-08T22:36:51+00:00",
+      "publish_at": "2026-08-15T18:00:00-04:00"
     }
   },
   "comments": {
@@ -894,6 +901,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18125441173686467"
+    },
+    "FB-IMG-0103": {
+      "due_at": "2026-08-15T23:00:00+00:00",
+      "message": "🎉 Answer: the Leopard Gecko! It can drop and regrow its tail if grabbed by a predator.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
