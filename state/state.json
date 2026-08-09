@@ -762,6 +762,12 @@
       "status": "scheduled",
       "at": "2026-08-09T22:38:36+00:00",
       "publish_at": "2026-08-16T18:00:00-04:00"
+    },
+    "IG-IMG-0063": {
+      "platform": "Instagram",
+      "remote_id": "17919679959419843",
+      "status": "posted",
+      "at": "2026-08-09T23:38:47+00:00"
     }
   },
   "comments": {
@@ -846,7 +852,8 @@
       "due_at": "2026-08-09T23:00:00+00:00",
       "message": "🎉 Answer: the Hedgehog! It curls into a spiky ball when threatened.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120356137282988_1070517295548047"
     },
     "IG-IMG-0014": {
       "due_at": "2026-08-03T00:00:00+00:00",
@@ -986,6 +993,12 @@
       "due_at": "2026-08-16T23:00:00+00:00",
       "message": "🎉 Answer: the Giant African Millipede! It has far fewer legs than its name suggests, though still hundreds.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0063": {
+      "due_at": "2026-08-10T00:00:00+00:00",
+      "message": "🎉 Answer: the Llama! It has been used as a pack animal in the Andes for thousands of years.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
