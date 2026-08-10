@@ -794,6 +794,13 @@
       "remote_id": "17930296641371531",
       "status": "posted",
       "at": "2026-08-10T15:06:55+00:00"
+    },
+    "FB-TXT-0114": {
+      "platform": "Facebook",
+      "remote_id": "122121038709282988",
+      "status": "scheduled",
+      "at": "2026-08-10T17:00:48+00:00",
+      "publish_at": "2026-08-17T12:00:00-04:00"
     }
   },
   "comments": {
@@ -1032,7 +1039,8 @@
       "due_at": "2026-08-10T16:00:00+00:00",
       "message": "🎉 Answer: the Brown Bear! It includes the grizzly bear as one of its subspecies.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17946827052256646"
     }
   }
 }
