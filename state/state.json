@@ -827,6 +827,13 @@
       "remote_id": "18221659423336647",
       "status": "posted",
       "at": "2026-08-10T23:41:59+00:00"
+    },
+    "FB-TXT-0116": {
+      "platform": "Facebook",
+      "remote_id": "122121064779282988",
+      "status": "scheduled",
+      "at": "2026-08-11T02:13:13+00:00",
+      "publish_at": "2026-08-17T20:00:00-04:00"
     }
   },
   "comments": {
@@ -1079,7 +1086,8 @@
       "due_at": "2026-08-11T00:00:00+00:00",
       "message": "🎉 Answer: the Green Darner Dragonfly! It's among the insects with the most complex compound eyes ever measured.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18121924039633257"
     }
   }
 }
