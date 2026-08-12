@@ -18,7 +18,7 @@ import sys
 import time
 from pathlib import Path
 
-from . import meta, plan, render
+from . import meta, plan, reel, render
 from .state import State
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -76,6 +76,13 @@ def image_for(post) -> Path:
     return render.render_fact(post, credits())
 
 
+def video_for(post) -> Path:
+    """Render a reel to a temp MP4. Caller must delete it once uploaded --
+    reels are never precomputed or committed (see docs/reels.md).
+    """
+    return reel.render_fact_reel(post, credits())
+
+
 def caption_for(post) -> str:
     """Caption as published. Fact cards carry the photo credit.
 
@@ -107,14 +114,21 @@ def cmd_schedule_fb(args, posts, st):
     failures = 0
     for p in todo:
         if not args.live:
-            have = "img" if (IMAGES / p.image_name).exists() else "render"
+            have = "reel" if p.is_reel else (
+                "img" if (IMAGES / p.image_name).exists() else "render")
             log(f"  DRY  {p.post_id} {p.publish_at:%m-%d %H:%M} {p.kind:4} "
                 f"[{have:6}] {p.caption.splitlines()[0][:52]}")
             continue
+        video_path = None
         try:
-            img = image_for(p)
-            rid = meta.fb_photo(creds["page_id"], creds["token"], img,
-                                caption_for(p), scheduled_at=p.publish_at)
+            if p.is_reel:
+                video_path = video_for(p)
+                rid = meta.fb_reel(creds["page_id"], creds["token"], video_path,
+                                   caption_for(p), scheduled_at=p.publish_at)
+            else:
+                img = image_for(p)
+                rid = meta.fb_photo(creds["page_id"], creds["token"], img,
+                                    caption_for(p), scheduled_at=p.publish_at)
             st.record_post(p.post_id, "Facebook", rid, status="scheduled",
                            publish_at=p.publish_at.isoformat())
             if p.is_quiz and p.answer:
@@ -126,6 +140,9 @@ def cmd_schedule_fb(args, posts, st):
             failures += 1
             st.record_failure(p.post_id, e)
             log(f"  FAIL {p.post_id}: {e}")
+        finally:
+            if video_path and video_path.exists():
+                video_path.unlink()
         st.save()
     return 1 if failures else 0
 
@@ -238,6 +255,20 @@ def cmd_status(args, posts, st):
             f"{' ...' if len(ig_missing) > 5 else ''}")
         log("  run python -m src.render, then commit -- Instagram fetches "
             "these by URL, so an uncommitted file publishes nothing")
+
+    reels = [p for p in posts if p.is_reel]
+    if reels:
+        upcoming_reels = [p for p in reels if p.publish_at > now]
+        try:
+            import sys
+            sys.path.insert(0, str(ROOT / "tools"))
+            import reel_engine
+            ff = reel_engine.find_ffmpeg()
+            log(f"reels: {len(reels)} planned, {len(upcoming_reels)} upcoming, "
+                f"ffmpeg OK ({ff})")
+        except Exception as e:
+            log(f"reels: {len(reels)} planned, {len(upcoming_reels)} upcoming, "
+                f"  FFMPEG PROBLEM: {e}")
 
     # Fact cards are rendered on demand, so what matters is that every species
     # has a photo to render *from* -- a gap here only surfaces at publish time.

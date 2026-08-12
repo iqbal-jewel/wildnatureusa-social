@@ -65,6 +65,51 @@ def fb_story_id(photo_id, token):
     return _check(r, "fb_story_id").get("page_story_id")
 
 
+def fb_reel(page_id, token, video_path, description, scheduled_at=None):
+    """Upload + publish (or schedule) a Facebook Page Reel. Returns the video id.
+
+    Resumable upload: start a session, POST the raw bytes to the URL it hands
+    back, then finish. Scheduling reuses the same finish call with
+    video_state=SCHEDULED -- same mechanism proven in the AdiGiVault reels
+    pipeline (Automation/reels_pipeline/meta_uploader.py), and mechanically
+    identical to how fb_photo already schedules a photo post. Meta requires
+    the slot to be 10 minutes to 29 days out.
+    """
+    start = requests.post(f"{GRAPH}/{page_id}/video_reels", params={
+        "upload_phase": "start", "access_token": token,
+    }, timeout=TIMEOUT)
+    started = _check(start, "fb_reel_start")
+    video_id, upload_url = started["video_id"], started["upload_url"]
+
+    file_size = os.path.getsize(video_path)
+    with open(video_path, "rb") as f:
+        upload = requests.post(
+            upload_url,
+            headers={"Authorization": f"OAuth {token}",
+                     "offset": "0", "file_size": str(file_size)},
+            data=f.read(), timeout=TIMEOUT * 5,
+        )
+    if not upload.ok:
+        raise MetaError(f"fb_reel_upload: HTTP {upload.status_code} {upload.text[:300]}")
+
+    finish_params = {
+        "upload_phase": "finish", "video_id": video_id,
+        "description": description, "access_token": token,
+    }
+    if scheduled_at:
+        finish_params["video_state"] = "SCHEDULED"
+        finish_params["scheduled_publish_time"] = int(scheduled_at.timestamp())
+    else:
+        finish_params["video_state"] = "PUBLISHED"
+
+    finish = requests.post(f"{GRAPH}/{page_id}/video_reels",
+                           params=finish_params, timeout=TIMEOUT)
+    data = _check(finish, "fb_reel_finish")
+    if not data.get("success"):
+        raise MetaError(f"fb_reel_finish: {data}")
+    return video_id
+
+
 def fb_comment(object_id, token, message):
     r = requests.post(f"{GRAPH}/{object_id}/comments",
                       data={"message": message, "access_token": token},

@@ -24,7 +24,7 @@ C_BG, C_BG_NAME, C_FG, C_OVERLAY, C_DIMS, C_HASHTAGS = 12, 13, 14, 15, 16, 17
 class Post:
     post_id: str
     platform: str          # "Facebook" | "Instagram"
-    kind: str              # "text" | "quiz"
+    kind: str              # "text" | "quiz" | "reel"
     publish_at: dt.datetime  # timezone-aware, US Eastern
     animal: str
     caption: str           # caption + hashtags, ready to publish
@@ -41,9 +41,15 @@ class Post:
         return self.kind == "quiz"
 
     @property
+    def is_reel(self) -> bool:
+        return self.kind == "reel"
+
+    @property
     def image_name(self) -> str:
         # Quiz cards are flat colour and stay lossless; fact cards are
-        # photographs, where PNG costs ~2 MB against ~200 KB for JPEG.
+        # photographs, where PNG costs ~2 MB against ~200 KB for JPEG. Reels
+        # render straight to MP4 via render_fact_reel and never touch this --
+        # kept only so nothing breaks if it's ever inspected for a reel row.
         return f"{self.post_id}.png" if self.is_quiz else f"{self.post_id}.jpg"
 
 
@@ -64,10 +70,11 @@ def load(path: str | Path) -> list[Post]:
         tags = (r[C_HASHTAGS] or "").strip()
         dims = str(r[C_DIMS] or "1080x1080").lower().split("x")
         is_quiz = r[C_TYPE] == "Image Post (Quiz)"
+        is_reel = r[C_TYPE] == "Reel Post (Fact)"
         posts.append(Post(
             post_id=r[C_ID],
             platform=r[C_PLATFORM],
-            kind="quiz" if is_quiz else "text",
+            kind="quiz" if is_quiz else ("reel" if is_reel else "text"),
             publish_at=_parse_when(r[C_DATE], r[C_TIME]),
             animal=r[C_ANIMAL],
             caption=f"{caption}\n\n{tags}".strip() if tags else caption,
