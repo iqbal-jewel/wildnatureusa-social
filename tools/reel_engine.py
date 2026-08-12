@@ -12,7 +12,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 
 W, H = 1080, 1920
 FPS = 30
@@ -126,6 +126,51 @@ def kenburns_crop(base_img, band_size, progress, focal=(0.5, 0.5), zoom_end=1.14
     cy = clamp(cy, crop_h / 2, base_img.height - crop_h / 2)
     box = (cx - crop_w / 2, cy - crop_h / 2, cx + crop_w / 2, cy + crop_h / 2)
     return base_img.crop(box).resize((band_w, band_h), Image.LANCZOS)
+
+
+def build_safe_subject_layers(photo_path, target_w=W, target_h=H,
+                              base_zoom_margin=1.3, blur_radius=45, darken=0.55):
+    """A guaranteed-visible subject over a moving blurred background.
+
+    build_kenburns_cover_source fills the whole frame by cropping away
+    whatever doesn't fit -- for a landscape source squeezed into a 9:16 reel,
+    that can be ~70% of the photo's width. A fixed focal point (or even a
+    per-photo one) is still a guess about where the subject is; for an
+    off-centre subject the guess can simply be wrong, and the result is a
+    reel with no visible animal. Checked against a real case: the Common
+    Raven reel put its head entirely outside the crop, both at the start and
+    the end of the clip, because the bird faces right of frame-centre while
+    the crop was centred.
+
+    This sidesteps the guess: the *entire* photo is contained (never
+    cropped) as a static sharp foreground, so the subject is always fully in
+    frame regardless of where it sits in the source. The Ken Burns pan/zoom
+    still happens -- just on a blurred, darkened, full-bleed copy of the same
+    photo behind it, which is decorative and has nothing to lose by being
+    partially off-screen.
+
+    Returns (bg_base, bg_band, fg_image, fg_paste_xy).
+    """
+    im = Image.open(photo_path).convert("RGB")
+
+    bg_base, bg_band = build_kenburns_cover_source(
+        photo_path, target_w, target_h, base_zoom_margin)
+    # Blur at a reduced size -- blurring the full ~3-4x-oversized base is
+    # much slower for a result that's blurred anyway, so downscale, blur,
+    # then upscale back to the working size.
+    small = bg_base.resize((bg_base.width // 4, bg_base.height // 4), Image.LANCZOS)
+    small = small.filter(ImageFilter.GaussianBlur(blur_radius // 4))
+    bg_base = small.resize(bg_base.size, Image.LANCZOS)
+    if darken < 1.0:
+        bg_base = ImageEnhance.Brightness(bg_base).enhance(darken)
+
+    contain_scale = min(target_w / im.width, target_h / im.height)
+    fg_w = round(im.width * contain_scale)
+    fg_h = round(im.height * contain_scale)
+    fg = im.resize((fg_w, fg_h), Image.LANCZOS)
+    fg_xy = ((target_w - fg_w) // 2, (target_h - fg_h) // 2)
+
+    return bg_base, bg_band, fg, fg_xy
 
 
 def scrim_layer(w, h, top_frac=0.30, bottom_frac=0.42, strength=0.72):

@@ -7,9 +7,12 @@ into a repo Actions clones every run and real cost -- 552 clips at even
 500 KB each is a repo problem the image posts deliberately avoided.
 
 Uses the real per-species photo library (photos/, via render.load_credits)
-rather than a hand-picked example, and a full-frame cover crop with a
-top/bottom scrim rather than the letterbox trick that only worked because
-one particular photo happened to have a black background.
+rather than a hand-picked example. The frame is a static, fully-visible copy
+of the whole photo over a blurred, panning full-bleed copy of the same
+photo -- not a plain cover-crop, which for a landscape photo squeezed into
+9:16 can throw away most of the width and crop the subject clean out of
+frame (see build_safe_subject_layers in reel_engine.py for the case that
+surfaced this: a real published reel with no visible animal in it).
 
 render_quiz_reel and render_fact_reel share the engine and the eyebrow /
 staggered-text / credit layout; a quiz post's eyebrow+footer copy
@@ -49,6 +52,20 @@ NAME_IN = EYEBROW_IN
 FACT_IN = CLUE_IN
 
 
+def _base_frame(bg_base, bg_band, fg, fg_xy, scrim, progress):
+    """A blurred, panning background with the complete, sharp subject
+    composited statically on top -- see build_safe_subject_layers for why:
+    a full-bleed crop of an arbitrary photo can miss the subject entirely,
+    so the part carrying information is never cropped, only the decorative
+    background is.
+    """
+    canvas = Image.new("RGBA", (eng.W, eng.H), (0, 0, 0, 255))
+    canvas.paste(eng.kenburns_crop(bg_base, bg_band, progress, focal=(0.5, 0.5)), (0, 0))
+    canvas.paste(fg, fg_xy)
+    canvas.alpha_composite(scrim)
+    return canvas
+
+
 def render_fact_reel(post, credits, work_dir=None) -> Path:
     """Render post (a fact Post) to an MP4. Returns the path; caller deletes
     it once uploaded -- this is scratch output, not a repo asset.
@@ -65,7 +82,7 @@ def render_fact_reel(post, credits, work_dir=None) -> Path:
     frames_dir = work_dir / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
 
-    base_img, band = eng.build_kenburns_cover_source(photo_path)
+    bg_base, bg_band, fg, fg_xy = eng.build_safe_subject_layers(photo_path)
     scrim = eng.scrim_layer(eng.W, eng.H)
     credit_text = render.credit_line(entry)
     fact = render.fact_text(post)
@@ -75,9 +92,7 @@ def render_fact_reel(post, credits, work_dir=None) -> Path:
         t = i / eng.FPS
         progress = i / max(n_frames - 1, 1)
 
-        canvas = Image.new("RGBA", (eng.W, eng.H), (0, 0, 0, 255))
-        canvas.paste(eng.kenburns_crop(base_img, band, progress, focal=(0.5, 0.42)), (0, 0))
-        canvas.alpha_composite(scrim)
+        canvas = _base_frame(bg_base, bg_band, fg, fg_xy, scrim, progress)
 
         name_p = eng.local_progress(t, NAME_IN)
         # Plain white, same as the quiz eyebrow -- not the fact card's brand
@@ -129,7 +144,7 @@ def render_quiz_reel(post, credits, work_dir=None) -> Path:
     frames_dir = work_dir / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
 
-    base_img, band = eng.build_kenburns_cover_source(photo_path)
+    bg_base, bg_band, fg, fg_xy = eng.build_safe_subject_layers(photo_path)
     scrim = eng.scrim_layer(eng.W, eng.H)
     credit_text = render.credit_line(entry)
 
@@ -138,9 +153,7 @@ def render_quiz_reel(post, credits, work_dir=None) -> Path:
         t = i / eng.FPS
         progress = i / max(n_frames - 1, 1)
 
-        canvas = Image.new("RGBA", (eng.W, eng.H), (0, 0, 0, 255))
-        canvas.paste(eng.kenburns_crop(base_img, band, progress, focal=(0.5, 0.42)), (0, 0))
-        canvas.alpha_composite(scrim)
+        canvas = _base_frame(bg_base, bg_band, fg, fg_xy, scrim, progress)
 
         eyebrow_p = eng.local_progress(t, EYEBROW_IN)
         eng.draw_wipe(canvas, EYEBROW, 46, 130, eyebrow_p)
