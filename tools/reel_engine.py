@@ -225,3 +225,60 @@ def encode(frames_dir, out_path, fps=FPS):
     ]
     subprocess.run(cmd, check=True, capture_output=True, text=True)
     return out_path
+
+
+# --- ambient background bed --------------------------------------------------
+# A synthesized pad, not sourced music: no licence to check, no attribution to
+# carry, nothing to download, and it renders in the same ffmpeg call already
+# in the pipeline. A fixed root would make every reel sound identical, so the
+# root is picked deterministically from the post id -- same post always
+# renders the same bed (reproducible), different posts get a bit of variety.
+PAD_ROOTS = (98.0, 110.0, 123.5, 130.8, 146.8, 164.8)  # G2..E3, a plain minor-feel set
+
+
+def synth_ambient_bed(duration, out_path, seed=""):
+    """Layered sine pad (root/fifth/octave) + filtered pink noise for texture,
+    faded in/out over the clip. seed picks the root deterministically.
+    """
+    ffmpeg = find_ffmpeg()
+    root = PAD_ROOTS[hash(seed) % len(PAD_ROOTS)] if seed else PAD_ROOTS[0]
+    fifth, octave = root * 1.5, root * 2.0
+    fade = min(1.2, duration / 5)
+    fade_out_start = max(duration - fade, 0)
+
+    filt = (
+        f"[0:a]volume=0.5[a0];[1:a]volume=0.4[a1];[2:a]volume=0.3[a2];"
+        f"[3:a]lowpass=f=800[a3];"
+        f"[a0][a1][a2][a3]amix=inputs=4:duration=first:normalize=0,"
+        f"lowpass=f=2500,"
+        f"afade=t=in:st=0:d={fade},afade=t=out:st={fade_out_start}:d={fade},"
+        f"volume=0.35"
+    )
+    cmd = [
+        ffmpeg, "-y",
+        "-f", "lavfi", "-i", f"sine=frequency={root}:duration={duration}",
+        "-f", "lavfi", "-i", f"sine=frequency={fifth}:duration={duration}",
+        "-f", "lavfi", "-i", f"sine=frequency={octave}:duration={duration}",
+        "-f", "lavfi", "-i", f"anoisesrc=color=pink:duration={duration}:amplitude=0.05",
+        "-filter_complex", filt,
+        str(out_path),
+    ]
+    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    return out_path
+
+
+def mux_audio(video_path, audio_path, out_path):
+    """Combine a silent video with an audio track. Video is copied, not
+    re-encoded -- only the container and audio stream change.
+    """
+    ffmpeg = find_ffmpeg()
+    cmd = [
+        ffmpeg, "-y",
+        "-i", str(video_path), "-i", str(audio_path),
+        "-map", "0:v:0", "-map", "1:a:0",
+        "-c:v", "copy", "-c:a", "aac", "-b:a", "128k",
+        "-shortest",
+        str(out_path),
+    ]
+    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    return out_path

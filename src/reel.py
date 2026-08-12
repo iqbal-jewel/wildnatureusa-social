@@ -91,12 +91,24 @@ def render_fact_reel(post, credits, work_dir=None) -> Path:
 
         canvas.convert("RGB").save(frames_dir / f"f_{i:04d}.png")
 
-    out_path = work_dir / f"{post.post_id}_reel.mp4"
-    eng.encode(frames_dir, out_path)
+    silent_path = work_dir / f"{post.post_id}_silent.mp4"
+    eng.encode(frames_dir, silent_path)
 
     for f in frames_dir.glob("*.png"):
         f.unlink()
     frames_dir.rmdir()
+
+    # Ambient bed, not narration: no model to download, nothing to license,
+    # renders in the same ffmpeg step already in this pipeline. Seeded on the
+    # post id so the same post always gets the same bed (reproducible) while
+    # different posts vary.
+    audio_path = work_dir / f"{post.post_id}_bed.wav"
+    eng.synth_ambient_bed(DURATION, audio_path, seed=post.post_id)
+
+    out_path = work_dir / f"{post.post_id}_reel.mp4"
+    eng.mux_audio(silent_path, audio_path, out_path)
+    silent_path.unlink()
+    audio_path.unlink()
 
     return out_path
 
