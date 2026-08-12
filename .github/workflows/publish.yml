@@ -31,6 +31,12 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # Run #172 failed after 13m55s with no clear signal why -- GitHub's own
+    # default is 360 minutes, so it sat in an ambiguous state for a long time
+    # rather than failing fast. A normal run (even a busy one, several reels
+    # rendering+uploading at once) finishes in a few minutes; capping well
+    # above that means a genuine hang now fails clearly instead of quietly.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -74,7 +80,16 @@ jobs:
           python -m src.publish schedule-fb --days 7 ${{ steps.mode.outputs.flag }}
           python -m src.publish run ${{ steps.mode.outputs.flag }}
 
+      # if: always() -- run #172 failed partway through and this step got
+      # skipped along with it, so whatever schedule-fb had already saved to
+      # state.json on the runner (each post is saved individually, as it
+      # completes) was discarded when the runner tore down. That risked the
+      # next run not knowing a post had already been scheduled -- exactly
+      # the duplicate-post hazard documented in the README -- and it meant
+      # there was no record of what actually happened, so diagnosing the
+      # failure took reproducing it by hand instead of just reading state.
       - name: Commit state
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
