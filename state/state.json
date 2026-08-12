@@ -961,6 +961,13 @@
       "remote_id": "17899455072353807",
       "status": "posted",
       "at": "2026-08-12T15:05:25+00:00"
+    },
+    "FB-TXT-0128": {
+      "platform": "Facebook",
+      "remote_id": "122121205635282988",
+      "status": "scheduled",
+      "at": "2026-08-12T17:04:07+00:00",
+      "publish_at": "2026-08-19T12:00:00-04:00"
     }
   },
   "comments": {
@@ -1241,7 +1248,8 @@
       "due_at": "2026-08-12T16:00:00+00:00",
       "message": "🎉 Answer: the Brown Pelican! It's the only pelican species that dives from the air to catch fish.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18112372840966439"
     }
   }
 }
