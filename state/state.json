@@ -981,6 +981,13 @@
       "status": "scheduled",
       "at": "2026-08-12T20:55:03+00:00",
       "publish_at": "2026-08-19T16:00:00-04:00"
+    },
+    "FB-IMG-0131": {
+      "platform": "Facebook",
+      "remote_id": "122121222735282988",
+      "status": "scheduled",
+      "at": "2026-08-12T22:50:57+00:00",
+      "publish_at": "2026-08-19T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1263,6 +1270,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18112372840966439"
+    },
+    "FB-IMG-0131": {
+      "due_at": "2026-08-19T23:00:00+00:00",
+      "message": "🎉 Answer: the Siamese Fighting Fish! It can gulp air at the surface using a special breathing organ.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
