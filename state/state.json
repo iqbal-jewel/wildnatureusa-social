@@ -1056,6 +1056,19 @@
       "status": "scheduled",
       "at": "2026-08-13T22:52:28+00:00",
       "publish_at": "2026-08-20T18:00:00-04:00"
+    },
+    "FB-RL-0020": {
+      "platform": "Facebook",
+      "remote_id": "1488909293012799",
+      "status": "scheduled",
+      "at": "2026-08-13T23:52:36+00:00",
+      "publish_at": "2026-08-20T19:00:00-04:00"
+    },
+    "IG-IMG-0091": {
+      "platform": "Instagram",
+      "remote_id": "17914578249430931",
+      "status": "posted",
+      "at": "2026-08-13T23:52:49+00:00"
     }
   },
   "comments": {
@@ -1224,7 +1237,8 @@
       "due_at": "2026-08-13T23:00:00+00:00",
       "message": "🎉 Answer: the Meerkat! It posts sentries to watch for predators while the group forages.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120738499282988_1044754818287024"
     },
     "IG-IMG-0042": {
       "due_at": "2026-08-07T00:00:00+00:00",
@@ -1357,6 +1371,12 @@
       "due_at": "2026-08-20T23:00:00+00:00",
       "message": "🎉 Answer: the Dung Beetle! In this species, some species navigate in a straight line at night using the Milky Way.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0091": {
+      "due_at": "2026-08-14T00:00:00+00:00",
+      "message": "🎉 Answer: the Okapi! It's the only living relative of the giraffe.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
