@@ -990,10 +990,11 @@
       "publish_at": "2026-08-19T18:00:00-04:00"
     },
     "FB-RL-0019": {
-      "status": "failed",
-      "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'OAuth EAAgwCTQU7WEBSAWhbPV0LIKuDXFG4acqaRN9mHcznt9QqyNUhY5VV1Lat91ZBOF7gEOrbw47OryfJgx8CNQNwU4fnColRCbG3ww19NaYO5RknpoVi0gJu7ZABsv7vkV8ZCjGKsnUZA0JxTm9Yc0sUxASWHS2irq7FV3bhUpj8mc2XQn3m7wmsnjKTZCQn1Yjj0VKOh6PJuAXKikh0Yg3h\\n'",
-      "attempts": 3,
-      "at": "2026-08-13T05:00:45+00:00"
+      "platform": "Facebook",
+      "remote_id": "2983447695174802",
+      "status": "scheduled",
+      "at": "2026-08-13T05:34:53+00:00",
+      "publish_at": "2026-08-19T19:00:00-04:00"
     },
     "FB-TXT-0130": {
       "platform": "Facebook",
@@ -1001,6 +1002,14 @@
       "status": "scheduled",
       "at": "2026-08-13T02:35:05+00:00",
       "publish_at": "2026-08-19T20:00:00-04:00"
+    },
+    "IG-IMG-0084": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 394 min (tolerance 360)",
+      "publish_at": "2026-08-12T19:00:00-04:00",
+      "at": "2026-08-13T05:34:54+00:00"
     }
   },
   "comments": {
@@ -1148,7 +1157,8 @@
       "due_at": "2026-08-12T23:00:00+00:00",
       "message": "🎉 Answer: the White Stork! It often returns to the exact same nest year after year.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120595789282988_1033966929423015"
     },
     "IG-IMG-0035": {
       "due_at": "2026-08-06T00:00:00+00:00",
