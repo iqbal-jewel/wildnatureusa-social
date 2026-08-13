@@ -159,10 +159,16 @@ def credentials():
     missing = [k for k in need if not os.environ.get(k)]
     if missing:
         raise MetaError(f"missing environment variables: {', '.join(missing)}")
+    # .strip(): a GitHub Actions secret pasted with a trailing newline reaches
+    # os.environ intact. Query-string params tolerate that, but fb_reel()
+    # puts the token straight into an Authorization header, and both
+    # requests and http.client reject any header value containing \r or \n
+    # -- every reel upload failed with "Invalid leading whitespace, reserved
+    # character(s), or return character(s)" until this was stripped here.
     return {
-        "page_id": os.environ["WILDNATUREUSA_PAGE_ID"],
-        "token": os.environ["WILDNATUREUSA_PAGE_TOKEN"],
-        "ig_user_id": os.environ["WILDNATUREUSA_IG_USER_ID"],
+        "page_id": os.environ["WILDNATUREUSA_PAGE_ID"].strip(),
+        "token": os.environ["WILDNATUREUSA_PAGE_TOKEN"].strip(),
+        "ig_user_id": os.environ["WILDNATUREUSA_IG_USER_ID"].strip(),
     }
 
 
