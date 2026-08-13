@@ -1010,6 +1010,19 @@
       "reason": "slot missed by 394 min (tolerance 360)",
       "publish_at": "2026-08-12T19:00:00-04:00",
       "at": "2026-08-13T05:34:54+00:00"
+    },
+    "FB-TXT-0134": {
+      "platform": "Facebook",
+      "remote_id": "122121272919282988",
+      "status": "scheduled",
+      "at": "2026-08-13T13:28:10+00:00",
+      "publish_at": "2026-08-20T08:00:00-04:00"
+    },
+    "IG-FCT-0025": {
+      "platform": "Instagram",
+      "remote_id": "17896801455584639",
+      "status": "posted",
+      "at": "2026-08-13T13:28:25+00:00"
     }
   },
   "comments": {
