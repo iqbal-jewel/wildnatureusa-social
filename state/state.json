@@ -992,8 +992,8 @@
     "FB-RL-0019": {
       "status": "failed",
       "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'OAuth EAAgwCTQU7WEBSAWhbPV0LIKuDXFG4acqaRN9mHcznt9QqyNUhY5VV1Lat91ZBOF7gEOrbw47OryfJgx8CNQNwU4fnColRCbG3ww19NaYO5RknpoVi0gJu7ZABsv7vkV8ZCjGKsnUZA0JxTm9Yc0sUxASWHS2irq7FV3bhUpj8mc2XQn3m7wmsnjKTZCQn1Yjj0VKOh6PJuAXKikh0Yg3h\\n'",
-      "attempts": 2,
-      "at": "2026-08-13T02:35:03+00:00"
+      "attempts": 3,
+      "at": "2026-08-13T05:00:45+00:00"
     },
     "FB-TXT-0130": {
       "platform": "Facebook",
