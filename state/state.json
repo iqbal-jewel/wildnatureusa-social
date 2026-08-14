@@ -1122,6 +1122,19 @@
       "status": "scheduled",
       "at": "2026-08-14T22:31:14+00:00",
       "publish_at": "2026-08-21T18:00:00-04:00"
+    },
+    "FB-RL-0021": {
+      "platform": "Facebook",
+      "remote_id": "27850929187904672",
+      "status": "scheduled",
+      "at": "2026-08-14T23:29:57+00:00",
+      "publish_at": "2026-08-21T19:00:00-04:00"
+    },
+    "IG-IMG-0098": {
+      "platform": "Instagram",
+      "remote_id": "17965347087154517",
+      "status": "posted",
+      "at": "2026-08-14T23:30:11+00:00"
     }
   },
   "comments": {
@@ -1311,7 +1324,8 @@
       "due_at": "2026-08-14T23:00:00+00:00",
       "message": "🎉 Answer: the Green Sea Turtle! In this species, females return to the exact beach where they hatched to lay their own eggs.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120820543282988_2062117081074702"
     },
     "IG-IMG-0049": {
       "due_at": "2026-08-08T00:00:00+00:00",
@@ -1444,6 +1458,12 @@
       "due_at": "2026-08-21T23:00:00+00:00",
       "message": "🎉 Answer: the Hippopotamus! It secretes a natural reddish oily substance that acts as sunscreen.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0098": {
+      "due_at": "2026-08-15T00:00:00+00:00",
+      "message": "🎉 Answer: the Manatee! It's often mistaken by ancient sailors for mermaids.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
