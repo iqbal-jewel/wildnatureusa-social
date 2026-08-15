@@ -1181,6 +1181,13 @@
       "status": "scheduled",
       "at": "2026-08-15T20:30:25+00:00",
       "publish_at": "2026-08-22T16:00:00-04:00"
+    },
+    "FB-IMG-0152": {
+      "platform": "Facebook",
+      "remote_id": "122121496557282988",
+      "status": "scheduled",
+      "at": "2026-08-15T22:30:08+00:00",
+      "publish_at": "2026-08-22T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1519,6 +1526,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17988848808038232"
+    },
+    "FB-IMG-0152": {
+      "due_at": "2026-08-22T23:00:00+00:00",
+      "message": "🎉 Answer: the Peacock Mantis Shrimp! Its punch accelerates faster than a bullet leaving a gun over a short distance.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
