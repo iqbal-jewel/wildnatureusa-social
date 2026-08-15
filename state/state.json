@@ -1188,6 +1188,19 @@
       "status": "scheduled",
       "at": "2026-08-15T22:30:08+00:00",
       "publish_at": "2026-08-22T18:00:00-04:00"
+    },
+    "FB-RL-0022": {
+      "platform": "Facebook",
+      "remote_id": "1772427624106510",
+      "status": "scheduled",
+      "at": "2026-08-15T23:28:24+00:00",
+      "publish_at": "2026-08-22T19:00:00-04:00"
+    },
+    "IG-IMG-0105": {
+      "platform": "Instagram",
+      "remote_id": "18139943506574756",
+      "status": "posted",
+      "at": "2026-08-15T23:28:33+00:00"
     }
   },
   "comments": {
@@ -1398,7 +1411,8 @@
       "due_at": "2026-08-15T23:00:00+00:00",
       "message": "🎉 Answer: the Leopard Gecko! It can drop and regrow its tail if grabbed by a predator.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122120891079282988_1494654229366243"
     },
     "IG-IMG-0056": {
       "due_at": "2026-08-09T00:00:00+00:00",
@@ -1531,6 +1545,12 @@
       "due_at": "2026-08-22T23:00:00+00:00",
       "message": "🎉 Answer: the Peacock Mantis Shrimp! Its punch accelerates faster than a bullet leaving a gun over a short distance.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0105": {
+      "due_at": "2026-08-16T00:00:00+00:00",
+      "message": "🎉 Answer: the Field Cricket! Its chirp rate has long been used as a rough natural thermometer.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
