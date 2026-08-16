@@ -1247,6 +1247,13 @@
       "status": "scheduled",
       "at": "2026-08-16T20:31:08+00:00",
       "publish_at": "2026-08-23T16:00:00-04:00"
+    },
+    "FB-IMG-0159": {
+      "platform": "Facebook",
+      "remote_id": "122121620151282988",
+      "status": "scheduled",
+      "at": "2026-08-16T22:29:22+00:00",
+      "publish_at": "2026-08-23T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1606,6 +1613,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18125851288788841"
+    },
+    "FB-IMG-0159": {
+      "due_at": "2026-08-23T23:00:00+00:00",
+      "message": "🎉 Answer: the Goliath Frog! It can weigh over 7 pounds, as much as a small cat.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
