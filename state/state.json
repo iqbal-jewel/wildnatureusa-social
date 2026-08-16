@@ -1234,6 +1234,12 @@
       "status": "scheduled",
       "at": "2026-08-16T16:34:33+00:00",
       "publish_at": "2026-08-23T12:00:00-04:00"
+    },
+    "IG-FCT-0032": {
+      "platform": "Instagram",
+      "remote_id": "18134016013538009",
+      "status": "posted",
+      "at": "2026-08-16T19:26:33+00:00"
     }
   },
   "comments": {
