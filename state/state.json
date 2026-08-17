@@ -1320,6 +1320,19 @@
       "status": "scheduled",
       "at": "2026-08-17T22:31:29+00:00",
       "publish_at": "2026-08-24T18:00:00-04:00"
+    },
+    "FB-RL-0024": {
+      "platform": "Facebook",
+      "remote_id": "2540527216453334",
+      "status": "scheduled",
+      "at": "2026-08-17T23:30:44+00:00",
+      "publish_at": "2026-08-24T19:00:00-04:00"
+    },
+    "IG-IMG-0119": {
+      "platform": "Instagram",
+      "remote_id": "18134804707549863",
+      "status": "posted",
+      "at": "2026-08-17T23:30:58+00:00"
     }
   },
   "comments": {
@@ -1572,7 +1585,8 @@
       "due_at": "2026-08-17T23:00:00+00:00",
       "message": "🎉 Answer: the Kakapo! In this species, males call loudly from bowl-shaped depressions to attract mates.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121055149282988_1246153214262043"
     },
     "IG-IMG-0070": {
       "due_at": "2026-08-11T00:00:00+00:00",
@@ -1705,6 +1719,12 @@
       "due_at": "2026-08-24T23:00:00+00:00",
       "message": "🎉 Answer: the Green Darner Dragonfly! It can see nearly 360 degrees thanks to eyes made of up to 30,000 lenses.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0119": {
+      "due_at": "2026-08-18T00:00:00+00:00",
+      "message": "🎉 Answer: the Ostrich! It lays the largest egg of any living bird.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
