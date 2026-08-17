@@ -1313,6 +1313,13 @@
       "status": "scheduled",
       "at": "2026-08-17T20:34:47+00:00",
       "publish_at": "2026-08-24T16:00:00-04:00"
+    },
+    "FB-IMG-0166": {
+      "platform": "Facebook",
+      "remote_id": "122121730251282988",
+      "status": "scheduled",
+      "at": "2026-08-17T22:31:29+00:00",
+      "publish_at": "2026-08-24T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1693,6 +1700,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18086130563457351"
+    },
+    "FB-IMG-0166": {
+      "due_at": "2026-08-24T23:00:00+00:00",
+      "message": "🎉 Answer: the Green Darner Dragonfly! It can see nearly 360 degrees thanks to eyes made of up to 30,000 lenses.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
