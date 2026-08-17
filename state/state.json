@@ -1287,6 +1287,12 @@
       "remote_id": "18131598487735648",
       "status": "posted",
       "at": "2026-08-17T12:58:11+00:00"
+    },
+    "IG-IMG-0118": {
+      "status": "failed",
+      "error": "ig_container: {'message': 'Only photo or video can be accepted as media type.', 'type': 'OAuthException', 'code': 9004, 'error_subcode': 2207052, 'is_transient': False, 'error_user_title': \"Media download has failed. The media URI doesn't meet our requirements.\", 'error_user_msg': 'The media could not be fetched from this URI: https://raw.githubusercontent.com/iqbal-jewel/wildnatureusa-social/main",
+      "attempts": 1,
+      "at": "2026-08-17T15:32:38+00:00"
     }
   },
   "comments": {
