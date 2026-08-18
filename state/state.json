@@ -1379,6 +1379,13 @@
       "status": "scheduled",
       "at": "2026-08-18T20:32:28+00:00",
       "publish_at": "2026-08-25T16:00:00-04:00"
+    },
+    "FB-IMG-0173": {
+      "platform": "Facebook",
+      "remote_id": "122121836439282988",
+      "status": "scheduled",
+      "at": "2026-08-18T22:31:33+00:00",
+      "publish_at": "2026-08-25T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1780,6 +1787,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18389826886164745"
+    },
+    "FB-IMG-0173": {
+      "due_at": "2026-08-25T23:00:00+00:00",
+      "message": "🎉 Answer: the American Alligator! It can go through thousands of teeth in a lifetime, regrowing each one.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
