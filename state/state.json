@@ -1445,6 +1445,13 @@
       "status": "scheduled",
       "at": "2026-08-19T20:49:14+00:00",
       "publish_at": "2026-08-26T16:00:00-04:00"
+    },
+    "FB-IMG-0180": {
+      "platform": "Facebook",
+      "remote_id": "122121950913282988",
+      "status": "scheduled",
+      "at": "2026-08-19T22:32:23+00:00",
+      "publish_at": "2026-08-26T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1867,6 +1874,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18014131070736871"
+    },
+    "FB-IMG-0180": {
+      "due_at": "2026-08-26T23:00:00+00:00",
+      "message": "🎉 Answer: the Water Bear! It can survive being frozen, boiled, dried out and even exposed to the vacuum of space.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
