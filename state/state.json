@@ -1452,6 +1452,19 @@
       "status": "scheduled",
       "at": "2026-08-19T22:32:23+00:00",
       "publish_at": "2026-08-26T18:00:00-04:00"
+    },
+    "FB-RL-0026": {
+      "platform": "Facebook",
+      "remote_id": "1791399482220124",
+      "status": "scheduled",
+      "at": "2026-08-19T23:31:06+00:00",
+      "publish_at": "2026-08-26T19:00:00-04:00"
+    },
+    "IG-IMG-0133": {
+      "platform": "Instagram",
+      "remote_id": "18066421241774117",
+      "status": "posted",
+      "at": "2026-08-19T23:31:21+00:00"
     }
   },
   "comments": {
@@ -1746,7 +1759,8 @@
       "due_at": "2026-08-19T23:00:00+00:00",
       "message": "🎉 Answer: the Siamese Fighting Fish! It can gulp air at the surface using a special breathing organ.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121222735282988_2023873821589890"
     },
     "IG-IMG-0090": {
       "due_at": "2026-08-13T16:00:00+00:00",
@@ -1879,6 +1893,12 @@
       "due_at": "2026-08-26T23:00:00+00:00",
       "message": "🎉 Answer: the Water Bear! It can survive being frozen, boiled, dried out and even exposed to the vacuum of space.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0133": {
+      "due_at": "2026-08-20T00:00:00+00:00",
+      "message": "🎉 Answer: the Australian Frilled Lizard! It's among the few lizards that regularly sprint upright on two legs.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
