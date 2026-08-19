@@ -1399,6 +1399,13 @@
       "remote_id": "18106377310886749",
       "status": "posted",
       "at": "2026-08-18T23:30:55+00:00"
+    },
+    "FB-TXT-0172": {
+      "platform": "Facebook",
+      "remote_id": "122121848289282988",
+      "status": "scheduled",
+      "at": "2026-08-19T01:44:09+00:00",
+      "publish_at": "2026-08-25T20:00:00-04:00"
     }
   },
   "comments": {
@@ -1812,7 +1819,8 @@
       "due_at": "2026-08-19T00:00:00+00:00",
       "message": "🎉 Answer: the Humpback Whale! It migrates farther than almost any other mammal, over 5,000 miles one way.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18089378849442799"
     }
   }
 }
