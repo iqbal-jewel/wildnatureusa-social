@@ -1465,6 +1465,13 @@
       "remote_id": "18066421241774117",
       "status": "posted",
       "at": "2026-08-19T23:31:21+00:00"
+    },
+    "FB-TXT-0179": {
+      "platform": "Facebook",
+      "remote_id": "122121967707282988",
+      "status": "scheduled",
+      "at": "2026-08-20T01:42:20+00:00",
+      "publish_at": "2026-08-26T20:00:00-04:00"
     }
   },
   "comments": {
@@ -1899,7 +1906,8 @@
       "due_at": "2026-08-20T00:00:00+00:00",
       "message": "🎉 Answer: the Australian Frilled Lizard! It's among the few lizards that regularly sprint upright on two legs.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18126244990774061"
     }
   }
 }
