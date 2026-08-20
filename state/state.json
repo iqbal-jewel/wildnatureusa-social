@@ -1518,6 +1518,19 @@
       "status": "scheduled",
       "at": "2026-08-20T22:35:10+00:00",
       "publish_at": "2026-08-27T18:00:00-04:00"
+    },
+    "FB-RL-0027": {
+      "platform": "Facebook",
+      "remote_id": "3531658343682416",
+      "status": "scheduled",
+      "at": "2026-08-20T23:34:07+00:00",
+      "publish_at": "2026-08-27T19:00:00-04:00"
+    },
+    "IG-IMG-0140": {
+      "platform": "Instagram",
+      "remote_id": "18111159326051711",
+      "status": "posted",
+      "at": "2026-08-20T23:34:21+00:00"
     }
   },
   "comments": {
@@ -1826,7 +1839,8 @@
       "due_at": "2026-08-20T23:00:00+00:00",
       "message": "🎉 Answer: the Dung Beetle! In this species, some species navigate in a straight line at night using the Milky Way.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121308361282988_1712397000029467"
     },
     "IG-IMG-0091": {
       "due_at": "2026-08-14T00:00:00+00:00",
@@ -1966,6 +1980,12 @@
       "due_at": "2026-08-27T23:00:00+00:00",
       "message": "🎉 Answer: the Wandering Albatross! It can glide for hours without flapping its wings.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0140": {
+      "due_at": "2026-08-21T00:00:00+00:00",
+      "message": "🎉 Answer: the Goliath Frog! It's the largest frog species known to science.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
