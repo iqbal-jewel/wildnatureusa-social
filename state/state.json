@@ -1511,6 +1511,13 @@
       "status": "scheduled",
       "at": "2026-08-20T20:36:58+00:00",
       "publish_at": "2026-08-27T16:00:00-04:00"
+    },
+    "FB-IMG-0187": {
+      "platform": "Facebook",
+      "remote_id": "122122075059282988",
+      "status": "scheduled",
+      "at": "2026-08-20T22:35:10+00:00",
+      "publish_at": "2026-08-27T18:00:00-04:00"
     }
   },
   "comments": {
@@ -1954,6 +1961,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17904492864537655"
+    },
+    "FB-IMG-0187": {
+      "due_at": "2026-08-27T23:00:00+00:00",
+      "message": "🎉 Answer: the Wandering Albatross! It can glide for hours without flapping its wings.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
