@@ -1531,6 +1531,13 @@
       "remote_id": "18111159326051711",
       "status": "posted",
       "at": "2026-08-20T23:34:21+00:00"
+    },
+    "FB-TXT-0186": {
+      "platform": "Facebook",
+      "remote_id": "122122094343282988",
+      "status": "scheduled",
+      "at": "2026-08-21T01:47:22+00:00",
+      "publish_at": "2026-08-27T20:00:00-04:00"
     }
   },
   "comments": {
@@ -1986,7 +1993,8 @@
       "due_at": "2026-08-21T00:00:00+00:00",
       "message": "🎉 Answer: the Goliath Frog! It's the largest frog species known to science.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18328063216274790"
     }
   }
 }
