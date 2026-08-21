@@ -1584,6 +1584,19 @@
       "status": "scheduled",
       "at": "2026-08-21T22:32:20+00:00",
       "publish_at": "2026-08-28T18:00:00-04:00"
+    },
+    "FB-RL-0028": {
+      "platform": "Facebook",
+      "remote_id": "1778173406696626",
+      "status": "scheduled",
+      "at": "2026-08-21T23:32:12+00:00",
+      "publish_at": "2026-08-28T19:00:00-04:00"
+    },
+    "IG-IMG-0147": {
+      "platform": "Instagram",
+      "remote_id": "18109487411103935",
+      "status": "posted",
+      "at": "2026-08-21T23:32:22+00:00"
     }
   },
   "comments": {
@@ -1913,7 +1926,8 @@
       "due_at": "2026-08-21T23:00:00+00:00",
       "message": "🎉 Answer: the Hippopotamus! It secretes a natural reddish oily substance that acts as sunscreen.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121405495282988_1536069044938461"
     },
     "IG-IMG-0098": {
       "due_at": "2026-08-15T00:00:00+00:00",
@@ -2053,6 +2067,12 @@
       "due_at": "2026-08-28T23:00:00+00:00",
       "message": "🎉 Answer: the American Bullfrog! In this species, the male's call can be heard from a quarter mile away.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0147": {
+      "due_at": "2026-08-22T00:00:00+00:00",
+      "message": "🎉 Answer: the Cane Toad! It's one of the most damaging invasive species ever introduced to Australia.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
