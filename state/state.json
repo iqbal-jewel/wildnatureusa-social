@@ -1623,6 +1623,13 @@
       "remote_id": "18102932843073806",
       "status": "posted",
       "at": "2026-08-22T15:28:42+00:00"
+    },
+    "FB-TXT-0198": {
+      "platform": "Facebook",
+      "remote_id": "122122318053282988",
+      "status": "scheduled",
+      "at": "2026-08-22T16:33:08+00:00",
+      "publish_at": "2026-08-29T12:00:00-04:00"
     }
   },
   "comments": {
@@ -2106,7 +2113,8 @@
       "due_at": "2026-08-22T16:00:00+00:00",
       "message": "🎉 Answer: the Pufferfish! It's among the most poisonous vertebrates on Earth in some species.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17905489635494243"
     }
   }
 }
