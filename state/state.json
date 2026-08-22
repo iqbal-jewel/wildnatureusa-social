@@ -1643,6 +1643,13 @@
       "status": "scheduled",
       "at": "2026-08-22T20:31:17+00:00",
       "publish_at": "2026-08-29T16:00:00-04:00"
+    },
+    "FB-IMG-0201": {
+      "platform": "Facebook",
+      "remote_id": "122122352319282988",
+      "status": "scheduled",
+      "at": "2026-08-22T22:29:11+00:00",
+      "publish_at": "2026-08-29T18:00:00-04:00"
     }
   },
   "comments": {
@@ -2128,6 +2135,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17905489635494243"
+    },
+    "FB-IMG-0201": {
+      "due_at": "2026-08-29T23:00:00+00:00",
+      "message": "🎉 Answer: the Field Cricket! In this species, the chirping rate speeds up in warmer temperatures, close enough to estimate temperature.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
