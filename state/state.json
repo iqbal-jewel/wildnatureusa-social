@@ -1663,6 +1663,13 @@
       "remote_id": "18126914752774256",
       "status": "posted",
       "at": "2026-08-22T23:30:02+00:00"
+    },
+    "FB-TXT-0200": {
+      "platform": "Facebook",
+      "remote_id": "122122371105282988",
+      "status": "scheduled",
+      "at": "2026-08-23T01:50:21+00:00",
+      "publish_at": "2026-08-29T20:00:00-04:00"
     }
   },
   "comments": {
@@ -2160,7 +2167,8 @@
       "due_at": "2026-08-23T00:00:00+00:00",
       "message": "🎉 Answer: the Channel Catfish! It's among the animals with the highest number of taste receptors relative to body size.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18022642031696458"
     }
   }
 }
