@@ -1782,6 +1782,19 @@
       "status": "scheduled",
       "at": "2026-08-24T22:34:36+00:00",
       "publish_at": "2026-08-31T18:00:00-04:00"
+    },
+    "FB-RL-0031": {
+      "platform": "Facebook",
+      "remote_id": "1774905050349102",
+      "status": "scheduled",
+      "at": "2026-08-24T23:29:21+00:00",
+      "publish_at": "2026-08-31T19:00:00-04:00"
+    },
+    "IG-IMG-0168": {
+      "platform": "Instagram",
+      "remote_id": "18067568336720704",
+      "status": "posted",
+      "at": "2026-08-24T23:29:29+00:00"
     }
   },
   "comments": {
@@ -2174,7 +2187,8 @@
       "due_at": "2026-08-24T23:00:00+00:00",
       "message": "🎉 Answer: the Green Darner Dragonfly! It can see nearly 360 degrees thanks to eyes made of up to 30,000 lenses.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121730251282988_1145186818180275"
     },
     "IG-IMG-0119": {
       "due_at": "2026-08-18T00:00:00+00:00",
@@ -2314,6 +2328,12 @@
       "due_at": "2026-08-31T23:00:00+00:00",
       "message": "🎉 Answer: the Red-eyed Tree Frog! It flashes its red eyes suddenly to startle predators before leaping away.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0168": {
+      "due_at": "2026-08-25T00:00:00+00:00",
+      "message": "🎉 Answer: the Giraffe! It's the tallest land mammal on Earth.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
