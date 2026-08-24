@@ -1736,6 +1736,19 @@
       "status": "scheduled",
       "at": "2026-08-24T01:47:57+00:00",
       "publish_at": "2026-08-30T20:00:00-04:00"
+    },
+    "FB-TXT-0211": {
+      "platform": "Facebook",
+      "remote_id": "122122626873282988",
+      "status": "scheduled",
+      "at": "2026-08-24T13:03:59+00:00",
+      "publish_at": "2026-08-31T08:00:00-04:00"
+    },
+    "IG-FCT-0047": {
+      "platform": "Instagram",
+      "remote_id": "17960394048191911",
+      "status": "posted",
+      "at": "2026-08-24T13:04:15+00:00"
     }
   },
   "comments": {
