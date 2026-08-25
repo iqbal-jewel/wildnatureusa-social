@@ -1834,6 +1834,13 @@
       "remote_id": "18140493994588562",
       "status": "posted",
       "at": "2026-08-25T19:39:57+00:00"
+    },
+    "FB-TXT-0220": {
+      "platform": "Facebook",
+      "remote_id": "122122814955282988",
+      "status": "scheduled",
+      "at": "2026-08-25T20:37:17+00:00",
+      "publish_at": "2026-09-01T16:00:00-04:00"
     }
   },
   "comments": {
