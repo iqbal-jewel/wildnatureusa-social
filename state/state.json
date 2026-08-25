@@ -1848,6 +1848,19 @@
       "status": "scheduled",
       "at": "2026-08-25T22:34:58+00:00",
       "publish_at": "2026-09-01T18:00:00-04:00"
+    },
+    "FB-RL-0032": {
+      "platform": "Facebook",
+      "remote_id": "1329122842364970",
+      "status": "scheduled",
+      "at": "2026-08-25T23:32:58+00:00",
+      "publish_at": "2026-09-01T19:00:00-04:00"
+    },
+    "IG-IMG-0175": {
+      "platform": "Instagram",
+      "remote_id": "17966620155155474",
+      "status": "posted",
+      "at": "2026-08-25T23:33:13+00:00"
     }
   },
   "comments": {
@@ -2261,7 +2274,8 @@
       "due_at": "2026-08-25T23:00:00+00:00",
       "message": "🎉 Answer: the American Alligator! It can go through thousands of teeth in a lifetime, regrowing each one.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121836439282988_1391607716408914"
     },
     "IG-IMG-0126": {
       "due_at": "2026-08-19T00:00:00+00:00",
@@ -2401,6 +2415,12 @@
       "due_at": "2026-09-01T23:00:00+00:00",
       "message": "🎉 Answer: the Whale Shark! It has a unique pattern of spots as individual as a human fingerprint.",
       "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0175": {
+      "due_at": "2026-08-26T00:00:00+00:00",
+      "message": "🎉 Answer: the Texas Horned Lizard! It's one of the very few animals known to shoot blood from its eyes.",
+      "platform": "Instagram",
       "status": "pending"
     }
   }
