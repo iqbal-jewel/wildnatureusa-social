@@ -1828,6 +1828,12 @@
       "status": "scheduled",
       "at": "2026-08-25T16:47:37+00:00",
       "publish_at": "2026-09-01T12:00:00-04:00"
+    },
+    "IG-FCT-0050": {
+      "platform": "Instagram",
+      "remote_id": "18140493994588562",
+      "status": "posted",
+      "at": "2026-08-25T19:39:57+00:00"
     }
   },
   "comments": {
