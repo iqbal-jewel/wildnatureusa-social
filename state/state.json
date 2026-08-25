@@ -1841,6 +1841,13 @@
       "status": "scheduled",
       "at": "2026-08-25T20:37:17+00:00",
       "publish_at": "2026-09-01T16:00:00-04:00"
+    },
+    "FB-IMG-0222": {
+      "platform": "Facebook",
+      "remote_id": "122122838181282988",
+      "status": "scheduled",
+      "at": "2026-08-25T22:34:58+00:00",
+      "publish_at": "2026-09-01T18:00:00-04:00"
     }
   },
   "comments": {
@@ -2389,6 +2396,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18105982649468395"
+    },
+    "FB-IMG-0222": {
+      "due_at": "2026-09-01T23:00:00+00:00",
+      "message": "🎉 Answer: the Whale Shark! It has a unique pattern of spots as individual as a human fingerprint.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
