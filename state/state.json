@@ -1900,6 +1900,33 @@
       "remote_id": "18415273798154282",
       "status": "posted",
       "at": "2026-08-26T19:11:23+00:00"
+    },
+    "FB-TXT-0227": {
+      "platform": "Facebook",
+      "remote_id": "122122972647282988",
+      "status": "scheduled",
+      "at": "2026-08-26T23:16:30+00:00",
+      "publish_at": "2026-09-02T16:00:00-04:00"
+    },
+    "FB-IMG-0229": {
+      "platform": "Facebook",
+      "remote_id": "122122972701282988",
+      "status": "scheduled",
+      "at": "2026-08-26T23:16:32+00:00",
+      "publish_at": "2026-09-02T18:00:00-04:00"
+    },
+    "FB-RL-0033": {
+      "platform": "Facebook",
+      "remote_id": "1656078066186625",
+      "status": "scheduled",
+      "at": "2026-08-26T23:18:13+00:00",
+      "publish_at": "2026-09-02T19:00:00-04:00"
+    },
+    "IG-IMG-0182": {
+      "platform": "Instagram",
+      "remote_id": "17866683702646970",
+      "status": "posted",
+      "at": "2026-08-26T23:18:29+00:00"
     }
   },
   "comments": {
@@ -2334,7 +2361,8 @@
       "due_at": "2026-08-26T23:00:00+00:00",
       "message": "🎉 Answer: the Water Bear! It can survive being frozen, boiled, dried out and even exposed to the vacuum of space.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122121950913282988_822596034276314"
     },
     "IG-IMG-0133": {
       "due_at": "2026-08-20T00:00:00+00:00",
@@ -2469,6 +2497,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18407801674087592"
+    },
+    "FB-IMG-0229": {
+      "due_at": "2026-09-02T23:00:00+00:00",
+      "message": "🎉 Answer: the Wombat! It produces cube-shaped droppings.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0182": {
+      "due_at": "2026-08-27T00:00:00+00:00",
+      "message": "🎉 Answer: the African Grey Parrot! It's among the very few animals shown to use words with basic understanding.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
