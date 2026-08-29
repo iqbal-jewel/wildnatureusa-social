@@ -2083,6 +2083,19 @@
       "remote_id": "18129525253739273",
       "status": "posted",
       "at": "2026-08-29T14:22:49+00:00"
+    },
+    "FB-TXT-0247": {
+      "platform": "Facebook",
+      "remote_id": "122123278659282988",
+      "status": "scheduled",
+      "at": "2026-08-29T18:18:45+00:00",
+      "publish_at": "2026-09-05T12:00:00-04:00"
+    },
+    "IG-IMG-0202": {
+      "platform": "Instagram",
+      "remote_id": "18328739092257388",
+      "status": "posted",
+      "at": "2026-08-29T18:19:01+00:00"
     }
   },
   "comments": {
@@ -2708,6 +2721,13 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18014044352949078"
+    },
+    "IG-IMG-0202": {
+      "due_at": "2026-08-29T16:00:00+00:00",
+      "message": "🎉 Answer: the Spotted Hyena! It's among the most effective hunters in Africa, despite its scavenger reputation.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18120586762867458"
     }
   }
 }
