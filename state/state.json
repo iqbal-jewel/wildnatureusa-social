@@ -2175,6 +2175,26 @@
       "remote_id": "18146903650547728",
       "status": "posted",
       "at": "2026-08-30T20:55:14+00:00"
+    },
+    "FB-IMG-0257": {
+      "platform": "Facebook",
+      "remote_id": "122123406225282988",
+      "status": "scheduled",
+      "at": "2026-08-30T23:21:52+00:00",
+      "publish_at": "2026-09-06T18:00:00-04:00"
+    },
+    "FB-RL-0037": {
+      "platform": "Facebook",
+      "remote_id": "1037995062470073",
+      "status": "scheduled",
+      "at": "2026-08-30T23:23:23+00:00",
+      "publish_at": "2026-09-06T19:00:00-04:00"
+    },
+    "IG-IMG-0210": {
+      "platform": "Instagram",
+      "remote_id": "18094611743385646",
+      "status": "posted",
+      "at": "2026-08-30T23:23:31+00:00"
     }
   },
   "comments": {
@@ -2693,7 +2713,8 @@
       "due_at": "2026-08-30T23:00:00+00:00",
       "message": "🎉 Answer: the Monitor Lizard! It has a forked tongue used to sense chemical trails like a snake.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122122539969282988_1392454218982094"
     },
     "IG-IMG-0161": {
       "due_at": "2026-08-24T00:00:00+00:00",
@@ -2828,6 +2849,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17872052319634490"
+    },
+    "FB-IMG-0257": {
+      "due_at": "2026-09-06T23:00:00+00:00",
+      "message": "🎉 Answer: the Atlantic Bluefin Tuna! It can maintain a body temperature warmer than the surrounding water.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0210": {
+      "due_at": "2026-08-31T00:00:00+00:00",
+      "message": "🎉 Answer: the Nile Crocodile! It holds the record for strongest bite force of any living animal.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
