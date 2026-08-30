@@ -2109,6 +2109,33 @@
       "remote_id": "18047600306805295",
       "status": "posted",
       "at": "2026-08-29T21:38:10+00:00"
+    },
+    "FB-IMG-0250": {
+      "platform": "Facebook",
+      "remote_id": "122123296881282988",
+      "status": "scheduled",
+      "at": "2026-08-30T00:03:34+00:00",
+      "publish_at": "2026-09-05T18:00:00-04:00"
+    },
+    "FB-RL-0036": {
+      "platform": "Facebook",
+      "remote_id": "1379648250331503",
+      "status": "scheduled",
+      "at": "2026-08-30T00:04:28+00:00",
+      "publish_at": "2026-09-05T19:00:00-04:00"
+    },
+    "FB-TXT-0249": {
+      "platform": "Facebook",
+      "remote_id": "122123296995282988",
+      "status": "scheduled",
+      "at": "2026-08-30T00:04:30+00:00",
+      "publish_at": "2026-09-05T20:00:00-04:00"
+    },
+    "IG-IMG-0203": {
+      "platform": "Instagram",
+      "remote_id": "18011559155751214",
+      "status": "posted",
+      "at": "2026-08-30T00:04:40+00:00"
     }
   },
   "comments": {
@@ -2606,7 +2633,8 @@
       "due_at": "2026-08-29T23:00:00+00:00",
       "message": "🎉 Answer: the Field Cricket! In this species, the chirping rate speeds up in warmer temperatures, close enough to estimate temperature.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122122352319282988_2170974950500436"
     },
     "IG-IMG-0154": {
       "due_at": "2026-08-23T00:00:00+00:00",
@@ -2741,6 +2769,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18120586762867458"
+    },
+    "FB-IMG-0250": {
+      "due_at": "2026-09-05T23:00:00+00:00",
+      "message": "🎉 Answer: the Chimpanzee! It makes and uses tools, including sticks to fish for termites.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0203": {
+      "due_at": "2026-08-30T00:00:00+00:00",
+      "message": "🎉 Answer: the Firefly! It's among the most efficient light producers known, losing almost no energy as heat.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18278062906289771"
     }
   }
 }
