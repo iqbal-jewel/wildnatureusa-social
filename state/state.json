@@ -2234,6 +2234,33 @@
       "remote_id": "18102284783256497",
       "status": "posted",
       "at": "2026-08-31T19:56:10+00:00"
+    },
+    "FB-TXT-0262": {
+      "platform": "Facebook",
+      "remote_id": "122123563071282988",
+      "status": "scheduled",
+      "at": "2026-08-31T23:43:13+00:00",
+      "publish_at": "2026-09-07T16:00:00-04:00"
+    },
+    "FB-IMG-0264": {
+      "platform": "Facebook",
+      "remote_id": "122123563119282988",
+      "status": "scheduled",
+      "at": "2026-08-31T23:43:15+00:00",
+      "publish_at": "2026-09-07T18:00:00-04:00"
+    },
+    "FB-RL-0038": {
+      "platform": "Facebook",
+      "remote_id": "2134454700785604",
+      "status": "scheduled",
+      "at": "2026-08-31T23:44:42+00:00",
+      "publish_at": "2026-09-07T19:00:00-04:00"
+    },
+    "IG-IMG-0217": {
+      "platform": "Instagram",
+      "remote_id": "18109383488124029",
+      "status": "posted",
+      "at": "2026-08-31T23:44:58+00:00"
     }
   },
   "comments": {
@@ -2773,7 +2800,8 @@
       "due_at": "2026-08-31T23:00:00+00:00",
       "message": "🎉 Answer: the Red-eyed Tree Frog! It flashes its red eyes suddenly to startle predators before leaping away.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122122700289282988_1830020474830829"
     },
     "IG-IMG-0168": {
       "due_at": "2026-08-25T00:00:00+00:00",
@@ -2908,6 +2936,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18008759447972044"
+    },
+    "FB-IMG-0264": {
+      "due_at": "2026-09-07T23:00:00+00:00",
+      "message": "🎉 Answer: the Peregrine Falcon! It reaches over 240 mph in a hunting dive.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0217": {
+      "due_at": "2026-09-01T00:00:00+00:00",
+      "message": "🎉 Answer: the Gila Monster! It's one of only two venomous lizard species known.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
