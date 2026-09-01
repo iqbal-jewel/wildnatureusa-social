@@ -2261,6 +2261,13 @@
       "remote_id": "18109383488124029",
       "status": "posted",
       "at": "2026-08-31T23:44:58+00:00"
+    },
+    "FB-TXT-0263": {
+      "platform": "Facebook",
+      "remote_id": "122123610141282988",
+      "status": "scheduled",
+      "at": "2026-09-01T04:47:35+00:00",
+      "publish_at": "2026-09-07T20:00:00-04:00"
     }
   },
   "comments": {
@@ -2947,7 +2954,8 @@
       "due_at": "2026-09-01T00:00:00+00:00",
       "message": "🎉 Answer: the Gila Monster! It's one of only two venomous lizard species known.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17900870784356104"
     }
   }
 }
