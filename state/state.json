@@ -2307,6 +2307,26 @@
       "remote_id": "18122010473497662",
       "status": "posted",
       "at": "2026-09-01T21:42:23+00:00"
+    },
+    "FB-IMG-0271": {
+      "platform": "Facebook",
+      "remote_id": "122123673177282988",
+      "status": "scheduled",
+      "at": "2026-09-01T23:57:53+00:00",
+      "publish_at": "2026-09-08T18:00:00-04:00"
+    },
+    "FB-RL-0039": {
+      "platform": "Facebook",
+      "remote_id": "1353242833462899",
+      "status": "scheduled",
+      "at": "2026-09-01T23:59:09+00:00",
+      "publish_at": "2026-09-08T19:00:00-04:00"
+    },
+    "IG-IMG-0224": {
+      "platform": "Instagram",
+      "remote_id": "18083471642294987",
+      "status": "posted",
+      "at": "2026-09-01T23:59:19+00:00"
     }
   },
   "comments": {
@@ -2867,7 +2887,8 @@
       "due_at": "2026-09-01T23:00:00+00:00",
       "message": "🎉 Answer: the Whale Shark! It has a unique pattern of spots as individual as a human fingerprint.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122122838181282988_1753881698851198"
     },
     "IG-IMG-0175": {
       "due_at": "2026-08-26T00:00:00+00:00",
@@ -3002,6 +3023,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18109867034009661"
+    },
+    "FB-IMG-0271": {
+      "due_at": "2026-09-08T23:00:00+00:00",
+      "message": "🎉 Answer: the Emu! It has powerful legs that can deliver a dangerous kick.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0224": {
+      "due_at": "2026-09-02T00:00:00+00:00",
+      "message": "🎉 Answer: the Glass Frog! It's among the few animals whose beating heart is visible from outside its body.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
