@@ -2479,6 +2479,19 @@
       "remote_id": "17905984917518023",
       "status": "posted",
       "at": "2026-09-04T14:09:46+00:00"
+    },
+    "FB-TXT-0289": {
+      "platform": "Facebook",
+      "remote_id": "122123902527282988",
+      "status": "scheduled",
+      "at": "2026-09-04T18:15:18+00:00",
+      "publish_at": "2026-09-11T12:00:00-04:00"
+    },
+    "IG-IMG-0244": {
+      "platform": "Instagram",
+      "remote_id": "18126426613763398",
+      "status": "posted",
+      "at": "2026-09-04T18:15:32+00:00"
     }
   },
   "comments": {
@@ -3230,6 +3243,13 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18628353928061362"
+    },
+    "IG-IMG-0244": {
+      "due_at": "2026-09-04T16:00:00+00:00",
+      "message": "🎉 Answer: the Monitor Lizard! It's closely related to the Komodo dragon within the same family.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18375695497239968"
     }
   }
 }
