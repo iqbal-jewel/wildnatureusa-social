@@ -2505,6 +2505,26 @@
       "remote_id": "17964331254177874",
       "status": "posted",
       "at": "2026-09-04T21:21:21+00:00"
+    },
+    "FB-IMG-0292": {
+      "platform": "Facebook",
+      "remote_id": "122123920257282988",
+      "status": "scheduled",
+      "at": "2026-09-04T23:54:12+00:00",
+      "publish_at": "2026-09-11T18:00:00-04:00"
+    },
+    "FB-RL-0042": {
+      "platform": "Facebook",
+      "remote_id": "1657214729357359",
+      "status": "scheduled",
+      "at": "2026-09-04T23:56:27+00:00",
+      "publish_at": "2026-09-11T19:00:00-04:00"
+    },
+    "IG-IMG-0245": {
+      "platform": "Instagram",
+      "remote_id": "18205242664318855",
+      "status": "posted",
+      "at": "2026-09-04T23:56:35+00:00"
     }
   },
   "comments": {
@@ -3128,7 +3148,8 @@
       "due_at": "2026-09-04T23:00:00+00:00",
       "message": "🎉 Answer: the Fruit Bat! It navigates mainly by sight and smell rather than echolocation.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123200713282988_28104105755878437"
     },
     "IG-IMG-0196": {
       "due_at": "2026-08-29T00:00:00+00:00",
@@ -3263,6 +3284,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18375695497239968"
+    },
+    "FB-IMG-0292": {
+      "due_at": "2026-09-11T23:00:00+00:00",
+      "message": "🎉 Answer: the Toco Toucan! It uses its oversized beak to regulate body temperature.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0245": {
+      "due_at": "2026-09-05T00:00:00+00:00",
+      "message": "🎉 Answer: the Whale Shark! It's the largest fish species alive today.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
