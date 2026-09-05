@@ -2571,6 +2571,26 @@
       "remote_id": "17991376724843267",
       "status": "posted",
       "at": "2026-09-05T21:05:05+00:00"
+    },
+    "FB-IMG-0299": {
+      "platform": "Facebook",
+      "remote_id": "122124013773282988",
+      "status": "scheduled",
+      "at": "2026-09-05T23:44:20+00:00",
+      "publish_at": "2026-09-12T18:00:00-04:00"
+    },
+    "FB-RL-0043": {
+      "platform": "Facebook",
+      "remote_id": "1403309585281462",
+      "status": "scheduled",
+      "at": "2026-09-05T23:45:09+00:00",
+      "publish_at": "2026-09-12T19:00:00-04:00"
+    },
+    "IG-IMG-0252": {
+      "platform": "Instagram",
+      "remote_id": "17971780886940240",
+      "status": "posted",
+      "at": "2026-09-05T23:45:23+00:00"
     }
   },
   "comments": {
@@ -3215,7 +3235,8 @@
       "due_at": "2026-09-05T23:00:00+00:00",
       "message": "🎉 Answer: the Chimpanzee! It makes and uses tools, including sticks to fish for termites.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123296881282988_1568283071716852"
     },
     "IG-IMG-0203": {
       "due_at": "2026-08-30T00:00:00+00:00",
@@ -3350,6 +3371,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18076855607373422"
+    },
+    "FB-IMG-0299": {
+      "due_at": "2026-09-12T23:00:00+00:00",
+      "message": "🎉 Answer: the Axolotl! It can regrow entire limbs, its spinal cord and even parts of its heart.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0252": {
+      "due_at": "2026-09-06T00:00:00+00:00",
+      "message": "🎉 Answer: the American Bison! In this species, the national mammal of the United States.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
