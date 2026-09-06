@@ -2591,6 +2591,13 @@
       "remote_id": "17971780886940240",
       "status": "posted",
       "at": "2026-09-05T23:45:23+00:00"
+    },
+    "FB-TXT-0298": {
+      "platform": "Facebook",
+      "remote_id": "122124032073282988",
+      "status": "scheduled",
+      "at": "2026-09-06T04:15:01+00:00",
+      "publish_at": "2026-09-12T20:00:00-04:00"
     }
   },
   "comments": {
@@ -3382,7 +3389,8 @@
       "due_at": "2026-09-06T00:00:00+00:00",
       "message": "🎉 Answer: the American Bison! In this species, the national mammal of the United States.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17985306366068941"
     }
   }
 }
