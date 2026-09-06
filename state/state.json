@@ -2598,6 +2598,19 @@
       "status": "scheduled",
       "at": "2026-09-06T04:15:01+00:00",
       "publish_at": "2026-09-12T20:00:00-04:00"
+    },
+    "FB-TXT-0302": {
+      "platform": "Facebook",
+      "remote_id": "122124078543282988",
+      "status": "scheduled",
+      "at": "2026-09-06T13:32:28+00:00",
+      "publish_at": "2026-09-13T08:00:00-04:00"
+    },
+    "IG-FCT-0073": {
+      "platform": "Instagram",
+      "remote_id": "17910410106281938",
+      "status": "posted",
+      "at": "2026-09-06T13:32:36+00:00"
     }
   },
   "comments": {
