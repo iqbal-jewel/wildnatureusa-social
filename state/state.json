@@ -2703,6 +2703,26 @@
       "remote_id": "18108515339111879",
       "status": "posted",
       "at": "2026-09-07T20:27:37+00:00"
+    },
+    "FB-IMG-0313": {
+      "platform": "Facebook",
+      "remote_id": "122124224601282988",
+      "status": "scheduled",
+      "at": "2026-09-07T23:24:45+00:00",
+      "publish_at": "2026-09-14T18:00:00-04:00"
+    },
+    "FB-RL-0045": {
+      "platform": "Facebook",
+      "remote_id": "1624957959233057",
+      "status": "scheduled",
+      "at": "2026-09-07T23:26:08+00:00",
+      "publish_at": "2026-09-14T19:00:00-04:00"
+    },
+    "IG-IMG-0266": {
+      "platform": "Instagram",
+      "remote_id": "18096012869646347",
+      "status": "posted",
+      "at": "2026-09-07T23:26:16+00:00"
     }
   },
   "comments": {
@@ -3389,7 +3409,8 @@
       "due_at": "2026-09-07T23:00:00+00:00",
       "message": "🎉 Answer: the Peregrine Falcon! It reaches over 240 mph in a hunting dive.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123563119282988_1106033235264805"
     },
     "IG-IMG-0217": {
       "due_at": "2026-09-01T00:00:00+00:00",
@@ -3524,6 +3545,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18152751613509898"
+    },
+    "FB-IMG-0313": {
+      "due_at": "2026-09-14T23:00:00+00:00",
+      "message": "🎉 Answer: the Scarlet Macaw! It mates for life and stays close to its partner year-round.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0266": {
+      "due_at": "2026-09-08T00:00:00+00:00",
+      "message": "🎉 Answer: the Bottlenose Dolphin! It's one of the few animals known to call others by name-like signals.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
