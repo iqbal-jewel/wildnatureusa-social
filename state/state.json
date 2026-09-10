@@ -2835,6 +2835,33 @@
       "remote_id": "18085745183266069",
       "status": "posted",
       "at": "2026-09-09T21:37:42+00:00"
+    },
+    "FB-IMG-0327": {
+      "platform": "Facebook",
+      "remote_id": "122124386769282988",
+      "status": "scheduled",
+      "at": "2026-09-10T00:01:57+00:00",
+      "publish_at": "2026-09-16T18:00:00-04:00"
+    },
+    "FB-RL-0047": {
+      "platform": "Facebook",
+      "remote_id": "2188288741732272",
+      "status": "scheduled",
+      "at": "2026-09-10T00:03:38+00:00",
+      "publish_at": "2026-09-16T19:00:00-04:00"
+    },
+    "FB-TXT-0326": {
+      "platform": "Facebook",
+      "remote_id": "122124386943282988",
+      "status": "scheduled",
+      "at": "2026-09-10T00:03:40+00:00",
+      "publish_at": "2026-09-16T20:00:00-04:00"
+    },
+    "IG-IMG-0280": {
+      "platform": "Instagram",
+      "remote_id": "18088997375673650",
+      "status": "posted",
+      "at": "2026-09-10T00:03:53+00:00"
     }
   },
   "comments": {
@@ -3563,7 +3590,8 @@
       "due_at": "2026-09-09T23:00:00+00:00",
       "message": "🎉 Answer: the Texas Horned Lizard! It can squirt a stream of blood from its eyes to deter predators.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123756145282988_1593517995598046"
     },
     "IG-IMG-0231": {
       "due_at": "2026-09-03T00:00:00+00:00",
@@ -3698,6 +3726,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17986394070063088"
+    },
+    "FB-IMG-0327": {
+      "due_at": "2026-09-16T23:00:00+00:00",
+      "message": "🎉 Answer: the Raccoon! It often dunks food in water, which may help it sense objects by touch.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0280": {
+      "due_at": "2026-09-10T00:00:00+00:00",
+      "message": "🎉 Answer: the Southern Black Widow! It's among the most potent spider venoms by volume, though rarely fatal to healthy adults.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18155028925508247"
     }
   }
 }
