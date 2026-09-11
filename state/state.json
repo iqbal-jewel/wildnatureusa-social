@@ -2908,6 +2908,26 @@
       "status": "scheduled",
       "at": "2026-09-10T22:25:29+00:00",
       "publish_at": "2026-09-17T18:00:00-04:00"
+    },
+    "FB-RL-0048": {
+      "platform": "Facebook",
+      "remote_id": "1353868476511607",
+      "status": "scheduled",
+      "at": "2026-09-11T00:56:38+00:00",
+      "publish_at": "2026-09-17T19:00:00-04:00"
+    },
+    "FB-TXT-0333": {
+      "platform": "Facebook",
+      "remote_id": "122124477741282988",
+      "status": "scheduled",
+      "at": "2026-09-11T00:56:41+00:00",
+      "publish_at": "2026-09-17T20:00:00-04:00"
+    },
+    "IG-IMG-0287": {
+      "platform": "Instagram",
+      "remote_id": "18056068967550634",
+      "status": "posted",
+      "at": "2026-09-11T00:56:49+00:00"
     }
   },
   "comments": {
@@ -3657,7 +3677,8 @@
       "due_at": "2026-09-10T23:00:00+00:00",
       "message": "🎉 Answer: the Boa Constrictor! It gives birth to live young rather than laying eggs.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123835627282988_1385837546431190"
     },
     "IG-IMG-0238": {
       "due_at": "2026-09-04T00:00:00+00:00",
@@ -3798,6 +3819,13 @@
       "message": "🎉 Answer: the Blue Whale! Its heart alone can weigh as much as a small car.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0287": {
+      "due_at": "2026-09-11T00:00:00+00:00",
+      "message": "🎉 Answer: the Hoatzin! It's the only bird known to digest food primarily through fermentation like a cow.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18119721238932821"
     }
   }
 }
