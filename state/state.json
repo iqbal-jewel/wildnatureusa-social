@@ -3007,6 +3007,19 @@
       "remote_id": "18116093083982811",
       "status": "posted",
       "at": "2026-09-12T12:06:21+00:00"
+    },
+    "FB-TXT-0345": {
+      "platform": "Facebook",
+      "remote_id": "122124625575282988",
+      "status": "scheduled",
+      "at": "2026-09-12T16:09:37+00:00",
+      "publish_at": "2026-09-19T12:00:00-04:00"
+    },
+    "IG-IMG-0300": {
+      "platform": "Instagram",
+      "remote_id": "18089285111667279",
+      "status": "posted",
+      "at": "2026-09-12T16:09:51+00:00"
     }
   },
   "comments": {
@@ -3926,6 +3939,13 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18123183422510440"
+    },
+    "IG-IMG-0300": {
+      "due_at": "2026-09-12T16:00:00+00:00",
+      "message": "🎉 Answer: the Tiger Salamander! It's among the most widely distributed salamanders in North America.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18114843283984148"
     }
   }
 }
