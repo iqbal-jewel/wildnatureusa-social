@@ -2974,6 +2974,26 @@
       "status": "scheduled",
       "at": "2026-09-11T22:25:17+00:00",
       "publish_at": "2026-09-18T18:00:00-04:00"
+    },
+    "FB-RL-0049": {
+      "platform": "Facebook",
+      "remote_id": "2266965210719683",
+      "status": "scheduled",
+      "at": "2026-09-12T01:03:50+00:00",
+      "publish_at": "2026-09-18T19:00:00-04:00"
+    },
+    "FB-TXT-0340": {
+      "platform": "Facebook",
+      "remote_id": "122124573279282988",
+      "status": "scheduled",
+      "at": "2026-09-12T01:03:52+00:00",
+      "publish_at": "2026-09-18T20:00:00-04:00"
+    },
+    "IG-IMG-0294": {
+      "platform": "Instagram",
+      "remote_id": "18133710439638513",
+      "status": "posted",
+      "at": "2026-09-12T01:04:06+00:00"
     }
   },
   "comments": {
@@ -3744,7 +3764,8 @@
       "due_at": "2026-09-11T23:00:00+00:00",
       "message": "🎉 Answer: the Toco Toucan! It uses its oversized beak to regulate body temperature.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122123920257282988_1084205070690246"
     },
     "IG-IMG-0245": {
       "due_at": "2026-09-05T00:00:00+00:00",
@@ -3885,6 +3906,13 @@
       "message": "🎉 Answer: the Timber Rattlesnake! It adds a new rattle segment each time it sheds its skin, not once a year.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0294": {
+      "due_at": "2026-09-12T00:00:00+00:00",
+      "message": "🎉 Answer: the Coelacanth! It's once believed to have gone extinct with the dinosaurs before being rediscovered alive.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18123183422510440"
     }
   }
 }
