@@ -3040,6 +3040,26 @@
       "status": "scheduled",
       "at": "2026-09-12T22:09:33+00:00",
       "publish_at": "2026-09-19T18:00:00-04:00"
+    },
+    "FB-RL-0050": {
+      "platform": "Facebook",
+      "remote_id": "1103221342169861",
+      "status": "scheduled",
+      "at": "2026-09-13T00:49:02+00:00",
+      "publish_at": "2026-09-19T19:00:00-04:00"
+    },
+    "FB-TXT-0347": {
+      "platform": "Facebook",
+      "remote_id": "122124653745282988",
+      "status": "scheduled",
+      "at": "2026-09-13T00:49:05+00:00",
+      "publish_at": "2026-09-19T20:00:00-04:00"
+    },
+    "IG-IMG-0301": {
+      "platform": "Instagram",
+      "remote_id": "18110759000165986",
+      "status": "posted",
+      "at": "2026-09-13T00:49:19+00:00"
     }
   },
   "comments": {
@@ -3831,7 +3851,8 @@
       "due_at": "2026-09-12T23:00:00+00:00",
       "message": "🎉 Answer: the Axolotl! It can regrow entire limbs, its spinal cord and even parts of its heart.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124013773282988_1341947154686724"
     },
     "IG-IMG-0252": {
       "due_at": "2026-09-06T00:00:00+00:00",
@@ -3972,6 +3993,13 @@
       "message": "🎉 Answer: the Southern Black Widow! It has venom many times more potent than a rattlesnake's by volume, though delivered in tiny amounts.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0301": {
+      "due_at": "2026-09-13T00:00:00+00:00",
+      "message": "🎉 Answer: the Cheetah! It's the fastest land animal, reaching up to 70 mph.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18464612674141236"
     }
   }
 }
