@@ -3092,6 +3092,20 @@
       "remote_id": "18094202762114726",
       "status": "posted",
       "at": "2026-09-13T19:17:25+00:00"
+    },
+    "FB-TXT-0353": {
+      "platform": "Facebook",
+      "remote_id": "122124795309282988",
+      "status": "scheduled",
+      "at": "2026-09-13T22:19:01+00:00",
+      "publish_at": "2026-09-20T16:00:00-04:00"
+    },
+    "FB-IMG-0355": {
+      "platform": "Facebook",
+      "remote_id": "122124795357282988",
+      "status": "scheduled",
+      "at": "2026-09-13T22:19:02+00:00",
+      "publish_at": "2026-09-20T18:00:00-04:00"
     }
   },
   "comments": {
@@ -4039,6 +4053,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17972665749124159"
+    },
+    "FB-IMG-0355": {
+      "due_at": "2026-09-20T23:00:00+00:00",
+      "message": "🎉 Answer: the Platypus! It's one of only a handful of venomous mammals.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
