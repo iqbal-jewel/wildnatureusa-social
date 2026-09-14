@@ -3106,6 +3106,26 @@
       "status": "scheduled",
       "at": "2026-09-13T22:19:02+00:00",
       "publish_at": "2026-09-20T18:00:00-04:00"
+    },
+    "FB-RL-0051": {
+      "platform": "Facebook",
+      "remote_id": "1651602719866445",
+      "status": "scheduled",
+      "at": "2026-09-14T00:56:28+00:00",
+      "publish_at": "2026-09-20T19:00:00-04:00"
+    },
+    "FB-TXT-0354": {
+      "platform": "Facebook",
+      "remote_id": "122124803049282988",
+      "status": "scheduled",
+      "at": "2026-09-14T00:56:29+00:00",
+      "publish_at": "2026-09-20T20:00:00-04:00"
+    },
+    "IG-IMG-0308": {
+      "platform": "Instagram",
+      "remote_id": "18009495911763226",
+      "status": "posted",
+      "at": "2026-09-14T00:56:40+00:00"
     }
   },
   "comments": {
@@ -3918,7 +3938,8 @@
       "due_at": "2026-09-13T23:00:00+00:00",
       "message": "🎉 Answer: the Moose! It's an excellent swimmer and can dive to reach underwater plants.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124128727282988_1279855947526642"
     },
     "IG-IMG-0259": {
       "due_at": "2026-09-07T00:00:00+00:00",
@@ -4059,6 +4080,13 @@
       "message": "🎉 Answer: the Platypus! It's one of only a handful of venomous mammals.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0308": {
+      "due_at": "2026-09-14T00:00:00+00:00",
+      "message": "🎉 Answer: the American Bullfrog! It's considered one of the most invasive amphibians outside its native range.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18201102379374241"
     }
   }
 }
