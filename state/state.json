@@ -3220,6 +3220,26 @@
       "remote_id": "18006076682974640",
       "status": "posted",
       "at": "2026-09-15T18:51:55+00:00"
+    },
+    "FB-TXT-0367": {
+      "platform": "Facebook",
+      "remote_id": "122125022133282988",
+      "status": "scheduled",
+      "at": "2026-09-15T22:03:43+00:00",
+      "publish_at": "2026-09-22T16:00:00-04:00"
+    },
+    "FB-IMG-0369": {
+      "platform": "Facebook",
+      "remote_id": "122125022181282988",
+      "status": "scheduled",
+      "at": "2026-09-15T22:03:45+00:00",
+      "publish_at": "2026-09-22T18:00:00-04:00"
+    },
+    "IG-FCT-0092": {
+      "platform": "Instagram",
+      "remote_id": "18195947332385921",
+      "status": "posted",
+      "at": "2026-09-15T22:03:58+00:00"
     }
   },
   "comments": {
@@ -4209,6 +4229,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18110413181034817"
+    },
+    "FB-IMG-0369": {
+      "due_at": "2026-09-22T23:00:00+00:00",
+      "message": "🎉 Answer: the Bearded Dragon! It can wave one front leg in a circular motion as a social signal.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
