@@ -3240,6 +3240,26 @@
       "remote_id": "18195947332385921",
       "status": "posted",
       "at": "2026-09-15T22:03:58+00:00"
+    },
+    "FB-RL-0053": {
+      "platform": "Facebook",
+      "remote_id": "1388784102820075",
+      "status": "scheduled",
+      "at": "2026-09-16T01:17:40+00:00",
+      "publish_at": "2026-09-22T19:00:00-04:00"
+    },
+    "FB-TXT-0368": {
+      "platform": "Facebook",
+      "remote_id": "122125034523282988",
+      "status": "scheduled",
+      "at": "2026-09-16T01:17:45+00:00",
+      "publish_at": "2026-09-22T20:00:00-04:00"
+    },
+    "IG-IMG-0322": {
+      "platform": "Instagram",
+      "remote_id": "18102486770538600",
+      "status": "posted",
+      "at": "2026-09-16T01:18:05+00:00"
     }
   },
   "comments": {
@@ -4094,7 +4114,8 @@
       "due_at": "2026-09-15T23:00:00+00:00",
       "message": "🎉 Answer: the Tiger Salamander! It spends much of its life underground in burrows.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124304287282988_1600209001490364"
     },
     "IG-IMG-0273": {
       "due_at": "2026-09-09T00:00:00+00:00",
@@ -4235,6 +4256,13 @@
       "message": "🎉 Answer: the Bearded Dragon! It can wave one front leg in a circular motion as a social signal.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0322": {
+      "due_at": "2026-09-16T00:00:00+00:00",
+      "message": "🎉 Answer: the Timber Rattlesnake! It shakes its rattle up to 90 times per second.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18636746908040405"
     }
   }
 }
