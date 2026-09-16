@@ -3273,6 +3273,19 @@
       "remote_id": "18114760267790986",
       "status": "posted",
       "at": "2026-09-16T13:24:02+00:00"
+    },
+    "FB-TXT-0373": {
+      "platform": "Facebook",
+      "remote_id": "122125099497282988",
+      "status": "scheduled",
+      "at": "2026-09-16T18:06:01+00:00",
+      "publish_at": "2026-09-23T12:00:00-04:00"
+    },
+    "IG-IMG-0328": {
+      "status": "failed",
+      "error": "ig_publish: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot publish', 'error_user_msg': 'The media is not ready to be published. Please wait a moment.', 'fbtrace_id': 'Af-CaHv5RNaSNuZ-cfjlt3D'}",
+      "attempts": 1,
+      "at": "2026-09-16T18:06:07+00:00"
     }
   },
   "comments": {
