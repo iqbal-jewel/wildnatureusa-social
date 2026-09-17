@@ -3308,6 +3308,26 @@
       "remote_id": "17947991136330204",
       "status": "posted",
       "at": "2026-09-16T22:02:12+00:00"
+    },
+    "FB-RL-0054": {
+      "platform": "Facebook",
+      "remote_id": "1422834053061882",
+      "status": "scheduled",
+      "at": "2026-09-17T01:17:41+00:00",
+      "publish_at": "2026-09-23T19:00:00-04:00"
+    },
+    "FB-TXT-0375": {
+      "platform": "Facebook",
+      "remote_id": "122125121073282988",
+      "status": "scheduled",
+      "at": "2026-09-17T01:17:43+00:00",
+      "publish_at": "2026-09-23T20:00:00-04:00"
+    },
+    "IG-IMG-0329": {
+      "platform": "Instagram",
+      "remote_id": "18161211199494344",
+      "status": "posted",
+      "at": "2026-09-17T01:17:58+00:00"
     }
   },
   "comments": {
@@ -4183,7 +4203,8 @@
       "due_at": "2026-09-16T23:00:00+00:00",
       "message": "🎉 Answer: the Raccoon! It often dunks food in water, which may help it sense objects by touch.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124386769282988_1389494132793127"
     },
     "IG-IMG-0280": {
       "due_at": "2026-09-10T00:00:00+00:00",
@@ -4317,6 +4338,13 @@
       "message": "🎉 Answer: the Beaver! It has teeth that never stop growing and are strengthened by iron.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0329": {
+      "due_at": "2026-09-17T00:00:00+00:00",
+      "message": "🎉 Answer: the Common Garter Snake! It's one of the few snakes able to produce dozens of live young at once.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17979398544442439"
     }
   }
 }
