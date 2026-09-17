@@ -3354,6 +3354,26 @@
       "remote_id": "18053983106576961",
       "status": "posted",
       "at": "2026-09-17T18:06:52+00:00"
+    },
+    "FB-TXT-0381": {
+      "platform": "Facebook",
+      "remote_id": "122125210941282988",
+      "status": "scheduled",
+      "at": "2026-09-17T22:02:37+00:00",
+      "publish_at": "2026-09-24T16:00:00-04:00"
+    },
+    "FB-IMG-0383": {
+      "platform": "Facebook",
+      "remote_id": "122125210989282988",
+      "status": "scheduled",
+      "at": "2026-09-17T22:02:39+00:00",
+      "publish_at": "2026-09-24T18:00:00-04:00"
+    },
+    "IG-FCT-0096": {
+      "platform": "Instagram",
+      "remote_id": "18011691191953612",
+      "status": "posted",
+      "at": "2026-09-17T22:02:53+00:00"
     }
   },
   "comments": {
@@ -4378,6 +4398,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17889058980654708"
+    },
+    "FB-IMG-0383": {
+      "due_at": "2026-09-24T23:00:00+00:00",
+      "message": "🎉 Answer: the Hammerhead Shark! In this species, the shape of its head gives it near 360-degree vision.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
