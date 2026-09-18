@@ -3433,6 +3433,26 @@
       "remote_id": "17900417418604447",
       "status": "posted",
       "at": "2026-09-18T20:47:38+00:00"
+    },
+    "FB-IMG-0390": {
+      "platform": "Facebook",
+      "remote_id": "122125322337282988",
+      "status": "scheduled",
+      "at": "2026-09-18T23:10:33+00:00",
+      "publish_at": "2026-09-25T18:00:00-04:00"
+    },
+    "FB-RL-0056": {
+      "platform": "Facebook",
+      "remote_id": "4048374252125412",
+      "status": "scheduled",
+      "at": "2026-09-18T23:11:48+00:00",
+      "publish_at": "2026-09-25T19:00:00-04:00"
+    },
+    "IG-IMG-0343": {
+      "platform": "Instagram",
+      "remote_id": "18339470893253343",
+      "status": "posted",
+      "at": "2026-09-18T23:12:01+00:00"
     }
   },
   "comments": {
@@ -4350,7 +4370,8 @@
       "due_at": "2026-09-18T23:00:00+00:00",
       "message": "🎉 Answer: the Timber Rattlesnake! It adds a new rattle segment each time it sheds its skin, not once a year.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124565419282988_1061572756707022"
     },
     "IG-IMG-0294": {
       "due_at": "2026-09-12T00:00:00+00:00",
@@ -4478,6 +4499,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18095354612540622"
+    },
+    "FB-IMG-0390": {
+      "due_at": "2026-09-25T23:00:00+00:00",
+      "message": "🎉 Answer: the Poison Dart Frog! It gets its toxicity from compounds in the wild insects it eats.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0343": {
+      "due_at": "2026-09-19T00:00:00+00:00",
+      "message": "🎉 Answer: the Hedgehog! It's immune to some snake venoms that would kill other mammals its size.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
