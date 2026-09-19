@@ -3473,6 +3473,19 @@
       "remote_id": "17862230178690309",
       "status": "posted",
       "at": "2026-09-19T13:51:06+00:00"
+    },
+    "FB-TXT-0394": {
+      "platform": "Facebook",
+      "remote_id": "122125407663282988",
+      "status": "scheduled",
+      "at": "2026-09-19T17:08:55+00:00",
+      "publish_at": "2026-09-26T12:00:00-04:00"
+    },
+    "IG-IMG-0349": {
+      "platform": "Instagram",
+      "remote_id": "18114122813088290",
+      "status": "posted",
+      "at": "2026-09-19T17:09:03+00:00"
     }
   },
   "comments": {
@@ -4532,6 +4545,13 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18096897671430267"
+    },
+    "IG-IMG-0349": {
+      "due_at": "2026-09-19T16:00:00+00:00",
+      "message": "🎉 Answer: the Eastern Subterranean Termite! It's among the very few animals that cannot digest wood without symbiotic gut microbes.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18101520158288022"
     }
   }
 }
