@@ -3486,6 +3486,19 @@
       "remote_id": "18114122813088290",
       "status": "posted",
       "at": "2026-09-19T17:09:03+00:00"
+    },
+    "FB-TXT-0395": {
+      "platform": "Facebook",
+      "remote_id": "122125424793282988",
+      "status": "scheduled",
+      "at": "2026-09-19T20:27:46+00:00",
+      "publish_at": "2026-09-26T16:00:00-04:00"
+    },
+    "IG-FCT-0100": {
+      "status": "failed",
+      "error": "ig_publish: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot publish', 'error_user_msg': 'The media is not ready to be published. Please wait a moment.', 'fbtrace_id': 'AM2Agbcn-NVSZM-zgEQjdik'}",
+      "attempts": 1,
+      "at": "2026-09-19T20:27:52+00:00"
     }
   },
   "comments": {
