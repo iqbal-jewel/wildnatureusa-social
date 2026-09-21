@@ -3624,6 +3624,33 @@
       "remote_id": "17923618086200821",
       "status": "posted",
       "at": "2026-09-21T19:15:17+00:00"
+    },
+    "FB-TXT-0409": {
+      "platform": "Facebook",
+      "remote_id": "122125684947282988",
+      "status": "scheduled",
+      "at": "2026-09-21T23:09:39+00:00",
+      "publish_at": "2026-09-28T16:00:00-04:00"
+    },
+    "FB-IMG-0411": {
+      "platform": "Facebook",
+      "remote_id": "122125684989282988",
+      "status": "scheduled",
+      "at": "2026-09-21T23:09:40+00:00",
+      "publish_at": "2026-09-28T18:00:00-04:00"
+    },
+    "FB-RL-0059": {
+      "platform": "Facebook",
+      "remote_id": "1443573604336998",
+      "status": "scheduled",
+      "at": "2026-09-21T23:11:09+00:00",
+      "publish_at": "2026-09-28T19:00:00-04:00"
+    },
+    "IG-IMG-0364": {
+      "platform": "Instagram",
+      "remote_id": "18627286852034099",
+      "status": "posted",
+      "at": "2026-09-21T23:11:23+00:00"
     }
   },
   "comments": {
@@ -4604,7 +4631,8 @@
       "due_at": "2026-09-21T23:00:00+00:00",
       "message": "🎉 Answer: the Surinam Toad! It carries its eggs embedded in pockets on its own back until they hatch.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122124947169282988_936940869001956"
     },
     "IG-IMG-0315": {
       "due_at": "2026-09-15T00:00:00+00:00",
@@ -4732,6 +4760,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17970140526168526"
+    },
+    "FB-IMG-0411": {
+      "due_at": "2026-09-28T23:00:00+00:00",
+      "message": "🎉 Answer: the Stonefish! Its camouflage is so effective it is often mistaken for a rock.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0364": {
+      "due_at": "2026-09-22T00:00:00+00:00",
+      "message": "🎉 Answer: the Sea Otter! It's one of the few animals known to use tools regularly.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
