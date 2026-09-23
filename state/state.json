@@ -3697,6 +3697,33 @@
       "remote_id": "18116724853999197",
       "status": "posted",
       "at": "2026-09-22T21:57:28+00:00"
+    },
+    "FB-IMG-0418": {
+      "platform": "Facebook",
+      "remote_id": "122125815813282988",
+      "status": "scheduled",
+      "at": "2026-09-23T00:18:16+00:00",
+      "publish_at": "2026-09-29T18:00:00-04:00"
+    },
+    "FB-RL-0060": {
+      "platform": "Facebook",
+      "remote_id": "1487475016775527",
+      "status": "scheduled",
+      "at": "2026-09-23T00:19:14+00:00",
+      "publish_at": "2026-09-29T19:00:00-04:00"
+    },
+    "FB-TXT-0417": {
+      "platform": "Facebook",
+      "remote_id": "122125815945282988",
+      "status": "scheduled",
+      "at": "2026-09-23T00:19:16+00:00",
+      "publish_at": "2026-09-29T20:00:00-04:00"
+    },
+    "IG-IMG-0371": {
+      "platform": "Instagram",
+      "remote_id": "18107668112158758",
+      "status": "posted",
+      "at": "2026-09-23T00:19:29+00:00"
     }
   },
   "comments": {
@@ -4698,7 +4725,8 @@
       "due_at": "2026-09-22T23:00:00+00:00",
       "message": "🎉 Answer: the Bearded Dragon! It can wave one front leg in a circular motion as a social signal.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125022181282988_1482269960393979"
     },
     "IG-IMG-0322": {
       "due_at": "2026-09-16T00:00:00+00:00",
@@ -4826,6 +4854,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18175799383380905"
+    },
+    "FB-IMG-0418": {
+      "due_at": "2026-09-29T23:00:00+00:00",
+      "message": "🎉 Answer: the Alligator Snapping Turtle! It wiggles a pink, worm-shaped tongue lure to attract fish into its mouth.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0371": {
+      "due_at": "2026-09-23T00:00:00+00:00",
+      "message": "🎉 Answer: the Toco Toucan! It has a beak that can make up a third of its total body length.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18093223589654736"
     }
   }
 }
