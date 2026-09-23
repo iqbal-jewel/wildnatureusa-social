@@ -3763,6 +3763,26 @@
       "remote_id": "18011470100762504",
       "status": "posted",
       "at": "2026-09-23T20:08:34+00:00"
+    },
+    "FB-IMG-0425": {
+      "platform": "Facebook",
+      "remote_id": "122125944849282988",
+      "status": "scheduled",
+      "at": "2026-09-23T23:33:57+00:00",
+      "publish_at": "2026-09-30T18:00:00-04:00"
+    },
+    "FB-RL-0061": {
+      "platform": "Facebook",
+      "remote_id": "2595123604282010",
+      "status": "scheduled",
+      "at": "2026-09-23T23:35:33+00:00",
+      "publish_at": "2026-09-30T19:00:00-04:00"
+    },
+    "IG-IMG-0378": {
+      "platform": "Instagram",
+      "remote_id": "18109327996895352",
+      "status": "posted",
+      "at": "2026-09-23T23:35:43+00:00"
     }
   },
   "comments": {
@@ -4778,7 +4798,8 @@
       "due_at": "2026-09-23T23:00:00+00:00",
       "message": "🎉 Answer: the Beaver! It has teeth that never stop growing and are strengthened by iron.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125111287282988_1590854776107998"
     },
     "IG-IMG-0329": {
       "due_at": "2026-09-17T00:00:00+00:00",
@@ -4913,6 +4934,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18166721902464687"
+    },
+    "FB-IMG-0425": {
+      "due_at": "2026-09-30T23:00:00+00:00",
+      "message": "🎉 Answer: the Polar Bear! It has skin that is actually black beneath its white-looking fur.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0378": {
+      "due_at": "2026-09-24T00:00:00+00:00",
+      "message": "🎉 Answer: the Olive Baboon! It's among the most widespread primates in Africa.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
