@@ -3836,6 +3836,26 @@
       "remote_id": "18119635106486892",
       "status": "posted",
       "at": "2026-09-24T22:16:45+00:00"
+    },
+    "FB-RL-0062": {
+      "platform": "Facebook",
+      "remote_id": "933649222749940",
+      "status": "scheduled",
+      "at": "2026-09-25T01:24:26+00:00",
+      "publish_at": "2026-10-01T19:00:00-04:00"
+    },
+    "FB-TXT-0431": {
+      "platform": "Facebook",
+      "remote_id": "122126081007282988",
+      "status": "scheduled",
+      "at": "2026-09-25T01:24:30+00:00",
+      "publish_at": "2026-10-01T20:00:00-04:00"
+    },
+    "IG-IMG-0385": {
+      "platform": "Instagram",
+      "remote_id": "18118174891953720",
+      "status": "posted",
+      "at": "2026-09-25T01:24:46+00:00"
     }
   },
   "comments": {
@@ -4872,7 +4892,8 @@
       "due_at": "2026-09-24T23:00:00+00:00",
       "message": "🎉 Answer: the Hammerhead Shark! In this species, the shape of its head gives it near 360-degree vision.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125210989282988_1493927155886606"
     },
     "IG-IMG-0336": {
       "due_at": "2026-09-18T00:00:00+00:00",
@@ -5013,6 +5034,13 @@
       "message": "🎉 Answer: the Reticulated Python! It can swallow prey much larger than its own head thanks to a flexible jaw.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0385": {
+      "due_at": "2026-09-25T00:00:00+00:00",
+      "message": "🎉 Answer: the Orangutan! It's the largest arboreal mammal in the world.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17932331610145665"
     }
   }
 }
