@@ -3922,6 +3922,19 @@
       "remote_id": "18109089635149331",
       "status": "posted",
       "at": "2026-09-26T01:26:30+00:00"
+    },
+    "FB-TXT-0442": {
+      "platform": "Facebook",
+      "remote_id": "122126239401282988",
+      "status": "scheduled",
+      "at": "2026-09-26T12:56:58+00:00",
+      "publish_at": "2026-10-03T08:00:00-04:00"
+    },
+    "IG-FCT-0113": {
+      "platform": "Instagram",
+      "remote_id": "17908829541481380",
+      "status": "posted",
+      "at": "2026-09-26T12:57:07+00:00"
     }
   },
   "comments": {
