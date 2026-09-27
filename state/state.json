@@ -4027,6 +4027,13 @@
       "remote_id": "17942548524087186",
       "status": "posted",
       "at": "2026-09-27T20:00:40+00:00"
+    },
+    "FB-IMG-0453": {
+      "platform": "Facebook",
+      "remote_id": "122126408319282988",
+      "status": "scheduled",
+      "at": "2026-09-27T22:59:17+00:00",
+      "publish_at": "2026-10-04T18:00:00-04:00"
     }
   },
   "comments": {
@@ -5261,6 +5268,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18129028591692052"
+    },
+    "FB-IMG-0453": {
+      "due_at": "2026-10-04T23:00:00+00:00",
+      "message": "🎉 Answer: the Alpaca! It produces some of the softest and warmest natural fiber known.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
