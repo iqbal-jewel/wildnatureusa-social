@@ -4080,6 +4080,39 @@
       "remote_id": "17972667104943114",
       "status": "posted",
       "at": "2026-09-28T17:35:08+00:00"
+    },
+    "FB-TXT-0458": {
+      "platform": "Facebook",
+      "remote_id": "122126508621282988",
+      "status": "scheduled",
+      "at": "2026-09-28T23:10:10+00:00",
+      "publish_at": "2026-10-05T16:00:00-04:00"
+    },
+    "FB-IMG-0460": {
+      "platform": "Facebook",
+      "remote_id": "122126508669282988",
+      "status": "scheduled",
+      "at": "2026-09-28T23:10:11+00:00",
+      "publish_at": "2026-10-05T18:00:00-04:00"
+    },
+    "FB-RL-0066": {
+      "platform": "Facebook",
+      "remote_id": "2222982954937657",
+      "status": "scheduled",
+      "at": "2026-09-28T23:11:25+00:00",
+      "publish_at": "2026-10-05T19:00:00-04:00"
+    },
+    "IG-FCT-0118": {
+      "platform": "Instagram",
+      "remote_id": "18565036834072784",
+      "status": "posted",
+      "at": "2026-09-28T23:11:43+00:00"
+    },
+    "IG-IMG-0413": {
+      "platform": "Instagram",
+      "remote_id": "18651064150046633",
+      "status": "posted",
+      "at": "2026-09-28T23:11:55+00:00"
     }
   },
   "comments": {
@@ -5200,7 +5233,8 @@
       "due_at": "2026-09-28T23:00:00+00:00",
       "message": "🎉 Answer: the Stonefish! Its camouflage is so effective it is often mistaken for a rock.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125684989282988_1467733901842917"
     },
     "IG-IMG-0364": {
       "due_at": "2026-09-22T00:00:00+00:00",
@@ -5335,6 +5369,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18123695140926960"
+    },
+    "FB-IMG-0460": {
+      "due_at": "2026-10-05T23:00:00+00:00",
+      "message": "🎉 Answer: the Okapi! It's the closest living relative of the giraffe.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0413": {
+      "due_at": "2026-09-29T00:00:00+00:00",
+      "message": "🎉 Answer: the Gorilla! It's the largest primate species on Earth.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
