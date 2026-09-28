@@ -4034,6 +4034,26 @@
       "status": "scheduled",
       "at": "2026-09-27T22:59:17+00:00",
       "publish_at": "2026-10-04T18:00:00-04:00"
+    },
+    "FB-RL-0065": {
+      "platform": "Facebook",
+      "remote_id": "1781735113158881",
+      "status": "scheduled",
+      "at": "2026-09-28T01:35:44+00:00",
+      "publish_at": "2026-10-04T19:00:00-04:00"
+    },
+    "FB-TXT-0452": {
+      "platform": "Facebook",
+      "remote_id": "122126417403282988",
+      "status": "scheduled",
+      "at": "2026-09-28T01:35:45+00:00",
+      "publish_at": "2026-10-04T20:00:00-04:00"
+    },
+    "IG-IMG-0406": {
+      "platform": "Instagram",
+      "remote_id": "17978456118121021",
+      "status": "posted",
+      "at": "2026-09-28T01:36:01+00:00"
     }
   },
   "comments": {
@@ -5133,7 +5153,8 @@
       "due_at": "2026-09-27T23:00:00+00:00",
       "message": "🎉 Answer: the Hoatzin! It digests food through fermentation similar to a cow.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125557747282988_1493128155910610"
     },
     "IG-IMG-0357": {
       "due_at": "2026-09-21T00:00:00+00:00",
@@ -5274,6 +5295,13 @@
       "message": "🎉 Answer: the Alpaca! It produces some of the softest and warmest natural fiber known.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0406": {
+      "due_at": "2026-09-28T00:00:00+00:00",
+      "message": "🎉 Answer: the Green Sea Turtle! It's famous for navigating back to its natal beach after decades at sea.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17989604723862865"
     }
   }
 }
