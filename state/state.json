@@ -4146,6 +4146,26 @@
       "remote_id": "18209156893371028",
       "status": "posted",
       "at": "2026-09-29T18:34:14+00:00"
+    },
+    "FB-TXT-0465": {
+      "platform": "Facebook",
+      "remote_id": "122126615031282988",
+      "status": "scheduled",
+      "at": "2026-09-29T22:55:10+00:00",
+      "publish_at": "2026-10-06T16:00:00-04:00"
+    },
+    "FB-IMG-0467": {
+      "platform": "Facebook",
+      "remote_id": "122126615073282988",
+      "status": "scheduled",
+      "at": "2026-09-29T22:55:11+00:00",
+      "publish_at": "2026-10-06T18:00:00-04:00"
+    },
+    "IG-FCT-0120": {
+      "platform": "Instagram",
+      "remote_id": "17927613132420001",
+      "status": "posted",
+      "at": "2026-09-29T22:55:28+00:00"
     }
   },
   "comments": {
@@ -5422,6 +5442,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17997842006824974"
+    },
+    "FB-IMG-0467": {
+      "due_at": "2026-10-06T23:00:00+00:00",
+      "message": "🎉 Answer: the Plains Zebra! In this species, stripes may help confuse predators and deter biting flies.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
