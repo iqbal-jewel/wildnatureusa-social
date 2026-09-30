@@ -4205,6 +4205,26 @@
       "remote_id": "18118720723943266",
       "status": "posted",
       "at": "2026-09-30T15:50:36+00:00"
+    },
+    "FB-TXT-0471": {
+      "platform": "Facebook",
+      "remote_id": "122126705487282988",
+      "status": "scheduled",
+      "at": "2026-09-30T20:44:29+00:00",
+      "publish_at": "2026-10-07T12:00:00-04:00"
+    },
+    "FB-TXT-0472": {
+      "platform": "Facebook",
+      "remote_id": "122126705547282988",
+      "status": "scheduled",
+      "at": "2026-09-30T20:44:31+00:00",
+      "publish_at": "2026-10-07T16:00:00-04:00"
+    },
+    "IG-FCT-0122": {
+      "platform": "Instagram",
+      "remote_id": "18114922487009827",
+      "status": "posted",
+      "at": "2026-09-30T20:44:47+00:00"
     }
   },
   "comments": {
@@ -5500,7 +5520,8 @@
       "due_at": "2026-09-30T16:00:00+00:00",
       "message": "🎉 Answer: the Kakapo! It's the heaviest parrot species and one of the longest-lived birds.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18149639494555493"
     }
   }
 }
