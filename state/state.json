@@ -4225,6 +4225,33 @@
       "remote_id": "18114922487009827",
       "status": "posted",
       "at": "2026-09-30T20:44:47+00:00"
+    },
+    "FB-IMG-0474": {
+      "platform": "Facebook",
+      "remote_id": "122126720235282988",
+      "status": "scheduled",
+      "at": "2026-10-01T00:28:35+00:00",
+      "publish_at": "2026-10-07T18:00:00-04:00"
+    },
+    "FB-RL-0068": {
+      "platform": "Facebook",
+      "remote_id": "2071269773752757",
+      "status": "scheduled",
+      "at": "2026-10-01T00:30:36+00:00",
+      "publish_at": "2026-10-07T19:00:00-04:00"
+    },
+    "FB-TXT-0473": {
+      "platform": "Facebook",
+      "remote_id": "122126720373282988",
+      "status": "scheduled",
+      "at": "2026-10-01T00:30:37+00:00",
+      "publish_at": "2026-10-07T20:00:00-04:00"
+    },
+    "IG-IMG-0427": {
+      "platform": "Instagram",
+      "remote_id": "18130289635688164",
+      "status": "posted",
+      "at": "2026-10-01T00:30:46+00:00"
     }
   },
   "comments": {
@@ -5387,7 +5414,8 @@
       "due_at": "2026-09-30T23:00:00+00:00",
       "message": "🎉 Answer: the Polar Bear! It has skin that is actually black beneath its white-looking fur.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122125944849282988_1887104716035574"
     },
     "IG-IMG-0378": {
       "due_at": "2026-09-24T00:00:00+00:00",
@@ -5522,6 +5550,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18149639494555493"
+    },
+    "FB-IMG-0474": {
+      "due_at": "2026-10-07T23:00:00+00:00",
+      "message": "🎉 Answer: the Brown Bear! It can run up to 30 mph despite its bulk.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0427": {
+      "due_at": "2026-10-01T00:00:00+00:00",
+      "message": "🎉 Answer: the Bearded Dragon! It's one of the few reptiles observed waving to communicate with others.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17927827350419794"
     }
   }
 }
