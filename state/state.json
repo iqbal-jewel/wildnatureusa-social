@@ -4416,6 +4416,20 @@
       "remote_id": "18343561894264844",
       "status": "posted",
       "at": "2026-10-03T19:09:42+00:00"
+    },
+    "FB-TXT-0493": {
+      "platform": "Facebook",
+      "remote_id": "122127017175282988",
+      "status": "scheduled",
+      "at": "2026-10-03T22:48:54+00:00",
+      "publish_at": "2026-10-10T16:00:00-04:00"
+    },
+    "FB-IMG-0495": {
+      "platform": "Facebook",
+      "remote_id": "122127017217282988",
+      "status": "scheduled",
+      "at": "2026-10-03T22:48:55+00:00",
+      "publish_at": "2026-10-10T18:00:00-04:00"
     }
   },
   "comments": {
@@ -5776,6 +5790,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18635522632022006"
+    },
+    "FB-IMG-0495": {
+      "due_at": "2026-10-10T23:00:00+00:00",
+      "message": "🎉 Answer: the Garden Snail! It has thousands of microscopic teeth arranged on a ribbon-like tongue.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
