@@ -4403,6 +4403,19 @@
       "remote_id": "18449279236130832",
       "status": "posted",
       "at": "2026-10-03T15:08:03+00:00"
+    },
+    "FB-TXT-0492": {
+      "platform": "Facebook",
+      "remote_id": "122127005883282988",
+      "status": "scheduled",
+      "at": "2026-10-03T19:09:33+00:00",
+      "publish_at": "2026-10-10T12:00:00-04:00"
+    },
+    "IG-FCT-0128": {
+      "platform": "Instagram",
+      "remote_id": "18343561894264844",
+      "status": "posted",
+      "at": "2026-10-03T19:09:42+00:00"
     }
   },
   "comments": {
@@ -5761,7 +5774,8 @@
       "due_at": "2026-10-03T16:00:00+00:00",
       "message": "🎉 Answer: the Emperor Penguin! It's the only animal known to breed during the Antarctic winter.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18635522632022006"
     }
   }
 }
