@@ -4430,6 +4430,26 @@
       "status": "scheduled",
       "at": "2026-10-03T22:48:55+00:00",
       "publish_at": "2026-10-10T18:00:00-04:00"
+    },
+    "FB-RL-0071": {
+      "platform": "Facebook",
+      "remote_id": "1652447476435942",
+      "status": "scheduled",
+      "at": "2026-10-04T02:31:45+00:00",
+      "publish_at": "2026-10-10T19:00:00-04:00"
+    },
+    "FB-TXT-0494": {
+      "platform": "Facebook",
+      "remote_id": "122127032667282988",
+      "status": "scheduled",
+      "at": "2026-10-04T02:31:47+00:00",
+      "publish_at": "2026-10-10T20:00:00-04:00"
+    },
+    "IG-IMG-0448": {
+      "platform": "Instagram",
+      "remote_id": "18115255517010774",
+      "status": "posted",
+      "at": "2026-10-04T02:32:00+00:00"
     }
   },
   "comments": {
@@ -5655,7 +5675,8 @@
       "due_at": "2026-10-03T23:00:00+00:00",
       "message": "🎉 Answer: the Seven-spotted Ladybug! It releases a foul-smelling yellow fluid from its legs when threatened.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122126285361282988_2143539439873848"
     },
     "IG-IMG-0399": {
       "due_at": "2026-09-27T00:00:00+00:00",
@@ -5796,6 +5817,13 @@
       "message": "🎉 Answer: the Garden Snail! It has thousands of microscopic teeth arranged on a ribbon-like tongue.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0448": {
+      "due_at": "2026-10-04T00:00:00+00:00",
+      "message": "🎉 Answer: the Walrus! It has tusks that can grow up to three feet long.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18111538736146598"
     }
   }
 }
