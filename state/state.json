@@ -4689,6 +4689,33 @@
       "remote_id": "17949797592320105",
       "status": "posted",
       "at": "2026-10-07T21:11:51+00:00"
+    },
+    "FB-IMG-0523": {
+      "platform": "Facebook",
+      "remote_id": "122127475743282988",
+      "status": "scheduled",
+      "at": "2026-10-08T01:44:41+00:00",
+      "publish_at": "2026-10-14T18:00:00-04:00"
+    },
+    "FB-RL-0075": {
+      "platform": "Facebook",
+      "remote_id": "1103370902103798",
+      "status": "scheduled",
+      "at": "2026-10-08T01:45:41+00:00",
+      "publish_at": "2026-10-14T19:00:00-04:00"
+    },
+    "FB-TXT-0522": {
+      "platform": "Facebook",
+      "remote_id": "122127475965282988",
+      "status": "scheduled",
+      "at": "2026-10-08T01:45:42+00:00",
+      "publish_at": "2026-10-14T20:00:00-04:00"
+    },
+    "IG-IMG-0476": {
+      "platform": "Instagram",
+      "remote_id": "17969737680184395",
+      "status": "posted",
+      "at": "2026-10-08T01:45:55+00:00"
     }
   },
   "comments": {
@@ -5998,7 +6025,8 @@
       "due_at": "2026-10-07T23:00:00+00:00",
       "message": "🎉 Answer: the Brown Bear! It can run up to 30 mph despite its bulk.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122126720235282988_1821256119293862"
     },
     "IG-IMG-0427": {
       "due_at": "2026-10-01T00:00:00+00:00",
@@ -6133,6 +6161,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18103631018014004"
+    },
+    "FB-IMG-0523": {
+      "due_at": "2026-10-14T23:00:00+00:00",
+      "message": "🎉 Answer: the Leafcutter Ant! It farms a fungus garden that is the colony's true food source, not the leaves themselves.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0476": {
+      "due_at": "2026-10-08T00:00:00+00:00",
+      "message": "🎉 Answer: the Peregrine Falcon! It's the fastest animal on Earth in a dive.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17953179477269875"
     }
   }
 }
