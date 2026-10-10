@@ -4848,6 +4848,25 @@
       "remote_id": "17892983148678757",
       "status": "posted",
       "at": "2026-10-10T02:15:43+00:00"
+    },
+    "FB-TXT-0540": {
+      "platform": "Facebook",
+      "remote_id": "122127736365282988",
+      "status": "scheduled",
+      "at": "2026-10-10T15:49:45+00:00",
+      "publish_at": "2026-10-17T08:00:00-04:00"
+    },
+    "IG-FCT-0141": {
+      "platform": "Instagram",
+      "remote_id": "17995545468046113",
+      "status": "posted",
+      "at": "2026-10-10T15:50:00+00:00"
+    },
+    "IG-IMG-0496": {
+      "platform": "Instagram",
+      "remote_id": "17958045504250450",
+      "status": "posted",
+      "at": "2026-10-10T15:50:13+00:00"
     }
   },
   "comments": {
@@ -6348,6 +6367,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18568289920078258"
+    },
+    "IG-IMG-0496": {
+      "due_at": "2026-10-10T16:00:00+00:00",
+      "message": "🎉 Answer: the Ring-tailed Lemur! It's found nowhere in the wild except Madagascar.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
