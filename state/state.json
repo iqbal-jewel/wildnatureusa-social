@@ -4982,6 +4982,40 @@
       "remote_id": "18096588104338499",
       "status": "posted",
       "at": "2026-10-12T01:11:39+00:00"
+    },
+    "FB-TXT-0554": {
+      "platform": "Facebook",
+      "remote_id": "122127967005282988",
+      "status": "scheduled",
+      "at": "2026-10-12T19:45:00+00:00",
+      "publish_at": "2026-10-19T08:00:00-04:00"
+    },
+    "FB-TXT-0555": {
+      "platform": "Facebook",
+      "remote_id": "122127967053282988",
+      "status": "scheduled",
+      "at": "2026-10-12T19:45:02+00:00",
+      "publish_at": "2026-10-19T12:00:00-04:00"
+    },
+    "IG-FCT-0145": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 465 min (tolerance 360)",
+      "publish_at": "2026-10-12T08:00:00-04:00",
+      "at": "2026-10-12T19:45:03+00:00"
+    },
+    "IG-IMG-0510": {
+      "platform": "Instagram",
+      "remote_id": "17928490458180851",
+      "status": "posted",
+      "at": "2026-10-12T19:45:16+00:00"
+    },
+    "IG-FCT-0146": {
+      "platform": "Instagram",
+      "remote_id": "18630639613056038",
+      "status": "posted",
+      "at": "2026-10-12T19:45:28+00:00"
     }
   },
   "comments": {
@@ -6517,6 +6551,13 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18192787348392105"
+    },
+    "IG-IMG-0510": {
+      "due_at": "2026-10-12T16:00:00+00:00",
+      "message": "🎉 Answer: the Dugong! It's the closest living relative to the extinct Steller's sea cow.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18144669409502644"
     }
   }
 }
