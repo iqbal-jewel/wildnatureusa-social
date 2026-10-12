@@ -4955,6 +4955,33 @@
       "remote_id": "18638642035035740",
       "status": "posted",
       "at": "2026-10-11T21:50:18+00:00"
+    },
+    "FB-IMG-0551": {
+      "platform": "Facebook",
+      "remote_id": "122127891303282988",
+      "status": "scheduled",
+      "at": "2026-10-12T01:10:08+00:00",
+      "publish_at": "2026-10-18T18:00:00-04:00"
+    },
+    "FB-RL-0079": {
+      "platform": "Facebook",
+      "remote_id": "1246418487677702",
+      "status": "scheduled",
+      "at": "2026-10-12T01:11:25+00:00",
+      "publish_at": "2026-10-18T19:00:00-04:00"
+    },
+    "FB-TXT-0550": {
+      "platform": "Facebook",
+      "remote_id": "122127891447282988",
+      "status": "scheduled",
+      "at": "2026-10-12T01:11:27+00:00",
+      "publish_at": "2026-10-18T20:00:00-04:00"
+    },
+    "IG-IMG-0504": {
+      "platform": "Instagram",
+      "remote_id": "18096588104338499",
+      "status": "posted",
+      "at": "2026-10-12T01:11:39+00:00"
     }
   },
   "comments": {
@@ -6348,7 +6375,8 @@
       "due_at": "2026-10-11T23:00:00+00:00",
       "message": "🎉 Answer: the American Cockroach! It can survive for about a week without its head before dying of thirst.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122127134085282988_1807359560297682"
     },
     "IG-IMG-0455": {
       "due_at": "2026-10-05T00:00:00+00:00",
@@ -6476,6 +6504,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17961574143232278"
+    },
+    "FB-IMG-0551": {
+      "due_at": "2026-10-18T23:00:00+00:00",
+      "message": "🎉 Answer: the Great Horned Owl! It has a grip strength strong enough to sever a person's finger.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0504": {
+      "due_at": "2026-10-12T00:00:00+00:00",
+      "message": "🎉 Answer: the African Lungfish! It's among the very few fish that can survive years dried out in a mud cocoon.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18192787348392105"
     }
   }
 }
