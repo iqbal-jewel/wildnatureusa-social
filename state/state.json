@@ -5208,6 +5208,26 @@
       "remote_id": "18446589631121559",
       "status": "posted",
       "at": "2026-10-15T18:11:03+00:00"
+    },
+    "FB-TXT-0577": {
+      "platform": "Facebook",
+      "remote_id": "122128215819282988",
+      "status": "scheduled",
+      "at": "2026-10-15T22:06:08+00:00",
+      "publish_at": "2026-10-22T16:00:00-04:00"
+    },
+    "FB-IMG-0579": {
+      "platform": "Facebook",
+      "remote_id": "122128215867282988",
+      "status": "scheduled",
+      "at": "2026-10-15T22:06:10+00:00",
+      "publish_at": "2026-10-22T18:00:00-04:00"
+    },
+    "IG-FCT-0152": {
+      "status": "failed",
+      "error": "ig_publish: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot publish', 'error_user_msg': 'The media is not ready to be published. Please wait a moment.', 'fbtrace_id': 'ADAOe-VDEpgl42v1J27G1O9'}",
+      "attempts": 1,
+      "at": "2026-10-15T22:06:17+00:00"
     }
   },
   "comments": {
@@ -6813,6 +6833,12 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18114477689024349"
+    },
+    "FB-IMG-0579": {
+      "due_at": "2026-10-22T23:00:00+00:00",
+      "message": "🎉 Answer: the Dromedary Camel! It can drink over 30 gallons of water in about 13 minutes.",
+      "platform": "Facebook",
+      "status": "pending"
     }
   }
 }
