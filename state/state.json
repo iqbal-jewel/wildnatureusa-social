@@ -5362,6 +5362,26 @@
       "status": "scheduled",
       "at": "2026-10-17T22:08:54+00:00",
       "publish_at": "2026-10-24T18:00:00-04:00"
+    },
+    "FB-RL-0085": {
+      "platform": "Facebook",
+      "remote_id": "1883962259260985",
+      "status": "scheduled",
+      "at": "2026-10-18T00:51:21+00:00",
+      "publish_at": "2026-10-24T19:00:00-04:00"
+    },
+    "FB-TXT-0592": {
+      "platform": "Facebook",
+      "remote_id": "122128379601282988",
+      "status": "scheduled",
+      "at": "2026-10-18T00:51:22+00:00",
+      "publish_at": "2026-10-24T20:00:00-04:00"
+    },
+    "IG-IMG-0546": {
+      "platform": "Instagram",
+      "remote_id": "18117209882074203",
+      "status": "posted",
+      "at": "2026-10-18T00:51:31+00:00"
     }
   },
   "comments": {
@@ -6881,7 +6901,8 @@
       "due_at": "2026-10-17T23:00:00+00:00",
       "message": "🎉 Answer: the Snowy Owl! It hunts during daylight far more often than most owl species.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122127767259282988_1111476434572732"
     },
     "IG-IMG-0497": {
       "due_at": "2026-10-11T00:00:00+00:00",
@@ -7015,6 +7036,13 @@
       "message": "🎉 Answer: the Banana Slug! It breathes through a single visible pore on its side called a pneumostome.",
       "platform": "Facebook",
       "status": "pending"
+    },
+    "IG-IMG-0546": {
+      "due_at": "2026-10-18T00:00:00+00:00",
+      "message": "🎉 Answer: the Western Honeybee! It's among the very few insects known to communicate location through symbolic movement.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17936724177404419"
     }
   }
 }
