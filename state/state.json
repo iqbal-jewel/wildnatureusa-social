@@ -5487,6 +5487,33 @@
       "remote_id": "18094437497263929",
       "status": "posted",
       "at": "2026-10-19T20:59:07+00:00"
+    },
+    "FB-IMG-0607": {
+      "platform": "Facebook",
+      "remote_id": "122128554579282988",
+      "status": "scheduled",
+      "at": "2026-10-20T00:14:49+00:00",
+      "publish_at": "2026-10-26T18:00:00-04:00"
+    },
+    "FB-RL-0087": {
+      "platform": "Facebook",
+      "remote_id": "1407268074890763",
+      "status": "scheduled",
+      "at": "2026-10-20T00:16:12+00:00",
+      "publish_at": "2026-10-26T19:00:00-04:00"
+    },
+    "FB-TXT-0606": {
+      "platform": "Facebook",
+      "remote_id": "122128554699282988",
+      "status": "scheduled",
+      "at": "2026-10-20T00:16:14+00:00",
+      "publish_at": "2026-10-26T20:00:00-04:00"
+    },
+    "IG-IMG-0560": {
+      "platform": "Instagram",
+      "remote_id": "17905568073351006",
+      "status": "posted",
+      "at": "2026-10-20T00:16:22+00:00"
     }
   },
   "comments": {
@@ -7041,7 +7068,8 @@
       "due_at": "2026-10-19T23:00:00+00:00",
       "message": "🎉 Answer: the Narwhal! In this species, the tusk is packed with nerve endings believed to sense water conditions.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122127990477282988_1584043626276876"
     },
     "IG-IMG-0511": {
       "due_at": "2026-10-13T00:00:00+00:00",
@@ -7176,6 +7204,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18107103356254985"
+    },
+    "FB-IMG-0607": {
+      "due_at": "2026-10-26T23:00:00+00:00",
+      "message": "🎉 Answer: the Smalltooth Sawfish! It uses its saw-like snout to sense and slash through schools of fish.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0560": {
+      "due_at": "2026-10-20T00:00:00+00:00",
+      "message": "🎉 Answer: the Orca! It's technically the largest species of dolphin, not a whale.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17920283853450127"
     }
   }
 }
