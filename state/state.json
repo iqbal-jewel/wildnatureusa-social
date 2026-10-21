@@ -5619,6 +5619,26 @@
       "remote_id": "18117537608066394",
       "status": "posted",
       "at": "2026-10-21T20:02:17+00:00"
+    },
+    "FB-IMG-0621": {
+      "platform": "Facebook",
+      "remote_id": "122128723395282988",
+      "status": "scheduled",
+      "at": "2026-10-21T23:57:51+00:00",
+      "publish_at": "2026-10-28T18:00:00-04:00"
+    },
+    "FB-RL-0089": {
+      "platform": "Facebook",
+      "remote_id": "4504669726458799",
+      "status": "scheduled",
+      "at": "2026-10-21T23:59:18+00:00",
+      "publish_at": "2026-10-28T19:00:00-04:00"
+    },
+    "IG-IMG-0574": {
+      "platform": "Instagram",
+      "remote_id": "18110860190235847",
+      "status": "posted",
+      "at": "2026-10-21T23:59:35+00:00"
     }
   },
   "comments": {
@@ -7215,7 +7235,8 @@
       "due_at": "2026-10-21T23:00:00+00:00",
       "message": "🎉 Answer: the Koala! It sleeps up to 20 hours a day to conserve energy from its low-nutrient diet.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128129941282988_1100758099525260"
     },
     "IG-IMG-0525": {
       "due_at": "2026-10-15T00:00:00+00:00",
@@ -7350,6 +7371,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18023932604870379"
+    },
+    "FB-IMG-0621": {
+      "due_at": "2026-10-28T23:00:00+00:00",
+      "message": "🎉 Answer: the Nile Crocodile! It has the strongest bite force ever measured in a living animal.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0574": {
+      "due_at": "2026-10-22T00:00:00+00:00",
+      "message": "🎉 Answer: the Atlantic Puffin! It holds the record for most small fish carried at once in a single beak.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
