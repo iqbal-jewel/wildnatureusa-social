@@ -5665,6 +5665,19 @@
       "remote_id": "18014244833968558",
       "status": "posted",
       "at": "2026-10-22T15:35:48+00:00"
+    },
+    "FB-TXT-0625": {
+      "platform": "Facebook",
+      "remote_id": "122128796817282988",
+      "status": "scheduled",
+      "at": "2026-10-22T19:55:47+00:00",
+      "publish_at": "2026-10-29T12:00:00-04:00"
+    },
+    "IG-FCT-0166": {
+      "platform": "Instagram",
+      "remote_id": "18020525606734764",
+      "status": "posted",
+      "at": "2026-10-22T19:55:57+00:00"
     }
   },
   "comments": {
@@ -7415,7 +7428,8 @@
       "due_at": "2026-10-22T16:00:00+00:00",
       "message": "🎉 Answer: the Giant African Millipede! In this species, no millipede species actually has exactly a thousand legs, despite the name.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17938925535122610"
     }
   }
 }
