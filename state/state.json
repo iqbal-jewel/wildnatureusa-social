@@ -5817,6 +5817,26 @@
       "remote_id": "17884626057689275",
       "status": "posted",
       "at": "2026-10-24T20:34:56+00:00"
+    },
+    "FB-IMG-0642": {
+      "platform": "Facebook",
+      "remote_id": "122128990623282988",
+      "status": "scheduled",
+      "at": "2026-10-24T23:03:45+00:00",
+      "publish_at": "2026-10-31T18:00:00-04:00"
+    },
+    "FB-RL-0092": {
+      "platform": "Facebook",
+      "remote_id": "1811632956817169",
+      "status": "scheduled",
+      "at": "2026-10-24T23:05:22+00:00",
+      "publish_at": "2026-10-31T19:00:00-04:00"
+    },
+    "IG-IMG-0595": {
+      "platform": "Instagram",
+      "remote_id": "17935001022142662",
+      "status": "posted",
+      "at": "2026-10-24T23:05:35+00:00"
     }
   },
   "comments": {
@@ -7476,7 +7496,8 @@
       "due_at": "2026-10-24T23:00:00+00:00",
       "message": "🎉 Answer: the Banana Slug! It breathes through a single visible pore on its side called a pneumostome.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128371195282988_1875195413644951"
     },
     "IG-IMG-0546": {
       "due_at": "2026-10-18T00:00:00+00:00",
@@ -7611,6 +7632,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18109995380359963"
+    },
+    "FB-IMG-0642": {
+      "due_at": "2026-10-31T23:00:00+00:00",
+      "message": "🎉 Answer: the Green Iguana! It has a third, light-sensing eye-like organ on top of its head.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0595": {
+      "due_at": "2026-10-25T00:00:00+00:00",
+      "message": "🎉 Answer: the Surinam Toad! It's among the very few animals whose young emerge directly from the parent's back.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
