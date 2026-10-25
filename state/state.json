@@ -5837,6 +5837,13 @@
       "remote_id": "17935001022142662",
       "status": "posted",
       "at": "2026-10-24T23:05:35+00:00"
+    },
+    "FB-TXT-0641": {
+      "platform": "Facebook",
+      "remote_id": "122129025207282988",
+      "status": "scheduled",
+      "at": "2026-10-25T04:20:31+00:00",
+      "publish_at": "2026-10-31T20:00:00-04:00"
     }
   },
   "comments": {
@@ -7643,7 +7650,8 @@
       "due_at": "2026-10-25T00:00:00+00:00",
       "message": "🎉 Answer: the Surinam Toad! It's among the very few animals whose young emerge directly from the parent's back.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17938948668378129"
     }
   }
 }
