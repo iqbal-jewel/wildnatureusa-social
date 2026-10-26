@@ -5942,6 +5942,33 @@
       "remote_id": "18117086351075517",
       "status": "posted",
       "at": "2026-10-26T19:08:37+00:00"
+    },
+    "FB-TXT-0654": {
+      "platform": "Facebook",
+      "remote_id": "122129196159282988",
+      "status": "scheduled",
+      "at": "2026-10-26T23:42:47+00:00",
+      "publish_at": "2026-11-02T16:00:00-05:00"
+    },
+    "FB-IMG-0656": {
+      "platform": "Facebook",
+      "remote_id": "122129196195282988",
+      "status": "scheduled",
+      "at": "2026-10-26T23:42:49+00:00",
+      "publish_at": "2026-11-02T18:00:00-05:00"
+    },
+    "FB-RL-0094": {
+      "platform": "Facebook",
+      "remote_id": "2329674174451404",
+      "status": "scheduled",
+      "at": "2026-10-26T23:43:42+00:00",
+      "publish_at": "2026-11-02T19:00:00-05:00"
+    },
+    "IG-IMG-0609": {
+      "platform": "Instagram",
+      "remote_id": "18127894444884920",
+      "status": "posted",
+      "at": "2026-10-26T23:43:50+00:00"
     }
   },
   "comments": {
@@ -7643,7 +7670,8 @@
       "due_at": "2026-10-26T23:00:00+00:00",
       "message": "🎉 Answer: the Smalltooth Sawfish! It uses its saw-like snout to sense and slash through schools of fish.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128554579282988_2275118596393134"
     },
     "IG-IMG-0560": {
       "due_at": "2026-10-20T00:00:00+00:00",
@@ -7778,6 +7806,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17991835187859103"
+    },
+    "FB-IMG-0656": {
+      "due_at": "2026-11-03T00:00:00+00:00",
+      "message": "🎉 Answer: the King Cobra! It can raise up to a third of its body off the ground when threatened.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0609": {
+      "due_at": "2026-10-27T00:00:00+00:00",
+      "message": "🎉 Answer: the Moose! It's the largest deer species in the world.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
