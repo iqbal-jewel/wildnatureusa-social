@@ -6015,6 +6015,33 @@
       "remote_id": "18640684402034255",
       "status": "posted",
       "at": "2026-10-27T21:12:06+00:00"
+    },
+    "FB-IMG-0663": {
+      "platform": "Facebook",
+      "remote_id": "122129287893282988",
+      "status": "scheduled",
+      "at": "2026-10-28T01:06:56+00:00",
+      "publish_at": "2026-11-03T18:00:00-05:00"
+    },
+    "FB-RL-0095": {
+      "platform": "Facebook",
+      "remote_id": "1292427513014665",
+      "status": "scheduled",
+      "at": "2026-10-28T01:07:54+00:00",
+      "publish_at": "2026-11-03T19:00:00-05:00"
+    },
+    "FB-TXT-0662": {
+      "platform": "Facebook",
+      "remote_id": "122129288049282988",
+      "status": "scheduled",
+      "at": "2026-10-28T01:07:56+00:00",
+      "publish_at": "2026-11-03T20:00:00-05:00"
+    },
+    "IG-IMG-0616": {
+      "platform": "Instagram",
+      "remote_id": "18643982452025928",
+      "status": "posted",
+      "at": "2026-10-28T01:08:09+00:00"
     }
   },
   "comments": {
@@ -7737,7 +7764,8 @@
       "due_at": "2026-10-27T23:00:00+00:00",
       "message": "🎉 Answer: the Echidna! It has a snout that detects electrical signals from prey.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128633131282988_1596774028436804"
     },
     "IG-IMG-0567": {
       "due_at": "2026-10-21T00:00:00+00:00",
@@ -7872,6 +7900,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18114932701860391"
+    },
+    "FB-IMG-0663": {
+      "due_at": "2026-11-04T00:00:00+00:00",
+      "message": "🎉 Answer: the Humpback Whale! In this species, males sing complex songs that can last over 20 minutes.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0616": {
+      "due_at": "2026-10-28T00:00:00+00:00",
+      "message": "🎉 Answer: the Golden Eagle! It's among the fastest birds in a hunting stoop.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17990421975096720"
     }
   }
 }
