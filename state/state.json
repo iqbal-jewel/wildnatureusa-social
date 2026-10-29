@@ -6081,6 +6081,33 @@
       "remote_id": "18157500346515654",
       "status": "posted",
       "at": "2026-10-28T20:56:15+00:00"
+    },
+    "FB-IMG-0670": {
+      "platform": "Facebook",
+      "remote_id": "122129376525282988",
+      "status": "scheduled",
+      "at": "2026-10-29T00:45:04+00:00",
+      "publish_at": "2026-11-04T18:00:00-05:00"
+    },
+    "FB-RL-0096": {
+      "platform": "Facebook",
+      "remote_id": "2092371024727138",
+      "status": "scheduled",
+      "at": "2026-10-29T00:46:16+00:00",
+      "publish_at": "2026-11-04T19:00:00-05:00"
+    },
+    "FB-TXT-0669": {
+      "platform": "Facebook",
+      "remote_id": "122129376633282988",
+      "status": "scheduled",
+      "at": "2026-10-29T00:46:18+00:00",
+      "publish_at": "2026-11-04T20:00:00-05:00"
+    },
+    "IG-IMG-0623": {
+      "platform": "Instagram",
+      "remote_id": "18114988949118396",
+      "status": "posted",
+      "at": "2026-10-29T00:46:32+00:00"
     }
   },
   "comments": {
@@ -7824,7 +7851,8 @@
       "due_at": "2026-10-28T23:00:00+00:00",
       "message": "🎉 Answer: the Nile Crocodile! It has the strongest bite force ever measured in a living animal.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128723395282988_1422630796118917"
     },
     "IG-IMG-0574": {
       "due_at": "2026-10-22T00:00:00+00:00",
@@ -7959,6 +7987,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18209525416369759"
+    },
+    "FB-IMG-0670": {
+      "due_at": "2026-11-05T00:00:00+00:00",
+      "message": "🎉 Answer: the Grey Wolf! It communicates through howls that can be heard for miles.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0623": {
+      "due_at": "2026-10-29T00:00:00+00:00",
+      "message": "🎉 Answer: the Pangolin! It's the only mammal covered entirely in scales.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18180438721447708"
     }
   }
 }
