@@ -6147,6 +6147,33 @@
       "remote_id": "18146147944605251",
       "status": "posted",
       "at": "2026-10-29T20:10:22+00:00"
+    },
+    "FB-IMG-0677": {
+      "platform": "Facebook",
+      "remote_id": "122129462301282988",
+      "status": "scheduled",
+      "at": "2026-10-30T00:45:07+00:00",
+      "publish_at": "2026-11-05T18:00:00-05:00"
+    },
+    "FB-RL-0097": {
+      "platform": "Facebook",
+      "remote_id": "1478085390901525",
+      "status": "scheduled",
+      "at": "2026-10-30T00:46:10+00:00",
+      "publish_at": "2026-11-05T19:00:00-05:00"
+    },
+    "FB-TXT-0676": {
+      "platform": "Facebook",
+      "remote_id": "122129462433282988",
+      "status": "scheduled",
+      "at": "2026-10-30T00:46:13+00:00",
+      "publish_at": "2026-11-05T20:00:00-05:00"
+    },
+    "IG-IMG-0630": {
+      "platform": "Instagram",
+      "remote_id": "17969377809194212",
+      "status": "posted",
+      "at": "2026-10-30T00:46:23+00:00"
     }
   },
   "comments": {
@@ -7911,7 +7938,8 @@
       "due_at": "2026-10-29T23:00:00+00:00",
       "message": "🎉 Answer: the Sea Cucumber! It breathes partly through structures near its rear end.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122128807815282988_976589688342756"
     },
     "IG-IMG-0581": {
       "due_at": "2026-10-23T00:00:00+00:00",
@@ -8046,6 +8074,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18109956020246804"
+    },
+    "FB-IMG-0677": {
+      "due_at": "2026-11-06T00:00:00+00:00",
+      "message": "🎉 Answer: the Red Panda! It's more closely related to raccoons than to giant pandas.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0630": {
+      "due_at": "2026-10-30T00:00:00+00:00",
+      "message": "🎉 Answer: the Red Fox! It's found on every continent except Antarctica.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18129283318869040"
     }
   }
 }
