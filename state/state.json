@@ -6240,6 +6240,19 @@
       "status": "scheduled",
       "at": "2026-10-31T05:12:13+00:00",
       "publish_at": "2026-11-06T20:00:00-05:00"
+    },
+    "FB-TXT-0687": {
+      "platform": "Facebook",
+      "remote_id": "122129614035282988",
+      "status": "scheduled",
+      "at": "2026-10-31T12:05:55+00:00",
+      "publish_at": "2026-11-07T08:00:00-05:00"
+    },
+    "IG-FCT-0183": {
+      "platform": "Instagram",
+      "remote_id": "17969713644195285",
+      "status": "posted",
+      "at": "2026-10-31T12:06:11+00:00"
     }
   },
   "comments": {
