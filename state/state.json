@@ -6420,6 +6420,28 @@
       "remote_id": "18116507489115731",
       "status": "posted",
       "at": "2026-11-02T23:24:25+00:00"
+    },
+    "FB-RL-0101": {
+      "platform": "Facebook",
+      "remote_id": "1133279302431430",
+      "status": "scheduled",
+      "at": "2026-11-03T06:22:54+00:00",
+      "publish_at": "2026-11-09T19:00:00-05:00"
+    },
+    "FB-TXT-0704": {
+      "platform": "Facebook",
+      "remote_id": "122129947401282988",
+      "status": "scheduled",
+      "at": "2026-11-03T06:22:56+00:00",
+      "publish_at": "2026-11-09T20:00:00-05:00"
+    },
+    "IG-IMG-0658": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 382 min (tolerance 360)",
+      "publish_at": "2026-11-02T19:00:00-05:00",
+      "at": "2026-11-03T06:22:57+00:00"
     }
   },
   "comments": {
@@ -8268,7 +8290,8 @@
       "due_at": "2026-11-03T00:00:00+00:00",
       "message": "🎉 Answer: the King Cobra! It can raise up to a third of its body off the ground when threatened.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122129196195282988_2124364048179645"
     },
     "IG-IMG-0609": {
       "due_at": "2026-10-27T00:00:00+00:00",
