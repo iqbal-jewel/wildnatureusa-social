@@ -6474,6 +6474,40 @@
       "remote_id": "18188773978420096",
       "status": "posted",
       "at": "2026-11-03T20:55:03+00:00"
+    },
+    "FB-TXT-0710": {
+      "platform": "Facebook",
+      "remote_id": "122130027891282988",
+      "status": "scheduled",
+      "at": "2026-11-04T01:10:48+00:00",
+      "publish_at": "2026-11-10T16:00:00-05:00"
+    },
+    "FB-IMG-0712": {
+      "platform": "Facebook",
+      "remote_id": "122130027939282988",
+      "status": "scheduled",
+      "at": "2026-11-04T01:10:49+00:00",
+      "publish_at": "2026-11-10T18:00:00-05:00"
+    },
+    "FB-RL-0102": {
+      "platform": "Facebook",
+      "remote_id": "1116310267956412",
+      "status": "scheduled",
+      "at": "2026-11-04T01:11:56+00:00",
+      "publish_at": "2026-11-10T19:00:00-05:00"
+    },
+    "FB-TXT-0711": {
+      "platform": "Facebook",
+      "remote_id": "122130028137282988",
+      "status": "scheduled",
+      "at": "2026-11-04T01:11:58+00:00",
+      "publish_at": "2026-11-10T20:00:00-05:00"
+    },
+    "IG-IMG-0665": {
+      "platform": "Instagram",
+      "remote_id": "17975846814171243",
+      "status": "posted",
+      "at": "2026-11-04T01:12:07+00:00"
     }
   },
   "comments": {
@@ -8343,7 +8377,8 @@
       "due_at": "2026-11-04T00:00:00+00:00",
       "message": "🎉 Answer: the Humpback Whale! In this species, males sing complex songs that can last over 20 minutes.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122129287893282988_1752656909158780"
     },
     "IG-IMG-0616": {
       "due_at": "2026-10-28T00:00:00+00:00",
@@ -8464,6 +8499,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18125265931901261"
+    },
+    "FB-IMG-0712": {
+      "due_at": "2026-11-11T00:00:00+00:00",
+      "message": "🎉 Answer: the River Otter! It often slides down muddy or snowy banks purely for play.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0665": {
+      "due_at": "2026-11-04T01:00:00+00:00",
+      "message": "🎉 Answer: the Monarch Butterfly! It's among the few insects known for a multi-generational migration relay.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17917895610468134"
     }
   }
 }
