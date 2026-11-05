@@ -6554,6 +6554,28 @@
       "remote_id": "18140654878628636",
       "status": "posted",
       "at": "2026-11-04T23:31:25+00:00"
+    },
+    "FB-RL-0103": {
+      "platform": "Facebook",
+      "remote_id": "1671477537665454",
+      "status": "scheduled",
+      "at": "2026-11-05T06:19:03+00:00",
+      "publish_at": "2026-11-11T19:00:00-05:00"
+    },
+    "FB-TXT-0718": {
+      "platform": "Facebook",
+      "remote_id": "122130132903282988",
+      "status": "scheduled",
+      "at": "2026-11-05T06:19:04+00:00",
+      "publish_at": "2026-11-11T20:00:00-05:00"
+    },
+    "IG-IMG-0672": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 379 min (tolerance 360)",
+      "publish_at": "2026-11-04T19:00:00-05:00",
+      "at": "2026-11-05T06:19:05+00:00"
     }
   },
   "comments": {
@@ -8444,7 +8466,8 @@
       "due_at": "2026-11-05T00:00:00+00:00",
       "message": "🎉 Answer: the Grey Wolf! It communicates through howls that can be heard for miles.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122129376525282988_2116036999030006"
     },
     "IG-IMG-0623": {
       "due_at": "2026-10-29T00:00:00+00:00",
