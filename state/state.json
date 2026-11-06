@@ -6617,6 +6617,61 @@
       "remote_id": "18209857552370174",
       "status": "posted",
       "at": "2026-11-05T21:54:00+00:00"
+    },
+    "FB-IMG-0726": {
+      "platform": "Facebook",
+      "remote_id": "122130273003282988",
+      "status": "scheduled",
+      "at": "2026-11-06T17:53:06+00:00",
+      "publish_at": "2026-11-12T18:00:00-05:00"
+    },
+    "FB-RL-0104": {
+      "platform": "Facebook",
+      "remote_id": "1143746334831571",
+      "status": "scheduled",
+      "at": "2026-11-06T17:54:46+00:00",
+      "publish_at": "2026-11-12T19:00:00-05:00"
+    },
+    "FB-TXT-0725": {
+      "platform": "Facebook",
+      "remote_id": "122130273141282988",
+      "status": "scheduled",
+      "at": "2026-11-06T17:54:48+00:00",
+      "publish_at": "2026-11-12T20:00:00-05:00"
+    },
+    "FB-TXT-0729": {
+      "platform": "Facebook",
+      "remote_id": "122130273195282988",
+      "status": "scheduled",
+      "at": "2026-11-06T17:54:49+00:00",
+      "publish_at": "2026-11-13T08:00:00-05:00"
+    },
+    "FB-TXT-0730": {
+      "platform": "Facebook",
+      "remote_id": "122130273243282988",
+      "status": "scheduled",
+      "at": "2026-11-06T17:54:50+00:00",
+      "publish_at": "2026-11-13T12:00:00-05:00"
+    },
+    "IG-IMG-0679": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 1074 min (tolerance 360)",
+      "publish_at": "2026-11-05T19:00:00-05:00",
+      "at": "2026-11-06T17:54:51+00:00"
+    },
+    "IG-FCT-0195": {
+      "platform": "Instagram",
+      "remote_id": "18126036650314104",
+      "status": "posted",
+      "at": "2026-11-06T17:55:00+00:00"
+    },
+    "IG-IMG-0685": {
+      "platform": "Instagram",
+      "remote_id": "18030707798884467",
+      "status": "posted",
+      "at": "2026-11-06T17:55:07+00:00"
     }
   },
   "comments": {
@@ -8528,7 +8583,8 @@
       "due_at": "2026-11-06T00:00:00+00:00",
       "message": "🎉 Answer: the Red Panda! It's more closely related to raccoons than to giant pandas.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122129462301282988_2965380580489348"
     },
     "IG-IMG-0630": {
       "due_at": "2026-10-30T00:00:00+00:00",
@@ -8642,6 +8698,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18034728926893147"
+    },
+    "FB-IMG-0726": {
+      "due_at": "2026-11-13T00:00:00+00:00",
+      "message": "🎉 Answer: the Giant Pacific Octopus! In this species, each of its eight arms has its own cluster of neurons and can act semi-independently.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0685": {
+      "due_at": "2026-11-06T17:00:00+00:00",
+      "message": "🎉 Answer: the Giant Desert Centipede! It's among the most venomous centipede species found in North America.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17966663220253264"
     }
   }
 }
