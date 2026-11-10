@@ -6931,6 +6931,26 @@
       "remote_id": "18132796186865129",
       "status": "posted",
       "at": "2026-11-10T16:57:12+00:00"
+    },
+    "FB-TXT-0758": {
+      "platform": "Facebook",
+      "remote_id": "122130666069282988",
+      "status": "scheduled",
+      "at": "2026-11-10T22:16:57+00:00",
+      "publish_at": "2026-11-17T12:00:00-05:00"
+    },
+    "FB-TXT-0759": {
+      "platform": "Facebook",
+      "remote_id": "122130666117282988",
+      "status": "scheduled",
+      "at": "2026-11-10T22:16:59+00:00",
+      "publish_at": "2026-11-17T16:00:00-05:00"
+    },
+    "IG-FCT-0204": {
+      "platform": "Instagram",
+      "remote_id": "18110114219198258",
+      "status": "posted",
+      "at": "2026-11-10T22:17:14+00:00"
     }
   },
   "comments": {
@@ -9045,7 +9065,8 @@
       "due_at": "2026-11-10T17:00:00+00:00",
       "message": "🎉 Answer: the Boa Constrictor! It's one of the few snake species that gives birth to live young.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18399840301207485"
     }
   }
 }
