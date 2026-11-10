@@ -6905,6 +6905,13 @@
       "remote_id": "17911906695579901",
       "status": "posted",
       "at": "2026-11-10T00:07:52+00:00"
+    },
+    "FB-TXT-0753": {
+      "platform": "Facebook",
+      "remote_id": "122130598335282988",
+      "status": "scheduled",
+      "at": "2026-11-10T08:17:15+00:00",
+      "publish_at": "2026-11-16T20:00:00-05:00"
     }
   },
   "comments": {
@@ -9012,7 +9019,8 @@
       "due_at": "2026-11-10T01:00:00+00:00",
       "message": "🎉 Answer: the Gentoo Penguin! It's the fastest of all penguin species underwater.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18342316444277786"
     }
   }
 }
