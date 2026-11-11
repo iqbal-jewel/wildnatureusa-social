@@ -6951,6 +6951,33 @@
       "remote_id": "18110114219198258",
       "status": "posted",
       "at": "2026-11-10T22:17:14+00:00"
+    },
+    "FB-IMG-0761": {
+      "platform": "Facebook",
+      "remote_id": "122130686571282988",
+      "status": "scheduled",
+      "at": "2026-11-11T02:40:25+00:00",
+      "publish_at": "2026-11-17T18:00:00-05:00"
+    },
+    "FB-RL-0109": {
+      "platform": "Facebook",
+      "remote_id": "1107012242095048",
+      "status": "scheduled",
+      "at": "2026-11-11T02:42:01+00:00",
+      "publish_at": "2026-11-17T19:00:00-05:00"
+    },
+    "FB-TXT-0760": {
+      "platform": "Facebook",
+      "remote_id": "122130686745282988",
+      "status": "scheduled",
+      "at": "2026-11-11T02:42:02+00:00",
+      "publish_at": "2026-11-17T20:00:00-05:00"
+    },
+    "IG-IMG-0714": {
+      "platform": "Instagram",
+      "remote_id": "18107222504369273",
+      "status": "posted",
+      "at": "2026-11-11T02:42:16+00:00"
     }
   },
   "comments": {
@@ -8953,7 +8980,8 @@
       "due_at": "2026-11-11T00:00:00+00:00",
       "message": "🎉 Answer: the River Otter! It often slides down muddy or snowy banks purely for play.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122130027939282988_996504119553558"
     },
     "IG-IMG-0665": {
       "due_at": "2026-11-04T01:00:00+00:00",
@@ -9067,6 +9095,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18399840301207485"
+    },
+    "FB-IMG-0761": {
+      "due_at": "2026-11-18T00:00:00+00:00",
+      "message": "🎉 Answer: the Giant Panda! It spends up to 14 hours a day eating.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0714": {
+      "due_at": "2026-11-11T01:00:00+00:00",
+      "message": "🎉 Answer: the Siamese Fighting Fish! It's among the very few fish able to breathe air directly when oxygen in water is low.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17960853771015454"
     }
   }
 }
