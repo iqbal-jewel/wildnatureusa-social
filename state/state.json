@@ -7004,6 +7004,46 @@
       "remote_id": "18603107182070899",
       "status": "posted",
       "at": "2026-11-11T18:32:52+00:00"
+    },
+    "FB-TXT-0766": {
+      "platform": "Facebook",
+      "remote_id": "122130773157282988",
+      "status": "scheduled",
+      "at": "2026-11-12T01:26:38+00:00",
+      "publish_at": "2026-11-18T16:00:00-05:00"
+    },
+    "FB-IMG-0768": {
+      "platform": "Facebook",
+      "remote_id": "122130773205282988",
+      "status": "scheduled",
+      "at": "2026-11-12T01:26:39+00:00",
+      "publish_at": "2026-11-18T18:00:00-05:00"
+    },
+    "FB-RL-0110": {
+      "platform": "Facebook",
+      "remote_id": "1477840514446554",
+      "status": "scheduled",
+      "at": "2026-11-12T01:28:30+00:00",
+      "publish_at": "2026-11-18T19:00:00-05:00"
+    },
+    "FB-TXT-0767": {
+      "platform": "Facebook",
+      "remote_id": "122130773685282988",
+      "status": "scheduled",
+      "at": "2026-11-12T01:28:32+00:00",
+      "publish_at": "2026-11-18T20:00:00-05:00"
+    },
+    "IG-FCT-0206": {
+      "platform": "Instagram",
+      "remote_id": "18160001215493675",
+      "status": "posted",
+      "at": "2026-11-12T01:28:42+00:00"
+    },
+    "IG-IMG-0721": {
+      "platform": "Instagram",
+      "remote_id": "17873681022648118",
+      "status": "posted",
+      "at": "2026-11-12T01:28:51+00:00"
     }
   },
   "comments": {
@@ -9027,7 +9067,8 @@
       "due_at": "2026-11-12T00:00:00+00:00",
       "message": "🎉 Answer: the African Lungfish! It can breathe air directly through a primitive lung when water dries up.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122130104007282988_2326522571514006"
     },
     "IG-IMG-0678": {
       "due_at": "2026-11-05T17:00:00+00:00",
@@ -9141,6 +9182,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17899232724655230"
+    },
+    "FB-IMG-0768": {
+      "due_at": "2026-11-19T00:00:00+00:00",
+      "message": "🎉 Answer: the Archerfish! It can hit a target up to 10 feet away with startling accuracy.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0721": {
+      "due_at": "2026-11-12T01:00:00+00:00",
+      "message": "🎉 Answer: the Eastern Box Turtle! It's among the very few turtles able to fully enclose themselves in their shell.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "17939947470391092"
     }
   }
 }
