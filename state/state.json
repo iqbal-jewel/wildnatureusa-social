@@ -7103,6 +7103,13 @@
       "remote_id": "18418386910091674",
       "status": "posted",
       "at": "2026-11-13T00:05:27+00:00"
+    },
+    "FB-TXT-0774": {
+      "platform": "Facebook",
+      "remote_id": "122130887823282988",
+      "status": "scheduled",
+      "at": "2026-11-13T07:45:17+00:00",
+      "publish_at": "2026-11-19T20:00:00-05:00"
     }
   },
   "comments": {
@@ -9273,7 +9280,8 @@
       "due_at": "2026-11-13T01:00:00+00:00",
       "message": "🎉 Answer: the American Cockroach! It's among the hardiest insects, tolerating radiation levels lethal to most animals.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18106656878381293"
     }
   }
 }
