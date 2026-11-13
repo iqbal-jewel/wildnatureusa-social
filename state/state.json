@@ -7129,6 +7129,26 @@
       "remote_id": "17955664974289533",
       "status": "posted",
       "at": "2026-11-13T16:05:31+00:00"
+    },
+    "FB-TXT-0779": {
+      "platform": "Facebook",
+      "remote_id": "122130943185282988",
+      "status": "scheduled",
+      "at": "2026-11-13T22:28:01+00:00",
+      "publish_at": "2026-11-20T12:00:00-05:00"
+    },
+    "FB-TXT-0780": {
+      "platform": "Facebook",
+      "remote_id": "122130943233282988",
+      "status": "scheduled",
+      "at": "2026-11-13T22:28:03+00:00",
+      "publish_at": "2026-11-20T16:00:00-05:00"
+    },
+    "IG-FCT-0210": {
+      "platform": "Instagram",
+      "remote_id": "17967856491217966",
+      "status": "posted",
+      "at": "2026-11-13T22:28:12+00:00"
     }
   },
   "comments": {
@@ -9306,7 +9326,8 @@
       "due_at": "2026-11-13T17:00:00+00:00",
       "message": "🎉 Answer: the Arctic Fox! It can survive temperatures as low as minus 70 degrees Fahrenheit.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "17957144181038097"
     }
   }
 }
