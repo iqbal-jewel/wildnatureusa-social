@@ -7185,16 +7185,38 @@
       "publish_at": "2026-11-21T08:00:00-05:00"
     },
     "IG-FCT-0211": {
-      "status": "failed",
-      "error": "ig_publish: {'message': 'Media ID is not available', 'code': 9007, 'type': 'OAuthException', 'error_subcode': 2207027, 'is_transient': False, 'error_user_msg': 'The media is not ready to be published. Please wait a moment.', 'error_user_title': 'Cannot publish', 'fbtrace_id': 'AOfJ_OE2FiSv81qo-k9XKI3'}",
-      "attempts": 1,
-      "at": "2026-11-14T16:56:45+00:00"
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 498 min (tolerance 360)",
+      "publish_at": "2026-11-14T08:00:00-05:00",
+      "at": "2026-11-14T21:18:51+00:00"
     },
     "IG-IMG-0741": {
       "platform": "Instagram",
       "remote_id": "18097515485168029",
       "status": "posted",
       "at": "2026-11-14T16:56:56+00:00"
+    },
+    "FB-TXT-0786": {
+      "platform": "Facebook",
+      "remote_id": "122131031553282988",
+      "status": "scheduled",
+      "at": "2026-11-14T21:18:49+00:00",
+      "publish_at": "2026-11-21T12:00:00-05:00"
+    },
+    "FB-TXT-0787": {
+      "platform": "Facebook",
+      "remote_id": "122131031595282988",
+      "status": "scheduled",
+      "at": "2026-11-14T21:18:51+00:00",
+      "publish_at": "2026-11-21T16:00:00-05:00"
+    },
+    "IG-FCT-0212": {
+      "platform": "Instagram",
+      "remote_id": "17958579042275441",
+      "status": "posted",
+      "at": "2026-11-14T21:19:04+00:00"
     }
   },
   "comments": {
@@ -9393,7 +9415,8 @@
       "due_at": "2026-11-14T17:00:00+00:00",
       "message": "🎉 Answer: the Siamese Fighting Fish! It builds a bubble nest at the surface to protect its eggs.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18164981215494806"
     }
   }
 }
