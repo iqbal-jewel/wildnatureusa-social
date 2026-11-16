@@ -7283,6 +7283,33 @@
       "remote_id": "18580033825079114",
       "status": "posted",
       "at": "2026-11-15T21:38:20+00:00"
+    },
+    "FB-IMG-0796": {
+      "platform": "Facebook",
+      "remote_id": "122131137009282988",
+      "status": "scheduled",
+      "at": "2026-11-16T01:47:08+00:00",
+      "publish_at": "2026-11-22T18:00:00-05:00"
+    },
+    "FB-RL-0114": {
+      "platform": "Facebook",
+      "remote_id": "1385387520137835",
+      "status": "scheduled",
+      "at": "2026-11-16T01:48:59+00:00",
+      "publish_at": "2026-11-22T19:00:00-05:00"
+    },
+    "FB-TXT-0795": {
+      "platform": "Facebook",
+      "remote_id": "122131137225282988",
+      "status": "scheduled",
+      "at": "2026-11-16T01:49:01+00:00",
+      "publish_at": "2026-11-22T20:00:00-05:00"
+    },
+    "IG-IMG-0749": {
+      "platform": "Instagram",
+      "remote_id": "18090020333703455",
+      "status": "posted",
+      "at": "2026-11-16T01:49:16+00:00"
     }
   },
   "comments": {
@@ -9376,7 +9403,8 @@
       "due_at": "2026-11-16T00:00:00+00:00",
       "message": "🎉 Answer: the Indian Peafowl! In this species, the tail feathers are not the tail itself but elongated upper tail coverts.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122130464487282988_1499597595426285"
     },
     "IG-IMG-0700": {
       "due_at": "2026-11-09T01:00:00+00:00",
@@ -9504,6 +9532,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17922265416245626"
+    },
+    "FB-IMG-0796": {
+      "due_at": "2026-11-23T00:00:00+00:00",
+      "message": "🎉 Answer: the Eastern Box Turtle! It has a hinge on its lower shell that seals it completely shut.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0749": {
+      "due_at": "2026-11-16T01:00:00+00:00",
+      "message": "🎉 Answer: the Swordfish! It has a heating organ near its eyes that improves vision in cold, deep water.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18649783507017152"
     }
   }
 }
