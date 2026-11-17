@@ -7391,6 +7391,34 @@
       "remote_id": "18158510212505907",
       "status": "posted",
       "at": "2026-11-17T13:01:43+00:00"
+    },
+    "FB-TXT-0807": {
+      "platform": "Facebook",
+      "remote_id": "122131341207282988",
+      "status": "scheduled",
+      "at": "2026-11-17T22:08:48+00:00",
+      "publish_at": "2026-11-24T12:00:00-05:00"
+    },
+    "FB-TXT-0808": {
+      "platform": "Facebook",
+      "remote_id": "122131341255282988",
+      "status": "scheduled",
+      "at": "2026-11-17T22:08:50+00:00",
+      "publish_at": "2026-11-24T16:00:00-05:00"
+    },
+    "IG-IMG-0762": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 368 min (tolerance 360)",
+      "publish_at": "2026-11-17T11:00:00-05:00",
+      "at": "2026-11-17T22:08:51+00:00"
+    },
+    "IG-FCT-0218": {
+      "platform": "Instagram",
+      "remote_id": "18126884068705760",
+      "status": "posted",
+      "at": "2026-11-17T22:09:05+00:00"
     }
   },
   "comments": {
