@@ -7485,6 +7485,33 @@
       "remote_id": "17887661880511174",
       "status": "posted",
       "at": "2026-11-18T21:47:01+00:00"
+    },
+    "FB-IMG-0817": {
+      "platform": "Facebook",
+      "remote_id": "122131445799282988",
+      "status": "scheduled",
+      "at": "2026-11-19T03:06:31+00:00",
+      "publish_at": "2026-11-25T18:00:00-05:00"
+    },
+    "FB-RL-0117": {
+      "platform": "Facebook",
+      "remote_id": "1133983636020788",
+      "status": "scheduled",
+      "at": "2026-11-19T03:08:14+00:00",
+      "publish_at": "2026-11-25T19:00:00-05:00"
+    },
+    "FB-TXT-0816": {
+      "platform": "Facebook",
+      "remote_id": "122131445937282988",
+      "status": "scheduled",
+      "at": "2026-11-19T03:08:16+00:00",
+      "publish_at": "2026-11-25T20:00:00-05:00"
+    },
+    "IG-IMG-0770": {
+      "platform": "Instagram",
+      "remote_id": "17983044807135823",
+      "status": "posted",
+      "at": "2026-11-19T03:08:29+00:00"
     }
   },
   "comments": {
@@ -9634,7 +9661,8 @@
       "due_at": "2026-11-19T00:00:00+00:00",
       "message": "🎉 Answer: the Archerfish! It can hit a target up to 10 feet away with startling accuracy.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122130773205282988_2172833426777703"
     },
     "IG-IMG-0721": {
       "due_at": "2026-11-12T01:00:00+00:00",
@@ -9762,6 +9790,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18137520169761605"
+    },
+    "FB-IMG-0817": {
+      "due_at": "2026-11-26T00:00:00+00:00",
+      "message": "🎉 Answer: the Mexican Red-kneed Tarantula! In this species, females live dramatically longer than males, who often survive only a few years.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0770": {
+      "due_at": "2026-11-19T01:00:00+00:00",
+      "message": "🎉 Answer: the Clownfish! In this species, a mucus coating protects it from the anemone's otherwise dangerous sting.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18153900691537254"
     }
   }
 }
