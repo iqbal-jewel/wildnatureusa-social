@@ -7742,6 +7742,39 @@
       "remote_id": "18094225463215453",
       "status": "posted",
       "at": "2026-11-22T19:25:07+00:00"
+    },
+    "FB-TXT-0843": {
+      "platform": "Facebook",
+      "remote_id": "122131839729282988",
+      "status": "scheduled",
+      "at": "2026-11-23T00:43:46+00:00",
+      "publish_at": "2026-11-29T16:00:00-05:00"
+    },
+    "FB-IMG-0845": {
+      "platform": "Facebook",
+      "remote_id": "122131839783282988",
+      "status": "scheduled",
+      "at": "2026-11-23T00:43:47+00:00",
+      "publish_at": "2026-11-29T18:00:00-05:00"
+    },
+    "FB-RL-0121": {
+      "platform": "Facebook",
+      "remote_id": "1210723398282206",
+      "status": "scheduled",
+      "at": "2026-11-23T00:45:18+00:00",
+      "publish_at": "2026-11-29T19:00:00-05:00"
+    },
+    "IG-FCT-0228": {
+      "platform": "Instagram",
+      "remote_id": "18098602700662392",
+      "status": "posted",
+      "at": "2026-11-23T00:45:31+00:00"
+    },
+    "IG-IMG-0798": {
+      "platform": "Instagram",
+      "remote_id": "18130298783314277",
+      "status": "posted",
+      "at": "2026-11-23T00:45:44+00:00"
     }
   },
   "comments": {
@@ -9975,7 +10008,8 @@
       "due_at": "2026-11-23T00:00:00+00:00",
       "message": "🎉 Answer: the Eastern Box Turtle! It has a hinge on its lower shell that seals it completely shut.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122131137009282988_1670756397863871"
     },
     "IG-IMG-0749": {
       "due_at": "2026-11-16T01:00:00+00:00",
@@ -10103,6 +10137,18 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17913559389665379"
+    },
+    "FB-IMG-0845": {
+      "due_at": "2026-11-30T00:00:00+00:00",
+      "message": "🎉 Answer: the Kangaroo! It cannot walk backward.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0798": {
+      "due_at": "2026-11-23T01:00:00+00:00",
+      "message": "🎉 Answer: the Raccoon! It has front paws with roughly the same number of touch-sensitive nerves as human hands.",
+      "platform": "Instagram",
+      "status": "pending"
     }
   }
 }
