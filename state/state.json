@@ -7775,6 +7775,13 @@
       "remote_id": "18130298783314277",
       "status": "posted",
       "at": "2026-11-23T00:45:44+00:00"
+    },
+    "FB-TXT-0844": {
+      "platform": "Facebook",
+      "remote_id": "122131872327282988",
+      "status": "scheduled",
+      "at": "2026-11-23T08:51:23+00:00",
+      "publish_at": "2026-11-29T20:00:00-05:00"
     }
   },
   "comments": {
@@ -10148,7 +10155,8 @@
       "due_at": "2026-11-23T01:00:00+00:00",
       "message": "🎉 Answer: the Raccoon! It has front paws with roughly the same number of touch-sensitive nerves as human hands.",
       "platform": "Instagram",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "18445385632179824"
     }
   }
 }
