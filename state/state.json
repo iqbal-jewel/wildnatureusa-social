@@ -7876,6 +7876,48 @@
       "remote_id": "17934977829162332",
       "status": "posted",
       "at": "2026-11-24T17:27:06+00:00"
+    },
+    "FB-TXT-0857": {
+      "platform": "Facebook",
+      "remote_id": "122132029941282988",
+      "status": "scheduled",
+      "at": "2026-11-25T02:11:35+00:00",
+      "publish_at": "2026-12-01T16:00:00-05:00"
+    },
+    "FB-IMG-0859": {
+      "platform": "Facebook",
+      "remote_id": "122132029989282988",
+      "status": "scheduled",
+      "at": "2026-11-25T02:11:37+00:00",
+      "publish_at": "2026-12-01T18:00:00-05:00"
+    },
+    "FB-RL-0123": {
+      "platform": "Facebook",
+      "remote_id": "1991050729284216",
+      "status": "scheduled",
+      "at": "2026-11-25T02:13:54+00:00",
+      "publish_at": "2026-12-01T19:00:00-05:00"
+    },
+    "FB-TXT-0858": {
+      "platform": "Facebook",
+      "remote_id": "122132030349282988",
+      "status": "scheduled",
+      "at": "2026-11-25T02:13:56+00:00",
+      "publish_at": "2026-12-01T20:00:00-05:00"
+    },
+    "IG-FCT-0232": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 373 min (tolerance 360)",
+      "publish_at": "2026-11-24T15:00:00-05:00",
+      "at": "2026-11-25T02:13:56+00:00"
+    },
+    "IG-IMG-0812": {
+      "platform": "Instagram",
+      "remote_id": "18023368409734319",
+      "status": "posted",
+      "at": "2026-11-25T02:14:15+00:00"
     }
   },
   "comments": {
@@ -10144,7 +10186,8 @@
       "due_at": "2026-11-25T00:00:00+00:00",
       "message": "🎉 Answer: the Bonobo! It lives in matriarchal groups led by females.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122131360935282988_1449726923999080"
     },
     "IG-IMG-0763": {
       "due_at": "2026-11-18T01:00:00+00:00",
@@ -10279,6 +10322,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "18197546155397903"
+    },
+    "FB-IMG-0859": {
+      "due_at": "2026-12-02T00:00:00+00:00",
+      "message": "🎉 Answer: the Electric Eel! It can generate electric shocks up to 600 volts.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0812": {
+      "due_at": "2026-11-25T01:00:00+00:00",
+      "message": "🎉 Answer: the Blue-tongued Skink! It gives birth to live young rather than laying eggs.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18030198905871402"
     }
   }
 }
