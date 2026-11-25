@@ -7918,6 +7918,49 @@
       "remote_id": "18023368409734319",
       "status": "posted",
       "at": "2026-11-25T02:14:15+00:00"
+    },
+    "FB-TXT-0862": {
+      "platform": "Facebook",
+      "remote_id": "122132109483282988",
+      "status": "scheduled",
+      "at": "2026-11-25T22:20:19+00:00",
+      "publish_at": "2026-12-02T08:00:00-05:00"
+    },
+    "FB-TXT-0863": {
+      "platform": "Facebook",
+      "remote_id": "122132109531282988",
+      "status": "scheduled",
+      "at": "2026-11-25T22:20:21+00:00",
+      "publish_at": "2026-12-02T12:00:00-05:00"
+    },
+    "FB-TXT-0864": {
+      "platform": "Facebook",
+      "remote_id": "122132109585282988",
+      "status": "scheduled",
+      "at": "2026-11-25T22:20:23+00:00",
+      "publish_at": "2026-12-02T16:00:00-05:00"
+    },
+    "IG-FCT-0233": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 560 min (tolerance 360)",
+      "publish_at": "2026-11-25T08:00:00-05:00",
+      "at": "2026-11-25T22:20:23+00:00"
+    },
+    "IG-IMG-0818": {
+      "platform": "Instagram",
+      "remote_id": null,
+      "status": "skipped",
+      "reason": "slot missed by 380 min (tolerance 360)",
+      "publish_at": "2026-11-25T11:00:00-05:00",
+      "at": "2026-11-25T22:20:23+00:00"
+    },
+    "IG-FCT-0234": {
+      "platform": "Instagram",
+      "remote_id": "18122221406049668",
+      "status": "posted",
+      "at": "2026-11-25T22:20:35+00:00"
     }
   },
   "comments": {
