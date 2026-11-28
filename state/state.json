@@ -8084,6 +8084,46 @@
       "remote_id": "17998826222842763",
       "status": "posted",
       "at": "2026-11-27T18:04:26+00:00"
+    },
+    "FB-TXT-0878": {
+      "platform": "Facebook",
+      "remote_id": "122132290773282988",
+      "status": "scheduled",
+      "at": "2026-11-28T01:51:19+00:00",
+      "publish_at": "2026-12-04T16:00:00-05:00"
+    },
+    "FB-IMG-0880": {
+      "platform": "Facebook",
+      "remote_id": "122132290815282988",
+      "status": "scheduled",
+      "at": "2026-11-28T01:51:21+00:00",
+      "publish_at": "2026-12-04T18:00:00-05:00"
+    },
+    "FB-RL-0126": {
+      "platform": "Facebook",
+      "remote_id": "1825945885348717",
+      "status": "scheduled",
+      "at": "2026-11-28T01:52:17+00:00",
+      "publish_at": "2026-12-04T19:00:00-05:00"
+    },
+    "FB-TXT-0879": {
+      "platform": "Facebook",
+      "remote_id": "122132291007282988",
+      "status": "scheduled",
+      "at": "2026-11-28T01:52:19+00:00",
+      "publish_at": "2026-12-04T20:00:00-05:00"
+    },
+    "IG-FCT-0238": {
+      "platform": "Instagram",
+      "remote_id": "18092904206686186",
+      "status": "posted",
+      "at": "2026-11-28T01:52:28+00:00"
+    },
+    "IG-IMG-0833": {
+      "platform": "Instagram",
+      "remote_id": "18121103501097453",
+      "status": "posted",
+      "at": "2026-11-28T01:52:38+00:00"
     }
   },
   "comments": {
@@ -10415,7 +10455,8 @@
       "due_at": "2026-11-28T00:00:00+00:00",
       "message": "🎉 Answer: the Cheetah! It can accelerate from 0 to 60 mph in about 3 seconds.",
       "platform": "Facebook",
-      "status": "pending"
+      "status": "posted",
+      "remote_id": "122131626423282988_1397339175604575"
     },
     "IG-IMG-0784": {
       "due_at": "2026-11-21T01:00:00+00:00",
@@ -10529,6 +10570,19 @@
       "platform": "Instagram",
       "status": "posted",
       "remote_id": "17978754954006464"
+    },
+    "FB-IMG-0880": {
+      "due_at": "2026-12-05T00:00:00+00:00",
+      "message": "🎉 Answer: the Pangolin! It curls into a tight ball when threatened.",
+      "platform": "Facebook",
+      "status": "pending"
+    },
+    "IG-IMG-0833": {
+      "due_at": "2026-11-28T01:00:00+00:00",
+      "message": "🎉 Answer: the Veiled Chameleon! It changes color mainly to signal mood and temperature, not to match its surroundings.",
+      "platform": "Instagram",
+      "status": "posted",
+      "remote_id": "18083391686389638"
     }
   }
 }
